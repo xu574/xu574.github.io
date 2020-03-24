@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>有五个落单的</title>
+  
+  <subtitle>已阅，狗屁不通！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://wwww.codebai.com/"/>
+  <updated>2020-03-22T05:41:15.248Z</updated>
+  <id>https://wwww.codebai.com/</id>
+  
+  <author>
+    <name>574.xu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>电脑装机1</title>
+    <link href="https://wwww.codebai.com/posts/ff15d132.html"/>
+    <id>https://wwww.codebai.com/posts/ff15d132.html</id>
+    <published>2020-03-24T11:13:35.245Z</published>
+    <updated>2020-03-22T05:41:15.248Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;6199航班&quot;&gt;&lt;a href=&quot;#6199航班&quot; class=&quot;headerlink&quot; title=&quot;6199航班&quot;&gt;&lt;/a&gt;6199航班&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;配件&lt;/th&gt;
+&lt;th align
+      
+    
+    </summary>
+    
+    
+    
+      <category term="装机" scheme="https://wwww.codebai.com/tags/%E8%A3%85%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MarkDown添加图片的几种方式</title>
+    <link href="https://wwww.codebai.com/posts/bd8ce08f.html"/>
+    <id>https://wwww.codebai.com/posts/bd8ce08f.html</id>
+    <published>2020-03-23T02:37:04.000Z</published>
+    <updated>2020-03-23T04:11:51.695Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在MarkDown文档中插图最基础的格式就是：&lt;/p&gt;
+&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;off&quot; spellcheck=&quot;false&quot; conte
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客解决文章置顶问题</title>
+    <link href="https://wwww.codebai.com/posts/95ddd57d.html"/>
+    <id>https://wwww.codebai.com/posts/95ddd57d.html</id>
+    <published>2020-03-23T01:32:59.000Z</published>
+    <updated>2020-03-23T02:39:40.118Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;示例图：&quot;&gt;&lt;a href=&quot;#示例图：&quot; class=&quot;headerlink&quot; title=&quot;示例图：&quot;&gt;&lt;/a&gt;示例图：&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/03/23/8TFh5D.png&quot; alt=&quot;置顶图片&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;博文置顶&quot;&gt;&lt;a href=&quot;#博文置顶&quot; class=&quot;headerlink&quot; title=&quot;博文置顶&quot;&gt;&lt;/a&gt;博文置顶&lt;/h2&gt;&lt;p&gt; 一种方法是手动对相关文件进行修改，具体可参考&lt;a href=&quot;https://www.jianshu.com/p/42a4efcdf8d7&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; 另一种方法就是，目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）</title>
+    <link href="https://wwww.codebai.com/posts/5080762b.html"/>
+    <id>https://wwww.codebai.com/posts/5080762b.html</id>
+    <published>2020-03-23T00:19:22.000Z</published>
+    <updated>2020-03-23T13:04:04.214Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;基础知识：&lt;br&gt;Markdown 通过简单标记语法，使普通文本内容具有一定格式。但它本身不支持修改字体、字号与颜色等功能的。不过可以通过简单地HTML标签来实现&lt;br&gt;Size：规定文本的尺寸大小，取值从 1 到 7 ，浏览器默认值是 3.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;一、更改字体、大小、颜色&quot;&gt;&lt;a href=&quot;#一、更改字体、大小、颜色&quot; class=&quot;headerlink&quot; title=&quot;一、更改字体、大小、颜色&quot;&gt;&lt;/a&gt;一、更改字体、大小、颜色&lt;/h1&gt;&lt;h3 id=&quot;Markdown语法&quot;&gt;&lt;a href=&quot;#Markdown语法&quot; class=&quot;headerlink&quot; title=&quot;Markdown语法&quot;&gt;&lt;/a&gt;&lt;font color=Blue&gt;Markdown语法&lt;/font&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;黑体&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;我是黑体字&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;微软雅黑&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;我是微软雅黑&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;STCAIYUN&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;我是华文彩云&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;color&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;red&lt;/span&gt;&amp;gt;&lt;/span&gt;我是红色&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;color&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;#008000&lt;/span&gt;&amp;gt;&lt;/span&gt;我是绿色&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;color&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;Blue&lt;/span&gt;&amp;gt;&lt;/span&gt;我是蓝色&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;size&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;5&lt;/span&gt;&amp;gt;&lt;/span&gt;我是尺寸&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;face&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;黑体&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;color&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;green&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;size&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;5&lt;/span&gt;&amp;gt;&lt;/span&gt;我是黑体，绿色，尺寸为5&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;font&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;效果如下&quot;&gt;&lt;a href=&quot;#效果如下&quot; class=&quot;headerlink&quot; title=&quot;效果如下&quot;&gt;&lt;/a&gt;&lt;font color=Blue&gt;效果如下&lt;/font&gt;&lt;/h3&gt;&lt;p&gt;&lt;font face=&quot;黑体&quot;&gt;我是黑体字&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;&lt;br&gt;&lt;font color=red&gt;我是红色&lt;/font&gt;&lt;br&gt;&lt;font color=#008000&gt;我是绿色&lt;/font&gt;&lt;br&gt;&lt;font color=Blue&gt;我是蓝色&lt;/font&gt;&lt;br&gt;&lt;font size=5&gt;我是尺寸&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;黑体&quot; color=green size=5&gt;我是黑体，绿色，尺寸为5&lt;/font&gt; &lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为博客添加站内搜索功能</title>
+    <link href="https://wwww.codebai.com/posts/60daf15.html"/>
+    <id>https://wwww.codebai.com/posts/60daf15.html</id>
+    <published>2020-03-22T23:32:41.000Z</published>
+    <updated>2020-03-22T23:58:45.925Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;当我的博客文章和练习题发表得比较多的时候，要查询哪些习题是我曾经整理过的，就变得比较复杂和麻烦了，我们不可能一个一个文件的挨着去找。为了方便读者查询相应的题目以及为了我能快速定位我整理过哪些习题，故添加了站内搜索功能。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用hexo免费搭建github博客</title>
+    <link href="https://wwww.codebai.com/posts/2dc19a8f.html"/>
+    <id>https://wwww.codebai.com/posts/2dc19a8f.html</id>
+    <published>2020-03-20T19:16:45.000Z</published>
+    <updated>2020-03-22T03:33:12.839Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Win10环境下基于Hexo的静态博客环境搭建，及其阿里云部署</title>
+    <link href="https://wwww.codebai.com/posts/3c1d3d37.html"/>
+    <id>https://wwww.codebai.com/posts/3c1d3d37.html</id>
+    <published>2020-03-20T19:12:58.000Z</published>
+    <updated>2020-03-22T05:41:08.538Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+    
+      <category term="aliyun.win10" scheme="https://wwww.codebai.com/tags/aliyun-win10/"/>
+    
+      <category term="git" scheme="https://wwww.codebai.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tar命令中的-C作用</title>
+    <link href="https://wwww.codebai.com/posts/f9a72a7f.html"/>
+    <id>https://wwww.codebai.com/posts/f9a72a7f.html</id>
+    <published>2020-03-20T16:23:00.000Z</published>
+    <updated>2020-03-23T02:40:36.700Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数&lt;br&gt;&lt;code&gt;#tar -xvf nginx-1.16.0.tar.gz -C /usr/local&lt;/code&gt;&lt;br&gt;&lt;strong&gt;注释：&lt;/strong&gt;上面的命令将 nginx-1.16.0.tar
+      
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="https://wwww.codebai.com/tags/linux/"/>
+    
+      <category term="shell命令" scheme="https://wwww.codebai.com/tags/shell%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>需要记住的断点续传命令wget -c 网址</title>
+    <link href="https://wwww.codebai.com/posts/c9f35c85.html"/>
+    <id>https://wwww.codebai.com/posts/c9f35c85.html</id>
+    <published>2020-03-20T16:11:41.000Z</published>
+    <updated>2020-03-22T03:33:12.853Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp; 当文件特别大或者网络特别慢的时候，往往一个文件还没有下载完，连接就已经被切断，此时就需要断点续传。&lt;br&gt;特别是使用谷歌浏览器下载东西的时候！&lt;br&gt;wget的断点续传是自动的，只需要使用-c参数，例如：&lt;br&gt;‘#wget -c &lt;a href=&quot;https
+      
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="https://wwww.codebai.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux 下如何安装nginx</title>
+    <link href="https://wwww.codebai.com/posts/e465cc7b.html"/>
+    <id>https://wwww.codebai.com/posts/e465cc7b.html</id>
+    <published>2020-03-20T15:28:16.000Z</published>
+    <updated>2020-03-22T05:40:36.987Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-下载nginx安装包&quot;&gt;&lt;a href=&quot;#1-下载nginx安装包&quot; class=&quot;headerlink&quot; title=&quot;1)下载nginx安装包&quot;&gt;&lt;/a&gt;1)下载nginx安装包&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;wget -c https://nginx.org/download/nginx-1.16.0.tar.gz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;2）解压到-usr-local目录&quot;&gt;&lt;a href=&quot;#2）解压到-usr-local目录&quot; class=&quot;headerlink&quot; title=&quot;2）解压到/usr/local目录&quot;&gt;&lt;/a&gt;2）解压到/usr/local目录&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;tar -xvf nginx-1.16.0.tar.gz -C /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="https://wwww.codebai.com/tags/linux/"/>
+    
+      <category term="install" scheme="https://wwww.codebai.com/tags/install/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>D 2020-03-17</title>
+    <link href="https://wwww.codebai.com/posts/5568289d.html"/>
+    <id>https://wwww.codebai.com/posts/5568289d.html</id>
+    <published>2020-03-17T12:50:14.000Z</published>
+    <updated>2020-03-22T05:40:15.187Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;还是记录一下自己的日常，记录自己也是监督自己。今年的寒假很是特别，肺炎的缘故让这个假期格外的长，恰逢自己大学毕业以及研究生考试，惊喜的是自己在2020.02.20查成绩时候发现自己考的比自己预想的还要好一点，339分很有可能能
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Diary" scheme="https://wwww.codebai.com/tags/Diary/"/>
+    
+  </entry>
+  
+</feed>
