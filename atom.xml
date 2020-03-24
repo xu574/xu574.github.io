@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>有五个落单的</title>
-  
+  <icon>https://wwww.codebai.com/icon.png</icon>
   <subtitle>已阅，狗屁不通！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -27,11 +27,14 @@
     
       
       
-        &lt;h1 id=&quot;6199航班&quot;&gt;&lt;a href=&quot;#6199航班&quot; class=&quot;headerlink&quot; title=&quot;6199航班&quot;&gt;&lt;/a&gt;6199航班&lt;/h1&gt;&lt;table&gt;
+        
+        
+          &lt;h1 id=&quot;6199航班&quot;&gt;&lt;a href=&quot;#6199航班&quot; class=&quot;headerlink&quot; title=&quot;6199航班&quot;&gt;&lt;/a&gt;6199航班&lt;/h1&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&quot;center&quot;&gt;配件&lt;/th&gt;
-&lt;th align
+&lt;th
+        
       
     
     </summary>
@@ -53,8 +56,11 @@
     
       
       
-        &lt;p&gt;在MarkDown文档中插图最基础的格式就是：&lt;/p&gt;
-&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;off&quot; spellcheck=&quot;false&quot; conte
+        
+        
+          &lt;p&gt;在MarkDown文档中插图最基础的格式就是：&lt;/p&gt;
+&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;off&quot; spellcheck=&quot;false&quot;
+        
       
     
     </summary>
@@ -178,7 +184,10 @@
     
       
       
-        &lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数&lt;br&gt;&lt;code&gt;#tar -xvf nginx-1.16.0.tar.gz -C /usr/local&lt;/code&gt;&lt;br&gt;&lt;strong&gt;注释：&lt;/strong&gt;上面的命令将 nginx-1.16.0.tar
+        
+        
+          &lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数&lt;br&gt;&lt;code&gt;#tar -xvf nginx-1.16.0.tar.gz -C /usr/local&lt;/code&gt;&lt;br&gt;&lt;strong&gt;注释：&lt;/strong&gt;上面的命令将
+        
       
     
     </summary>
@@ -202,7 +211,10 @@
     
       
       
-        &lt;p&gt;&amp;emsp; 当文件特别大或者网络特别慢的时候，往往一个文件还没有下载完，连接就已经被切断，此时就需要断点续传。&lt;br&gt;特别是使用谷歌浏览器下载东西的时候！&lt;br&gt;wget的断点续传是自动的，只需要使用-c参数，例如：&lt;br&gt;‘#wget -c &lt;a href=&quot;https
+        
+        
+          &lt;p&gt;&amp;emsp; 当文件特别大或者网络特别慢的时候，往往一个文件还没有下载完，连接就已经被切断，此时就需要断点续传。&lt;br&gt;特别是使用谷歌浏览器下载东西的时候！&lt;br&gt;wget的断点续传是自动的，只需要使用-c参数，例如：&lt;br&gt;‘#wget -c &lt;a
+        
       
     
     </summary>
@@ -246,7 +258,10 @@
     
       
       
-        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;还是记录一下自己的日常，记录自己也是监督自己。今年的寒假很是特别，肺炎的缘故让这个假期格外的长，恰逢自己大学毕业以及研究生考试，惊喜的是自己在2020.02.20查成绩时候发现自己考的比自己预想的还要好一点，339分很有可能能
+        
+        
+          &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;还是记录一下自己的日常，记录自己也是监督自己。今年的寒假很是特别，肺炎的缘故让这个假期格外的长，恰逢自己大学毕业以及研究生考试，惊喜的是自己在2020.02.20查成绩时候发现自己考的比自己预想的还要好一点，339分很有可能能
+        
       
     
     </summary>
