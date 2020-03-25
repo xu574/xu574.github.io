@@ -2308,7 +2308,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #390fa7;
+  background: #9c0bff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4140,7 +4140,7 @@ span.focus-links:hover {
   }
 }
 .site-meta {
-  background: #aececb;
+  background: rgba(34,34,34,0.133) 2;
 }
 .site-meta .site-title {
   font-size: 28px;
