@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>有五个落单的</title>
-  <icon>https://wwww.codebai.com/icon.png</icon>
+  <icon>https://codebai.top/icon.png</icon>
   <subtitle>已阅，狗屁不通！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://wwww.codebai.com/"/>
+  <link href="https://codebai.top/"/>
   <updated>2020-03-22T05:41:15.248Z</updated>
-  <id>https://wwww.codebai.com/</id>
+  <id>https://codebai.top/</id>
   
   <author>
     <name>574.xu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>电脑装机1</title>
-    <link href="https://wwww.codebai.com/posts/ff15d132.html"/>
-    <id>https://wwww.codebai.com/posts/ff15d132.html</id>
+    <link href="https://codebai.top/posts/ff15d132.html"/>
+    <id>https://codebai.top/posts/ff15d132.html</id>
     <published>2020-03-24T11:13:35.245Z</published>
     <updated>2020-03-22T05:41:15.248Z</updated>
     
@@ -41,14 +41,14 @@
     
     
     
-      <category term="装机" scheme="https://wwww.codebai.com/tags/%E8%A3%85%E6%9C%BA/"/>
+      <category term="装机" scheme="https://codebai.top/tags/%E8%A3%85%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>MarkDown添加图片的几种方式</title>
-    <link href="https://wwww.codebai.com/posts/bd8ce08f.html"/>
-    <id>https://wwww.codebai.com/posts/bd8ce08f.html</id>
+    <link href="https://codebai.top/posts/bd8ce08f.html"/>
+    <id>https://codebai.top/posts/bd8ce08f.html</id>
     <published>2020-03-23T02:37:04.000Z</published>
     <updated>2020-03-23T04:11:51.695Z</updated>
     
@@ -67,14 +67,14 @@
     
     
     
-      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://codebai.top/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客解决文章置顶问题</title>
-    <link href="https://wwww.codebai.com/posts/95ddd57d.html"/>
-    <id>https://wwww.codebai.com/posts/95ddd57d.html</id>
+    <link href="https://codebai.top/posts/95ddd57d.html"/>
+    <id>https://codebai.top/posts/95ddd57d.html</id>
     <published>2020-03-23T01:32:59.000Z</published>
     <updated>2020-03-23T02:39:40.118Z</updated>
     
@@ -89,14 +89,14 @@
     
     
     
-      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://codebai.top/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Markdown（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）</title>
-    <link href="https://wwww.codebai.com/posts/5080762b.html"/>
-    <id>https://wwww.codebai.com/posts/5080762b.html</id>
+    <link href="https://codebai.top/posts/5080762b.html"/>
+    <id>https://codebai.top/posts/5080762b.html</id>
     <published>2020-03-23T00:19:22.000Z</published>
     <updated>2020-03-23T13:04:04.214Z</updated>
     
@@ -112,14 +112,14 @@
     
     
     
-      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://codebai.top/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>为博客添加站内搜索功能</title>
-    <link href="https://wwww.codebai.com/posts/60daf15.html"/>
-    <id>https://wwww.codebai.com/posts/60daf15.html</id>
+    <link href="https://codebai.top/posts/60daf15.html"/>
+    <id>https://codebai.top/posts/60daf15.html</id>
     <published>2020-03-22T23:32:41.000Z</published>
     <updated>2020-03-22T23:58:45.925Z</updated>
     
@@ -133,14 +133,14 @@
     
     
     
-      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://codebai.top/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>使用hexo免费搭建github博客</title>
-    <link href="https://wwww.codebai.com/posts/2dc19a8f.html"/>
-    <id>https://wwww.codebai.com/posts/2dc19a8f.html</id>
+    <link href="https://codebai.top/posts/2dc19a8f.html"/>
+    <id>https://codebai.top/posts/2dc19a8f.html</id>
     <published>2020-03-20T19:16:45.000Z</published>
     <updated>2020-03-22T03:33:12.839Z</updated>
     
@@ -154,8 +154,8 @@
   
   <entry>
     <title>Win10环境下基于Hexo的静态博客环境搭建，及其阿里云部署</title>
-    <link href="https://wwww.codebai.com/posts/3c1d3d37.html"/>
-    <id>https://wwww.codebai.com/posts/3c1d3d37.html</id>
+    <link href="https://codebai.top/posts/3c1d3d37.html"/>
+    <id>https://codebai.top/posts/3c1d3d37.html</id>
     <published>2020-03-20T19:12:58.000Z</published>
     <updated>2020-03-22T05:41:08.538Z</updated>
     
@@ -165,18 +165,18 @@
     
     
     
-      <category term="hexo" scheme="https://wwww.codebai.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://codebai.top/tags/hexo/"/>
     
-      <category term="aliyun.win10" scheme="https://wwww.codebai.com/tags/aliyun-win10/"/>
+      <category term="aliyun.win10" scheme="https://codebai.top/tags/aliyun-win10/"/>
     
-      <category term="git" scheme="https://wwww.codebai.com/tags/git/"/>
+      <category term="git" scheme="https://codebai.top/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>tar命令中的-C作用</title>
-    <link href="https://wwww.codebai.com/posts/f9a72a7f.html"/>
-    <id>https://wwww.codebai.com/posts/f9a72a7f.html</id>
+    <link href="https://codebai.top/posts/f9a72a7f.html"/>
+    <id>https://codebai.top/posts/f9a72a7f.html</id>
     <published>2020-03-20T16:23:00.000Z</published>
     <updated>2020-03-23T02:40:36.700Z</updated>
     
@@ -194,16 +194,16 @@
     
     
     
-      <category term="linux" scheme="https://wwww.codebai.com/tags/linux/"/>
+      <category term="linux" scheme="https://codebai.top/tags/linux/"/>
     
-      <category term="shell命令" scheme="https://wwww.codebai.com/tags/shell%E5%91%BD%E4%BB%A4/"/>
+      <category term="shell命令" scheme="https://codebai.top/tags/shell%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   
   <entry>
     <title>需要记住的断点续传命令wget -c 网址</title>
-    <link href="https://wwww.codebai.com/posts/c9f35c85.html"/>
-    <id>https://wwww.codebai.com/posts/c9f35c85.html</id>
+    <link href="https://codebai.top/posts/c9f35c85.html"/>
+    <id>https://codebai.top/posts/c9f35c85.html</id>
     <published>2020-03-20T16:11:41.000Z</published>
     <updated>2020-03-22T03:33:12.853Z</updated>
     
@@ -221,14 +221,14 @@
     
     
     
-      <category term="linux" scheme="https://wwww.codebai.com/tags/linux/"/>
+      <category term="linux" scheme="https://codebai.top/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>linux 下如何安装nginx</title>
-    <link href="https://wwww.codebai.com/posts/e465cc7b.html"/>
-    <id>https://wwww.codebai.com/posts/e465cc7b.html</id>
+    <link href="https://codebai.top/posts/e465cc7b.html"/>
+    <id>https://codebai.top/posts/e465cc7b.html</id>
     <published>2020-03-20T15:28:16.000Z</published>
     <updated>2020-03-22T05:40:36.987Z</updated>
     
@@ -241,16 +241,16 @@
     
     
     
-      <category term="linux" scheme="https://wwww.codebai.com/tags/linux/"/>
+      <category term="linux" scheme="https://codebai.top/tags/linux/"/>
     
-      <category term="install" scheme="https://wwww.codebai.com/tags/install/"/>
+      <category term="install" scheme="https://codebai.top/tags/install/"/>
     
   </entry>
   
   <entry>
     <title>D 2020-03-17</title>
-    <link href="https://wwww.codebai.com/posts/5568289d.html"/>
-    <id>https://wwww.codebai.com/posts/5568289d.html</id>
+    <link href="https://codebai.top/posts/5568289d.html"/>
+    <id>https://codebai.top/posts/5568289d.html</id>
     <published>2020-03-17T12:50:14.000Z</published>
     <updated>2020-03-22T05:40:15.187Z</updated>
     
@@ -268,7 +268,7 @@
     
     
     
-      <category term="Diary" scheme="https://wwww.codebai.com/tags/Diary/"/>
+      <category term="Diary" scheme="https://codebai.top/tags/Diary/"/>
     
   </entry>
   
