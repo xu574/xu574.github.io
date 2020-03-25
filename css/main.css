@@ -727,7 +727,7 @@ pre .javascript .function {
   display: block;
   width: 100%;
   height: 24px;
-  opacity: 0.2;
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-position: 0 -6px;
   background-size: 22px 22px;
@@ -2308,7 +2308,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3900ff;
+  background: #0814b9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2477,7 +2477,7 @@ img:hover {
   text-align: center;
 }
 .cc-license .cc-opacity {
-  opacity: 0.7;
+  opacity: 0.8;
   border-bottom: none;
 }
 .cc-license .cc-opacity:hover {
@@ -3195,7 +3195,7 @@ img:hover {
   box-sizing: border-box;
   padding: 40px;
   width: 700px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.9);
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
