@@ -83,7 +83,7 @@ $(document).ready(function () {
         first: '<i class="fa fa-angle-double-left"></i>',
         last: '<i class="fa fa-angle-double-right"></i>',
         previous: '<i class="fa fa-angle-left"></i>',
-        next: '<i class="fa fa-angle-right"></i>'
+        next: '<i class="fa fa-angle-left"></i>'
       },
       cssClasses: {
         root: 'pagination',

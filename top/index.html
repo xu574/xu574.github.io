@@ -108,12 +108,14 @@
 
 
 
-<meta name="description" content="各就其位,  自然选择号，前进四！">
+<meta name="description" content="firebase.initializeApp({       apiKey: &#39;AIzaSyA3Cyv0OK9YlybjJNcKuHMKlm2asxPO-vY&#39;, &#x2F;&#x2F;你的apiKey       projectId: &#39;count-d7b7d&#39;  &#x2F;&#x2F;你的projectId    })     var title&#x3D; &#39;&#39;;    var count &#x3D; 0;">
 <meta property="og:type" content="website">
-<meta property="og:title" content="有五个落单的">
-<meta property="og:url" content="https://www.codebai.top/tags/hexo/index.html">
+<meta property="og:title" content="文章热度排行">
+<meta property="og:url" content="https://www.codebai.top/top/index.html">
 <meta property="og:site_name" content="有五个落单的">
-<meta property="og:description" content="各就其位,  自然选择号，前进四！">
+<meta property="og:description" content="firebase.initializeApp({       apiKey: &#39;AIzaSyA3Cyv0OK9YlybjJNcKuHMKlm2asxPO-vY&#39;, &#x2F;&#x2F;你的apiKey       projectId: &#39;count-d7b7d&#39;  &#x2F;&#x2F;你的projectId    })     var title&#x3D; &#39;&#39;;    var count &#x3D; 0;">
+<meta property="article:published_time" content="2019-08-14T07:23:11.000Z">
+<meta property="article:modified_time" content="2020-03-25T15:38:32.287Z">
 <meta property="article:author" content="574.xu">
 <meta property="article:tag" content="hexo next">
 <meta name="twitter:card" content="summary">
@@ -146,7 +148,7 @@
 
 
 
-  <link rel="canonical" href="https://www.codebai.top/tags/hexo/"/>
+  <link rel="canonical" href="https://www.codebai.top/top/"/>
 
 
 
@@ -164,7 +166,7 @@
     })();
 </script>
 
-  <title>标签: hexo | 有五个落单的</title>
+  <title>文章热度排行 | 有五个落单的</title>
 
   
 
@@ -197,7 +199,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <!--fork me from github-->
@@ -392,167 +394,72 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>hexo<small>标签</small>
-        </h1>
-      </div>
+	<h1 class="post-title" itemprop="name headline">文章热度排行</h1>
 
-      
-        
 
-  <article class="my-post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="my-post-header">
 
-      <div class="my-post-meta">
-        <time class="my-post-time" itemprop="dateCreated"
-              datetime="2020-03-23T10:37:04+08:00"
-              content="2020-03-23" >
-          03-23
-        </time>
-      </div>
-
-      <h2 class="my-post-title">
-        
-            <a class="my-post-title-link" href="/posts/bd8ce08f.html" itemprop="url">
-              
-                <span itemprop="name">MarkDown添加图片的几种方式</span>
-              
-            </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
+</header>
 
       
-        
-
-  <article class="my-post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="my-post-header">
-
-      <div class="my-post-meta">
-        <time class="my-post-time" itemprop="dateCreated"
-              datetime="2020-03-23T09:32:59+08:00"
-              content="2020-03-23" >
-          03-23
-        </time>
-      </div>
-
-      <h2 class="my-post-title">
-        
-            <a class="my-post-title-link" href="/posts/95ddd57d.html" itemprop="url">
-              
-                <span itemprop="name">Hexo博客解决文章置顶问题</span>
-              
-            </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
       
-        
-
-  <article class="my-post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="my-post-header">
-
-      <div class="my-post-meta">
-        <time class="my-post-time" itemprop="dateCreated"
-              datetime="2020-03-23T08:19:22+08:00"
-              content="2020-03-23" >
-          03-23
-        </time>
-      </div>
-
-      <h2 class="my-post-title">
-        
-            <a class="my-post-title-link" href="/posts/5080762b.html" itemprop="url">
-              
-                <span itemprop="name">Markdown（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）</span>
-              
-            </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
       
+      <div class="post-body">
         
+        
+          <div id="top" style="margin-top:80px;">
 
-  <article class="my-post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="my-post-header">
+</div>
 
-      <div class="my-post-meta">
-        <time class="my-post-time" itemprop="dateCreated"
-              datetime="2020-03-23T07:32:41+08:00"
-              content="2020-03-23" >
-          03-23
-        </time>
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-firestore.js"></script>
+
+<script>
+
+  firebase.initializeApp({
+      apiKey: 'AIzaSyA3Cyv0OK9YlybjJNcKuHMKlm2asxPO-vY', //你的apiKey
+      projectId: 'count-d7b7d'  //你的projectId
+   })
+
+   var title= '';
+   var count = 0;
+   var url = '';
+   const db = firebase.firestore();
+   var collection =  'articles'; //主题配置文件配置的collection //';
+   db.collection(collection).orderBy('count', 'desc').limit(10).get().then((querySnapshot) => {
+       querySnapshot.forEach((doc) => {
+       //  console.log(doc.id, " => ", doc.data());
+           title = doc.id;
+           count = doc.data().count;
+           url = doc.data().url;
+           var content="<h5><p>"+"<font color='#1C1C1C'>"+"【文章热度: "+count+" ℃】"+"</font>" + '&emsp;&emsp;' + "<span'><a href='"+url+"'>"+title+"</a></span>"+"</p></h5>";
+           document.getElementById("top").innerHTML+=content
+       });
+   });
+
+</script>
+        
       </div>
-
-      <h2 class="my-post-title">
-        
-            <a class="my-post-title-link" href="/posts/60daf15.html" itemprop="url">
-              
-                <span itemprop="name">为博客添加站内搜索功能</span>
-              
-            </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
       
-        
-
-  <article class="my-post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="my-post-header">
-
-      <div class="my-post-meta">
-        <time class="my-post-time" itemprop="dateCreated"
-              datetime="2020-03-21T03:12:58+08:00"
-              content="2020-03-21" >
-          03-21
-        </time>
-      </div>
-
-      <h2 class="my-post-title">
-        
-            <a class="my-post-title-link" href="/posts/3c1d3d37.html" itemprop="url">
-              
-                <span itemprop="name">Win10环境下基于Hexo的静态博客环境搭建，及其阿里云部署</span>
-              
-            </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
+      
       
     </div>
-
+    
+    
+    
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
@@ -560,6 +467,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
 
 
 
@@ -1235,6 +1149,10 @@ show_date_time();
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -1788,13 +1706,13 @@ show_date_time();
       var articles = db.collection('article')
 
       //https://hexo.io/zh-tw/docs/variables.html
-      var isPost = ''.length > 0
+      var isPost = '文章热度排行'.length > 0
       var isArchive = '' === 'true'
       var isCategory = ''.length > 0
       var isTag = ''.length > 0
 
-      var urlPath = 'tags/hexo/index.html';
-      var urlFullPath = '';
+      var urlPath = 'top/index.html';
+      var urlFullPath = 'https://www.codebai.top/top/index.html';
       var indexPath = 'index.html'; //首页链接
       var isMenu = false;
       
@@ -1861,7 +1779,7 @@ show_date_time();
 
     //  if (isPost) { //is article page
       if (!isMenu) { // 非菜单页、非主页（即在某篇文章链接里）
-        var title = ''
+        var title = '文章热度排行'
         var doc = articles.doc(title)
 
       //  getCount(doc, true).then(appendCountTo($('.post-meta')))
@@ -1871,7 +1789,7 @@ show_date_time();
       else if (urlPath == indexPath) { // 主页
         var titles = [] //array to titles
 
-        var postsstr = 'titles.push("MarkDown添加图片的几种方式");titles.push("Hexo博客解决文章置顶问题");titles.push("Markdown（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）");titles.push("为博客添加站内搜索功能");titles.push("Win10环境下基于Hexo的静态博客环境搭建，及其阿里云部署");' //if you have a better way to get titles of posts, please change it
+        var postsstr = '' //if you have a better way to get titles of posts, please change it
         eval(postsstr)
 
         var promises = titles.map(function (title) {
