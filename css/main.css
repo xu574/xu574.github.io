@@ -2308,7 +2308,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d6e466;
+  background: #3900ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4605,6 +4605,18 @@ a {
   .local-search-popup a.search-result-title {
     font-size: 14px;
   }
+}
+.content-wrap {
+  opacity: 0.9;
+}
+.sidebar {
+  opacity: 0.9;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.9;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
