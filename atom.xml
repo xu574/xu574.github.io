@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.codebai.top/"/>
-  <updated>2020-03-26T15:53:04.202Z</updated>
+  <updated>2020-03-26T17:23:44.334Z</updated>
   <id>https://www.codebai.top/</id>
   
   <author>
@@ -17,15 +17,68 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>电脑装机1</title>
-    <link href="https://www.codebai.top/posts/ff15d132.html"/>
-    <id>https://www.codebai.top/posts/ff15d132.html</id>
-    <published>2020-03-24T11:13:35.245Z</published>
-    <updated>2020-03-26T15:53:04.202Z</updated>
+    <title>Markdown--表格table处理</title>
+    <link href="https://www.codebai.top/posts/6b64eeb8.html"/>
+    <id>https://www.codebai.top/posts/6b64eeb8.html</id>
+    <published>2020-03-26T16:38:12.000Z</published>
+    <updated>2020-03-26T17:23:44.334Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;6199航班&quot;&gt;&lt;a href=&quot;#6199航班&quot; class=&quot;headerlink&quot; title=&quot;6199航班&quot;&gt;&lt;/a&gt;6199航班&lt;/h1&gt;&lt;table&gt;
+      
+      
+        
+        
+          &lt;h2 id=&quot;利用HTML来实现表格功能&quot;&gt;&lt;a href=&quot;#利用HTML来实现表格功能&quot; class=&quot;headerlink&quot; title=&quot;利用HTML来实现表格功能&quot;&gt;&lt;/a&gt;利用HTML来实现表格功能&lt;/h2&gt;&lt;p&gt;插入表格代码如下：&lt;/p&gt;
+&lt;div
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>siderbar侧栏进入post-body栏解决方案</title>
+    <link href="https://www.codebai.top/posts/a1cfa130.html"/>
+    <id>https://www.codebai.top/posts/a1cfa130.html</id>
+    <published>2020-03-26T16:06:05.000Z</published>
+    <updated>2020-03-26T17:21:51.837Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&amp;emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。&lt;br&gt;&lt;img src=&quot;https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hexo报错" scheme="https://www.codebai.top/categories/hexo%E6%8A%A5%E9%94%99/"/>
+    
+    
+      <category term="hexo" scheme="https://www.codebai.top/tags/hexo/"/>
+    
+      <category term="next" scheme="https://www.codebai.top/tags/next/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电脑配置1</title>
+    <link href="https://www.codebai.top/posts/ff15d132.html"/>
+    <id>https://www.codebai.top/posts/ff15d132.html</id>
+    <published>2020-03-24T11:13:35.245Z</published>
+    <updated>2020-03-26T17:13:23.924Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;6199航班电脑配置，可超频，可吃鸡，小钢炮一枚，配置如下&quot;&gt;&lt;a href=&quot;#6199航班电脑配置，可超频，可吃鸡，小钢炮一枚，配置如下&quot; class=&quot;headerlink&quot; title=&quot;6199航班电脑配置，可超频，可吃鸡，小钢炮一枚，配置如下&quot;&gt;&lt;/a&gt;6199航班电脑配置，可超频，可吃鸡，小钢炮一枚，配置如下&lt;/h1&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&quot;center&quot;&gt;配件&lt;/th&gt;
@@ -79,7 +132,11 @@
 &lt;td align=&quot;center&quot;&gt;6199&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;
+&lt;td align=&quot;center&quot;&gt;—&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
     
     </summary>
     

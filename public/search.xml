@@ -4,11 +4,51 @@
   
     
     <entry>
-      <title>电脑装机1</title>
+      <title>Markdown--表格table处理</title>
+      <link href="/posts/6b64eeb8.html"/>
+      <url>/posts/6b64eeb8.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="利用HTML来实现表格功能"><a href="#利用HTML来实现表格功能" class="headerlink" title="利用HTML来实现表格功能"></a>利用HTML来实现表格功能</h2><p>插入表格代码如下：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">table</span> <span class="attr">class</span>=<span class="string">"table table-bordered table-striped table-condensed"</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;苹果&lt;/td&gt;</span></span><br><span class="line"><span class="code">&lt;td&gt;apple&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;香蕉&lt;/td&gt;</span></span><br><span class="line"><span class="code">&lt;td&gt;banana&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div><p>以上代码实际上是属于HTML CSS代码，不过好在markdown支持<strong>部分</strong>HTML语法<br>如果只是table标签 表格功能在markdown中将不起作用。<br>如果table中加了个class属性，就可以正常使用表格功能了（可能是自动将md文件转HTML时候突然认出了“哇！这个加了class属性的table，感觉很是熟悉”hhh）</p><h3 id="其中"><a href="#其中" class="headerlink" title="其中"></a><strong>其中</strong></h3><blockquote><p>table-bordered：带圆角边框和竖线<br>table-striped：奇偶行颜色不同<br>table-condensed：压缩行距</p></blockquote><h3 id="除了以上另外还有其他可供选择："><a href="#除了以上另外还有其他可供选择：" class="headerlink" title="除了以上另外还有其他可供选择："></a>除了以上另外还有其他可供选择：</h3><p>1、如果需要表头跟内容不一样，可以将<code>&lt;td&gt;表头内容&lt;/td&gt; 更换成 &lt;th&gt;表头内容&lt;/th&gt;</code>。<br>2、如果表格内文需要换行，可以在要换行的内容后加入<code>&lt;br&gt;</code>，后面的内容就会跑到下一行。<br>3、如果内文中有代码，需要特别显示，可使用：<code>&lt;code&gt;代码&lt;/code&gt;</code>。<br>4、如果表格中有需要设为斜体的内容，可使用：<I>要设为斜体的内容</I>。<br>5、如果有跨行或者跨列的单元格，可用<code>&lt;th colspan=&quot;跨列数&quot;&gt;内容&lt;/th&gt;</code>。<br>6、如果要调整某一列的宽度，可使用：<code>&lt;th width=&quot;宽度值或百分比&quot;&gt;表头内容&lt;/th&gt;</code>。  </p><p>最后效果如下：</p><table class="table table-bordered table-striped table-condensed">    <tr>        <td>苹果</td>    <td>apple</td>    </tr>    <tr>        <td>香蕉</td>    <td>banana</td>    </tr></table><p>有关使用表格功能可能会出现的问题可以参考这一篇文章<br><a href="https://www.codebai.com/posts/a1cfa130.html" target="_blank" rel="noopener" class="LinkCard">siderbar侧栏进入post-body栏解决方案</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>siderbar侧栏进入post-body栏解决方案</title>
+      <link href="/posts/a1cfa130.html"/>
+      <url>/posts/a1cfa130.html</url>
+      
+        <content type="html"><![CDATA[<p>&emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。<br><img src="https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png" alt="image.png"></p><blockquote><p><strong>what?难道还有宽度塌陷（hhh）</strong></p></blockquote><p>肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置<br><img src="/20200326235411949/20200327121820688.png" alt=""><br>果然自己在编写md文件的时候，有关表格的代码写的有问题<br>源码如下：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">| 配件   |  名称  |  价格 |</span><br><span class="line">|:-------: |:---------:|:--------:|</span><br><span class="line">|   处理器  |   锐龙3660|     taobao     |</span><br><span class="line">|   散热   |   AMD原装|   taobao   |</span><br><span class="line">|   主板   |微星B450M火箭筒|   taobao   |</span><br><span class="line">|   内存   |   金士顿 掠食者3200 8Gx2      |   taobao   |</span><br><span class="line">|   显卡   |   微星RX5700公版  |  taobao   |</span><br><span class="line">|   电源   |   酷冷至尊 GX500  |   taobao  |</span><br><span class="line">|   固态   |   浦科特M9EG 512G   |  taobao   |</span><br><span class="line">|   机箱   |   酷冷至尊NR400  |  taobao  |</span><br><span class="line">|   合计   |    绝大部分游戏都能玩 |   6199   |</span><br><span class="line"></span><br><span class="line"><span class="bullet">+ </span>---</span><br><span class="line"><span class="xml"><span class="comment">&lt;!--more--&gt;</span></span></span><br></pre></td></tr></table></figure></div><p>解决办法就是在表格结束之后换行添加<code>---</code>分界线就好<br>###关于markdown的表格的另外一种写法参考这篇文章：<br><a href="https://www.codebai.com/posts/6b64eeb8.html" target="_blank" rel="noopener" class="LinkCard">Markdown–表格table处理</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo报错 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> next </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电脑配置1</title>
       <link href="/posts/ff15d132.html"/>
       <url>/posts/ff15d132.html</url>
       
-        <content type="html"><![CDATA[<h1 id="6199航班"><a href="#6199航班" class="headerlink" title="6199航班"></a>6199航班</h1><table><thead><tr><th align="center">配件</th><th align="center">名称</th><th align="center">价格</th></tr></thead><tbody><tr><td align="center">处理器</td><td align="center">锐龙3660</td><td align="center">taobao</td></tr><tr><td align="center">散热</td><td align="center">AMD原装</td><td align="center">taobao</td></tr><tr><td align="center">主板</td><td align="center">微星B450M火箭筒</td><td align="center">taobao</td></tr><tr><td align="center">内存</td><td align="center">金士顿 掠食者3200 8Gx2</td><td align="center">taobao</td></tr><tr><td align="center">显卡</td><td align="center">微星RX5700公版</td><td align="center">taobao</td></tr><tr><td align="center">电源</td><td align="center">酷冷至尊 GX500</td><td align="center">taobao</td></tr><tr><td align="center">固态</td><td align="center">浦科特M9EG 512G</td><td align="center">taobao</td></tr><tr><td align="center">机箱</td><td align="center">酷冷至尊NR400</td><td align="center">taobao</td></tr><tr><td align="center">合计</td><td align="center">绝大部分游戏都能玩</td><td align="center">6199</td></tr><tr><td align="center"><a id="more"></a></td><td align="center"></td><td align="center"></td></tr></tbody></table><p>评价：</p><ul><li>显卡可超频</li><li>OC2000MHZ 电压1144mV</li><li>风扇47% 约256x转每分钟</li><li>奥德赛 吃鸡 显卡温度80+</li><li>双烤整机功耗峰值&lt;400</li><li>正常使用高负载整机峰值&lt;350</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="6199航班电脑配置，可超频，可吃鸡，小钢炮一枚，配置如下"><a href="#6199航班电脑配置，可超频，可吃鸡，小钢炮一枚，配置如下" class="headerlink" title="6199航班电脑配置，可超频，可吃鸡，小钢炮一枚，配置如下"></a>6199航班电脑配置，可超频，可吃鸡，小钢炮一枚，配置如下</h1><table><thead><tr><th align="center">配件</th><th align="center">名称</th><th align="center">价格</th></tr></thead><tbody><tr><td align="center">处理器</td><td align="center">锐龙3660</td><td align="center">taobao</td></tr><tr><td align="center">散热</td><td align="center">AMD原装</td><td align="center">taobao</td></tr><tr><td align="center">主板</td><td align="center">微星B450M火箭筒</td><td align="center">taobao</td></tr><tr><td align="center">内存</td><td align="center">金士顿 掠食者3200 8Gx2</td><td align="center">taobao</td></tr><tr><td align="center">显卡</td><td align="center">微星RX5700公版</td><td align="center">taobao</td></tr><tr><td align="center">电源</td><td align="center">酷冷至尊 GX500</td><td align="center">taobao</td></tr><tr><td align="center">固态</td><td align="center">浦科特M9EG 512G</td><td align="center">taobao</td></tr><tr><td align="center">机箱</td><td align="center">酷冷至尊NR400</td><td align="center">taobao</td></tr><tr><td align="center">合计</td><td align="center">绝大部分游戏都能玩</td><td align="center">6199</td></tr><tr><td align="center">—</td><td align="center"></td><td align="center"></td></tr></tbody></table><a id="more"></a><p>评价：</p><ul><li>显卡可超频</li><li>OC2000MHZ 电压1144mV</li><li>风扇47% 约256x转每分钟</li><li>奥德赛 吃鸡 显卡温度80+</li><li>双烤整机功耗峰值&lt;400</li><li>正常使用高负载整机峰值&lt;350</li></ul>]]></content>
       
       
       
