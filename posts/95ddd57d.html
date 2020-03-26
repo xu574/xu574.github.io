@@ -112,21 +112,21 @@
 
 
 
-<meta name="description" content="示例图： 博文置顶 一种方法是手动对相关文件进行修改，具体可参考这篇文章  另一种方法就是，目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。">
+<meta name="description" content="示例图：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo博客解决文章置顶问题">
 <meta property="og:url" content="https://www.codebai.top/posts/95ddd57d.html">
 <meta property="og:site_name" content="有五个落单的">
-<meta property="og:description" content="示例图： 博文置顶 一种方法是手动对相关文件进行修改，具体可参考这篇文章  另一种方法就是，目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。">
-<meta property="og:image" content="https://s1.ax1x.com/2020/03/23/8TFh5D.png">
+<meta property="og:description" content="示例图：">
+<meta property="og:image" content="https://sm.ms/image/QDjvs3LpHR7zGth">
 <meta property="og:image" content="https://s1.ax1x.com/2020/03/23/8TCOVU.png">
 <meta property="og:image" content="https://s1.ax1x.com/2020/03/23/8TFh5D.png">
 <meta property="article:published_time" content="2020-03-23T01:32:59.000Z">
-<meta property="article:modified_time" content="2020-03-23T02:39:40.118Z">
+<meta property="article:modified_time" content="2020-03-26T14:44:26.407Z">
 <meta property="article:author" content="574.xu">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://s1.ax1x.com/2020/03/23/8TFh5D.png">
+<meta name="twitter:image" content="https://sm.ms/image/QDjvs3LpHR7zGth">
 
 
 
@@ -420,8 +420,8 @@
                 <i class="fa fa-calendar-check-o">更新于</i>
               </span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-23T10:39:40+08:00">
-                2020-03-23
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-26T22:44:26+08:00">
+                2020-03-26
               </time>
             
           </span>
@@ -467,7 +467,7 @@
                 </span>
                 
                 <span title="字数">
-                  345
+                  341
                 </span>
               
 
@@ -504,10 +504,11 @@
       
 
       
-        <h3 id="示例图："><a href="#示例图：" class="headerlink" title="示例图："></a>示例图：</h3><p><img src="https://s1.ax1x.com/2020/03/23/8TFh5D.png" alt="置顶图片"></p>
+        <h3 id="示例图："><a href="#示例图：" class="headerlink" title="示例图："></a>示例图：</h3><p><img src="https://sm.ms/image/QDjvs3LpHR7zGth" alt="置顶图片"></p>
+<a id="more"></a>
 <h2 id="博文置顶"><a href="#博文置顶" class="headerlink" title="博文置顶"></a>博文置顶</h2><p> 一种方法是手动对相关文件进行修改，具体可参考<a href="https://www.jianshu.com/p/42a4efcdf8d7" target="_blank" rel="noopener">这篇文章</a></p>
 <p> 另一种方法就是，目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><figcaption><span><a id="more"></a>```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#96;&#96;&#96;shell</span><br><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure></div>
 <p>然后在需要置顶的文章的Front-matter中加上top: true即可。比如下面这篇文章：</p>
 <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Markdown进阶（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）</span><br><span class="line">date: 2020-03-23 08:19:22</span><br><span class="line">tags: hexo </span><br><span class="line">top: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure></div>
 <p>到目前为止，置顶功能已经可以实现了。所有相关博文到这边就结束了。<br>样式如下：<br><img src="https://s1.ax1x.com/2020/03/23/8TCOVU.png" alt="文章置顶"></p>
@@ -798,6 +799,15 @@
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
             
 
             
