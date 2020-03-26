@@ -299,12 +299,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-xiaohutong">
-          <a href="/xiaohutong" rel="section">
+        <li class="menu-item menu-item-photos">
+          <a href="/photos" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-map"></i> <br />
             
-            胡同
+            画廊
           </a>
         </li>
       
@@ -335,6 +335,16 @@
               <i class="menu-item-icon fa fa-fw fa-link"></i> <br />
             
             友链
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-comment">
+          <a href="/comment/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-signal"></i> <br />
+            
+            评论
           </a>
         </li>
       
@@ -1890,8 +1900,251 @@ show_date_time();
 
 
   
+  
+  <script>
+    
+    function showTime(Counter) {
+      var entries = [];
+      var $visitors = $('.leancloud_visitors');
+
+      $visitors.each(function() {
+        entries.push( $(this).attr('id').trim() );
+      });
+
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url: { '$in': entries } }) })
+        .done(function({ results }) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.url;
+            var time = item.time;
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for (var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if (countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function ({ responseJSON }) {
+          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' + responseJSON.error);
+        });
+    }
+    
+
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'IKmVXocfJl2XpJKOl0sLdgAR-gzGzoHsz')
+        .done(function({ api_server }) {
+          var Counter = function(method, url, data) {
+            return $.ajax({
+              method: method,
+              url: 'https://' + api_server + '/1.1' + url,
+              headers: {
+                'X-LC-Id': 'IKmVXocfJl2XpJKOl0sLdgAR-gzGzoHsz',
+                'X-LC-Key': 'pIgoJhpMsRbjgnDtYlNQGjH9',
+                'Content-Type': 'application/json',
+              },
+              data: data
+            });
+          };
+          
+            if ($('.post-title-link').length >= 1) {
+              showTime(Counter);
+            }
+          
+        });
+    });
+  </script>
+
+
 
   
+  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+  
+  <script>
+    (function () {
+
+      firebase.initializeApp({
+        apiKey: 'AIzaSyA3Cyv0OK9YlybjJNcKuHMKlm2asxPO-vY',
+        projectId: 'count-d7b7d'
+      })
+
+      function getCount(doc, url, increaseCount) {
+        //increaseCount will be false when not in article page
+
+        return doc.get().then(function (d) {
+          var count
+          if (!d.exists) { //has no data, initialize count
+            if (increaseCount) {
+              doc.set({
+                count: 1,
+                'url': url
+              })
+              count = 1
+            }
+            else {
+              count = 0
+            }
+          }
+          else { //has data
+            count = d.data().count
+            if (increaseCount) {
+              if (!(window.localStorage && window.localStorage.getItem(title))) { //if first view this article
+                doc.set({ //increase count
+                  count: count + 1,
+                  'url': url
+                })
+                count++
+              }
+            }
+          }
+          if (window.localStorage && increaseCount) { //mark as visited
+            localStorage.setItem(title, true)
+          }
+
+          return count
+        })
+      }
+
+      function appendCountTo(el) {
+        return function (count) {
+          $(el).append(
+            $('<span>').addClass('post-visitors-count').append(
+              $('<span>').addClass('post-meta-divider').text('|')
+            ).append(
+              $('<span>').addClass('post-meta-item-icon').append(
+               // $('<i>').addClass('fa fa-users')
+                $('<i>').addClass('fa fa-eye')
+              )
+              ).append($('<span>').text('浏览 ' + count + ' 次'))
+          )
+        }
+      }
+
+      var db = firebase.firestore()
+      var articles = db.collection('article')
+
+      //https://hexo.io/zh-tw/docs/variables.html
+      var isPost = 'This is my movie title'.length > 0
+      var isArchive = '' === 'true'
+      var isCategory = ''.length > 0
+      var isTag = ''.length > 0
+
+      var urlPath = 'movies/index.html';
+      var urlFullPath = '';
+      var indexPath = 'index.html'; //首页链接
+      var isMenu = false;
+      
+         
+         var menuLink = '/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/archives/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/categories/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/tags/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/movies/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/books/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/photos%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/sitemap.xml%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/about/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/links/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/comment/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+
+    //  if (isPost) { //is article page
+      if (!isMenu) { // 非菜单页、非主页（即在某篇文章链接里）
+        var title = 'This is my movie title'
+        var doc = articles.doc(title)
+
+      //  getCount(doc, true).then(appendCountTo($('.post-meta')))
+        getCount(doc, urlFullPath, true).then(appendCountTo($('.post-wordcount')))
+      }
+     // else if (!isArchive && !isCategory && !isTag) { //is index page
+      else if (urlPath == indexPath) { // 主页
+        var titles = [] //array to titles
+
+        var postsstr = '' //if you have a better way to get titles of posts, please change it
+        eval(postsstr)
+
+        var promises = titles.map(function (title) {
+          return articles.doc(title)
+        }).map(function (doc) {
+          return getCount(doc)
+        })
+        Promise.all(promises).then(function (counts) {
+          // var metas = $('.post-meta')
+          var metas = $('.post-wordcount')
+          counts.forEach(function (val, idx) {
+            appendCountTo(metas[idx])(val)
+          })
+        })
+      }
+    })()
+  </script>
+
 
   
 <script>

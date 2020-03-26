@@ -115,7 +115,7 @@
 <meta property="og:site_name" content="有五个落单的">
 <meta property="og:description" content="firebase.initializeApp({       apiKey: &#39;AIzaSyA3Cyv0OK9YlybjJNcKuHMKlm2asxPO-vY&#39;, &#x2F;&#x2F;你的apiKey       projectId: &#39;count-d7b7d&#39;  &#x2F;&#x2F;你的projectId    })     var title&#x3D; &#39;&#39;;    var count &#x3D; 0;">
 <meta property="article:published_time" content="2019-08-14T07:23:11.000Z">
-<meta property="article:modified_time" content="2020-03-25T15:38:32.287Z">
+<meta property="article:modified_time" content="2020-03-26T01:50:02.646Z">
 <meta property="article:author" content="574.xu">
 <meta property="article:tag" content="hexo next">
 <meta name="twitter:card" content="summary">
@@ -328,6 +328,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-comment">
+          <a href="/comment/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-signal"></i> <br />
+            
+            评论
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
@@ -424,7 +434,7 @@
    var count = 0;
    var url = '';
    const db = firebase.firestore();
-   var collection =  'articles'; //主题配置文件配置的collection //';
+   var collection =  'article'; //主题配置文件配置的collection //';
    db.collection(collection).orderBy('count', 'desc').limit(10).get().then((querySnapshot) => {
        querySnapshot.forEach((doc) => {
        //  console.log(doc.id, " => ", doc.data());
@@ -1742,6 +1752,12 @@ show_date_time();
       
          
          var menuLink = '/links/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/comment/%20';
          if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
             isMenu = true;
          }

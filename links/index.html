@@ -328,6 +328,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-comment">
+          <a href="/comment/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-signal"></i> <br />
+            
+            评论
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
@@ -1866,6 +1876,12 @@ show_date_time();
       
          
          var menuLink = '/links/%20';
+         if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
+            isMenu = true;
+         }
+      
+         
+         var menuLink = '/comment/%20';
          if(urlPath.indexOf(menuLink) > 0 || urlPath == indexPath){
             isMenu = true;
          }
