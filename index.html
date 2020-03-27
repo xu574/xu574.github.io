@@ -1059,7 +1059,7 @@
                 <i class="fa fa-calendar-check-o">&nbsp;更新于</i>
               </span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T01:23:44+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T17:41:15+08:00">
                 2020-03-27
               </time>
             
@@ -1144,29 +1144,15 @@
 
       
         
-          
-            <h2 id="利用HTML来实现表格功能"><a href="#利用HTML来实现表格功能" class="headerlink" title="利用HTML来实现表格功能"></a>利用HTML来实现表格功能</h2><p>插入表格代码如下：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">table</span> <span class="attr">class</span>=<span class="string">"table table-bordered table-striped table-condensed"</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;苹果&lt;/td&gt;</span></span><br><span class="line"><span class="code">	&lt;td&gt;apple&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;香蕉&lt;/td&gt;</span></span><br><span class="line"><span class="code">	&lt;td&gt;banana&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-<p>以上代码实际上是属于HTML CSS代码，不过好在markdown支持<strong>部分</strong>HTML语法<br>如果只是table标签 表格功能在markdown中将不起作用。<br>如果table中加了个class属性，就可以正常使用表格功能了（可能是自动将md文件转HTML时候突然认出了“哇！这个加了class属性的table，感觉很是熟悉”hhh）</p>
-<h3 id="其中"><a href="#其中" class="headerlink" title="其中"></a><strong>其中</strong></h3><blockquote>
-<p>table-bordered：带圆角边框和竖线<br>table-striped：奇偶行颜色不同<br>table-condensed：压缩行距</p>
-</blockquote>
-<h3 id="除了以上另外还有其他可供选择："><a href="#除了以上另外还有其他可供选择：" class="headerlink" title="除了以上另外还有其他可供选择："></a>除了以上另外还有其他可供选择：</h3><p>1、如果需要表头跟内容不一样，可以将<code>&lt;td&gt;表头内容&lt;/td&gt; 更换成 &lt;th&gt;表头内容&lt;/th&gt;</code>。<br>2、如果表格内文需要换行，可以在要换行的内容后加入<code>&lt;br&gt;</code>，后面的内容就会跑到下一行。<br>3、如果内文中有代码，需要特别显示，可使用：<code>&lt;code&gt;代码&lt;/code&gt;</code>。<br>4、如果表格中有需要设为斜体的内容，可使用：<I>要设为斜体的内容</I>。<br>5、如果有跨行或者跨列的单元格，可用<code>&lt;th colspan=&quot;跨列数&quot;&gt;内容&lt;/th&gt;</code>。<br>6、如果要调整某一列的宽度，可使用：<code>&lt;th width=&quot;宽度值或百分比&quot;&gt;表头内容&lt;/th&gt;</code>。  </p>
-<p>最后效果如下：</p>
-<table class="table table-bordered table-striped table-condensed">
-    <tr>
-        <td>苹果</td>
-    <td>apple</td>
-    </tr>
-    <tr>
-        <td>香蕉</td>
-    <td>banana</td>
-    </tr>
-</table>
-
-<p>有关使用表格功能可能会出现的问题可以参考这一篇文章<br><a href="https://www.codebai.com/posts/a1cfa130.html" target="_blank" rel="noopener" class="LinkCard">siderbar侧栏进入post-body栏解决方案</a></p>
-
-          
+          <h2 id="利用HTML来实现表格功能"><a href="#利用HTML来实现表格功能" class="headerlink" title="利用HTML来实现表格功能"></a>利用HTML来实现表格功能</h2><p>插入表格代码如下：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">table</span> <span class="attr">class</span>=<span class="string">"table table-bordered table-striped table-condensed"</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;苹果&lt;/td&gt;</span></span><br><span class="line"><span class="code">	&lt;td&gt;apple&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;香蕉&lt;/td&gt;</span></span><br><span class="line"><span class="code">	&lt;td&gt;banana&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/6b64eeb8.html" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1274,7 +1260,7 @@
                 <i class="fa fa-calendar-check-o">&nbsp;更新于</i>
               </span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T01:21:51+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T17:43:38+08:00">
                 2020-03-27
               </time>
             
@@ -1379,16 +1365,14 @@
 
       
         
-          
-            <p>&emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。<br><img src="https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png" alt="image.png"></p>
-<blockquote>
-<p><strong>what?难道还有宽度塌陷（hhh）</strong></p>
-</blockquote>
-<p>肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置<br><img src="/20200326235411949/20200327121820688.png" alt=""><br>果然自己在编写md文件的时候，有关表格的代码写的有问题<br>源码如下：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">| 配件 	  |  名称	  | 	 价格 |</span><br><span class="line">|:-------: |:---------:|:--------:|</span><br><span class="line">|   处理器  |   锐龙3660|     taobao     |</span><br><span class="line">|   散热   |   AMD原装|   taobao   |</span><br><span class="line">|   主板   |微星B450M火箭筒|   taobao   |</span><br><span class="line">|   内存   |   金士顿 掠食者3200 8Gx2      |   taobao   |</span><br><span class="line">|   显卡   |   微星RX5700公版  |  taobao   |</span><br><span class="line">|   电源   |   酷冷至尊 GX500  |   taobao  |</span><br><span class="line">|   固态   |   浦科特M9EG 512G   |  taobao   |</span><br><span class="line">|   机箱   |   酷冷至尊NR400  |  taobao  |</span><br><span class="line">|   合计   |    绝大部分游戏都能玩 |   6199   |</span><br><span class="line"></span><br><span class="line"><span class="bullet">+ </span>---</span><br><span class="line"><span class="xml"><span class="comment">&lt;!--more--&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-<p>解决办法就是在表格结束之后换行添加<code>---</code>分界线就好<br>###关于markdown的表格的另外一种写法参考这篇文章：<br><a href="https://www.codebai.com/posts/6b64eeb8.html" target="_blank" rel="noopener" class="LinkCard">Markdown–表格table处理</a></p>
-
-          
+          <p>&emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。<br><img src="https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png" alt="image.png"></p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/a1cfa130.html" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1754,8 +1738,8 @@
                 <i class="fa fa-calendar-check-o">&nbsp;更新于</i>
               </span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-26T23:37:47+08:00">
-                2020-03-26
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T17:44:44+08:00">
+                2020-03-27
               </time>
             
           </span>
@@ -1839,35 +1823,18 @@
 
       
         
-          
-            <p>在MarkDown文档中插图最基础的格式就是：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Alt text</span>](<span class="link">图片链接 "optional title"</span>)</span><br></pre></td></tr></table></figure></div>
+          <p>在MarkDown文档中插图最基础的格式就是：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Alt text</span>](<span class="link">图片链接 "optional title"</span>)</span><br></pre></td></tr></table></figure>
 
 <p>或则</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"图片链接"</span> <span class="attr">width</span>=<span class="string">""</span>  <span class="attr">height</span>=<span class="string">""</span> &gt;</span></span></span><br></pre></td></tr></table></figure></div>
-<blockquote>
-<p>Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 </p>
-</blockquote>
-<blockquote>
-<p>图片链接：可以是图片的本地地址或者是网址。</p>
-</blockquote>
-<blockquote>
-<p>“optional title”：鼠标悬置于图片上会出现的标题文字，可以不写。</p>
-</blockquote>
-<h2 id="插入网络图片：最常用的最方便的方法"><a href="#插入网络图片：最常用的最方便的方法" class="headerlink" title="插入网络图片：最常用的最方便的方法"></a>插入网络图片：最常用的最方便的方法</h2><p>只需要在基础语法的括号中填入图片的网络链接即可，现在已经有很多免费/收费图床和方便传图的小工具可选。<br>例如：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">good doctor</span>](<span class="link">https://s1.ax1x.com/2020/03/23/8ojlQO.jpg  "良医"</span>)</span><br></pre></td></tr></table></figure></div>
-
-<p><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" alt="good doctor" title="良医"></p>
-<blockquote>
-<p>1、good doctor是当图片无法显示的时候出现在界面上，良医是鼠标放在图片上显示的内容，具体可以在效果图上自己演示<br>  2、将图片存在网络服务器上，有点依赖网络，其实个人感觉印象不是太大（可能本人用的比较少）<br>  3、后面会分享一下自己使用过的图床。  </p>
-</blockquote>
-<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><p>只需要在基础语法的括号中填入图片的位置路径即可，支持绝对路径和相对路径。<br>例如：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">avatar</span>](<span class="link">/home/picture/1.png</span>)</span><br></pre></td></tr></table></figure></div>
-<blockquote>
-<p>不灵活不好分享，本地图片的路径更改或丢失都会造成markdown文件调不出图。</p>
-</blockquote>
-
-          
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"图片链接"</span> <span class="attr">width</span>=<span class="string">""</span>  <span class="attr">height</span>=<span class="string">""</span> &gt;</span></span></span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/bd8ce08f.html" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1975,8 +1942,8 @@
                 <i class="fa fa-calendar-check-o">&nbsp;更新于</i>
               </span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-26T22:44:26+08:00">
-                2020-03-26
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T17:53:50+08:00">
+                2020-03-27
               </time>
             
           </span>
@@ -2022,7 +1989,7 @@
                 </span>
                 
                 <span title="字数">
-                  341
+                  345
                 </span>
               
 
@@ -2060,7 +2027,7 @@
 
       
         
-          <h3 id="示例图："><a href="#示例图：" class="headerlink" title="示例图："></a>示例图：</h3><p><img src="https://sm.ms/image/QDjvs3LpHR7zGth" alt="置顶图片"></p>
+          <h3 id="示例图："><a href="#示例图：" class="headerlink" title="示例图："></a>示例图：</h3><p><img src="https://s1.ax1x.com/2020/03/27/GPLisU.png" alt="置顶图片"></p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/posts/95ddd57d.html" rel="contents">
@@ -2768,8 +2735,8 @@
                 <i class="fa fa-calendar-check-o">&nbsp;更新于</i>
               </span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-23T10:40:36+08:00">
-                2020-03-23
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T17:56:59+08:00">
+                2020-03-27
               </time>
             
           </span>
@@ -2815,7 +2782,7 @@
                 </span>
                 
                 <span title="字数">
-                  81
+                  84
                 </span>
               
 
@@ -2854,7 +2821,9 @@
       
         
           
-            <p>一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数<br><code>#tar -xvf nginx-1.16.0.tar.gz -C /usr/local</code><br><strong>注释：</strong>上面的命令将 nginx-1.16.0.tar.gz 这个压缩包解压到/usr/local目录下。</p>
+            <p>一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数  </p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#tar -xvf nginx-1.16.0.tar.gz -C &#x2F;usr&#x2F;local</span><br></pre></td></tr></table></figure></div>
+<p><strong>注释：</strong>上面的命令将 nginx-1.16.0.tar.gz 这个压缩包解压到/usr/local目录下。</p>
 <h4 id="C-选项的作用是：指定需要解压到的目录。"><a href="#C-选项的作用是：指定需要解压到的目录。" class="headerlink" title="-C 选项的作用是：指定需要解压到的目录。"></a>-C 选项的作用是：指定需要解压到的目录。</h4>
           
         
@@ -3449,7 +3418,7 @@ show_date_time();
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="Site words total count">4k</span>
+    <span title="Site words total count">4.1k</span>
   
 </div>
 
@@ -3473,7 +3442,7 @@ show_date_time();
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">全站共4k字 &nbsp;|&nbsp; Since 2019/8/7 七夕</span>
+  <span class="post-count">全站共4.1k字 &nbsp;|&nbsp; Since 2019/8/7 七夕</span>
 </div>
 
         

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.codebai.top/"/>
-  <updated>2020-03-26T17:23:44.334Z</updated>
+  <updated>2020-03-27T09:41:15.535Z</updated>
   <id>https://www.codebai.top/</id>
   
   <author>
@@ -21,18 +21,12 @@
     <link href="https://www.codebai.top/posts/6b64eeb8.html"/>
     <id>https://www.codebai.top/posts/6b64eeb8.html</id>
     <published>2020-03-26T16:38:12.000Z</published>
-    <updated>2020-03-26T17:23:44.334Z</updated>
+    <updated>2020-03-27T09:41:15.535Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;利用HTML来实现表格功能&quot;&gt;&lt;a href=&quot;#利用HTML来实现表格功能&quot; class=&quot;headerlink&quot; title=&quot;利用HTML来实现表格功能&quot;&gt;&lt;/a&gt;利用HTML来实现表格功能&lt;/h2&gt;&lt;p&gt;插入表格代码如下：&lt;/p&gt;
-&lt;div
-        
-      
+      &lt;h2 id=&quot;利用HTML来实现表格功能&quot;&gt;&lt;a href=&quot;#利用HTML来实现表格功能&quot; class=&quot;headerlink&quot; title=&quot;利用HTML来实现表格功能&quot;&gt;&lt;/a&gt;利用HTML来实现表格功能&lt;/h2&gt;&lt;p&gt;插入表格代码如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;table table-bordered table-striped table-condensed&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;code&quot;&gt;    &amp;lt;tr&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;code&quot;&gt;        &amp;lt;td&amp;gt;苹果&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;code&quot;&gt;	&amp;lt;td&amp;gt;apple&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;code&quot;&gt;    &amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;code&quot;&gt;    &amp;lt;tr&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;code&quot;&gt;        &amp;lt;td&amp;gt;香蕉&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;code&quot;&gt;	&amp;lt;td&amp;gt;banana&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;code&quot;&gt;    &amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;table&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -45,17 +39,11 @@
     <link href="https://www.codebai.top/posts/a1cfa130.html"/>
     <id>https://www.codebai.top/posts/a1cfa130.html</id>
     <published>2020-03-26T16:06:05.000Z</published>
-    <updated>2020-03-26T17:21:51.837Z</updated>
+    <updated>2020-03-27T09:43:38.491Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;&amp;emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。&lt;br&gt;&lt;img src=&quot;https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png&quot;
-        
-      
+      &lt;p&gt;&amp;emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。&lt;br&gt;&lt;img src=&quot;https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -151,18 +139,15 @@
     <link href="https://www.codebai.top/posts/bd8ce08f.html"/>
     <id>https://www.codebai.top/posts/bd8ce08f.html</id>
     <published>2020-03-23T02:37:04.000Z</published>
-    <updated>2020-03-26T15:37:47.665Z</updated>
+    <updated>2020-03-27T09:44:44.227Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;在MarkDown文档中插图最基础的格式就是：&lt;/p&gt;
-&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;off&quot; spellcheck=&quot;false&quot;
-        
-      
+      &lt;p&gt;在MarkDown文档中插图最基础的格式就是：&lt;/p&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;![&lt;span class=&quot;string&quot;&gt;Alt text&lt;/span&gt;](&lt;span class=&quot;link&quot;&gt;图片链接 &quot;optional title&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;或则&lt;/p&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;图片链接&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt;  &lt;span class=&quot;attr&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt; &amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -177,11 +162,11 @@
     <link href="https://www.codebai.top/posts/95ddd57d.html"/>
     <id>https://www.codebai.top/posts/95ddd57d.html</id>
     <published>2020-03-23T01:32:59.000Z</published>
-    <updated>2020-03-26T14:44:26.407Z</updated>
+    <updated>2020-03-27T09:53:50.480Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;示例图：&quot;&gt;&lt;a href=&quot;#示例图：&quot; class=&quot;headerlink&quot; title=&quot;示例图：&quot;&gt;&lt;/a&gt;示例图：&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://sm.ms/image/QDjvs3LpHR7zGth&quot; alt=&quot;置顶图片&quot;&gt;&lt;/p&gt;
+      &lt;h3 id=&quot;示例图：&quot;&gt;&lt;a href=&quot;#示例图：&quot; class=&quot;headerlink&quot; title=&quot;示例图：&quot;&gt;&lt;/a&gt;示例图：&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/03/27/GPLisU.png&quot; alt=&quot;置顶图片&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -285,7 +270,7 @@
     <link href="https://www.codebai.top/posts/f9a72a7f.html"/>
     <id>https://www.codebai.top/posts/f9a72a7f.html</id>
     <published>2020-03-20T16:23:00.000Z</published>
-    <updated>2020-03-23T02:40:36.700Z</updated>
+    <updated>2020-03-27T09:56:59.657Z</updated>
     
     <summary type="html">
     
@@ -293,7 +278,8 @@
       
         
         
-          &lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数&lt;br&gt;&lt;code&gt;#tar -xvf nginx-1.16.0.tar.gz -C /usr/local&lt;/code&gt;&lt;br&gt;&lt;strong&gt;注释：&lt;/strong&gt;上面的命令将
+          &lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数  &lt;/p&gt;
+&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;off&quot;
         
       
     
@@ -340,12 +326,12 @@
     <link href="https://www.codebai.top/posts/e465cc7b.html"/>
     <id>https://www.codebai.top/posts/e465cc7b.html</id>
     <published>2020-03-20T15:28:16.000Z</published>
-    <updated>2020-03-26T14:45:14.306Z</updated>
+    <updated>2020-03-27T09:56:09.604Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-下载nginx安装包&quot;&gt;&lt;a href=&quot;#1-下载nginx安装包&quot; class=&quot;headerlink&quot; title=&quot;1)下载nginx安装包&quot;&gt;&lt;/a&gt;1)下载nginx安装包&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;wget -c https://nginx.org/download/nginx-1.16.0.tar.gz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;2）解压到-usr-local目录&quot;&gt;&lt;a href=&quot;#2）解压到-usr-local目录&quot; class=&quot;headerlink&quot; title=&quot;2）解压到/usr/local目录&quot;&gt;&lt;/a&gt;2）解压到/usr/local目录&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;tar -xvf nginx-1.16.0.tar.gz -C /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;h3 id=&quot;1-下载nginx安装包&quot;&gt;&lt;a href=&quot;#1-下载nginx安装包&quot; class=&quot;headerlink&quot; title=&quot;1)下载nginx安装包&quot;&gt;&lt;/a&gt;1)下载nginx安装包&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#wget -c https:&amp;#x2F;&amp;#x2F;nginx.org&amp;#x2F;download&amp;#x2F;nginx-1.16.0.tar.gz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;2）解压到-usr-local目录&quot;&gt;&lt;a href=&quot;#2）解压到-usr-local目录&quot; class=&quot;headerlink&quot; title=&quot;2）解压到/usr/local目录&quot;&gt;&lt;/a&gt;2）解压到/usr/local目录&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#tar -xvf nginx-1.16.0.tar.gz -C &amp;#x2F;usr&amp;#x2F;local&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     

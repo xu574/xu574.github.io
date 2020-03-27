@@ -112,16 +112,15 @@
 
 
 
-<meta name="description" content="&amp;emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。  what?难道还有宽度塌陷（hhh）  肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置果然自己在编写md文件的时候，有关表格的代码写的有问题源码如下： 1234567891011121314| 配件 	  |  名称	  | 	 价格 ||:-------: |:-------">
+<meta name="description" content="&amp;emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="siderbar侧栏进入post-body栏解决方案">
 <meta property="og:url" content="https://www.codebai.top/posts/a1cfa130.html">
 <meta property="og:site_name" content="有五个落单的">
-<meta property="og:description" content="&amp;emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。  what?难道还有宽度塌陷（hhh）  肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置果然自己在编写md文件的时候，有关表格的代码写的有问题源码如下： 1234567891011121314| 配件 	  |  名称	  | 	 价格 ||:-------: |:-------">
+<meta property="og:description" content="&amp;emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。">
 <meta property="og:image" content="https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png">
-<meta property="og:image" content="https://www.codebai.top/20200326235411949/20200327121820688.png">
 <meta property="article:published_time" content="2020-03-26T16:06:05.000Z">
-<meta property="article:modified_time" content="2020-03-26T17:21:51.837Z">
+<meta property="article:modified_time" content="2020-03-27T09:43:38.491Z">
 <meta property="article:author" content="574.xu">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="next">
@@ -420,7 +419,7 @@
                 <i class="fa fa-calendar-check-o">&nbsp;更新于</i>
               </span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T01:21:51+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T17:43:38+08:00">
                 2020-03-27
               </time>
             
@@ -525,12 +524,13 @@
 
       
         <p>&emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。<br><img src="https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png" alt="image.png"></p>
+<a id="more"></a>
 <blockquote>
 <p><strong>what?难道还有宽度塌陷（hhh）</strong></p>
 </blockquote>
-<p>肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置<br><img src="/20200326235411949/20200327121820688.png" alt=""><br>果然自己在编写md文件的时候，有关表格的代码写的有问题<br>源码如下：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">| 配件 	  |  名称	  | 	 价格 |</span><br><span class="line">|:-------: |:---------:|:--------:|</span><br><span class="line">|   处理器  |   锐龙3660|     taobao     |</span><br><span class="line">|   散热   |   AMD原装|   taobao   |</span><br><span class="line">|   主板   |微星B450M火箭筒|   taobao   |</span><br><span class="line">|   内存   |   金士顿 掠食者3200 8Gx2      |   taobao   |</span><br><span class="line">|   显卡   |   微星RX5700公版  |  taobao   |</span><br><span class="line">|   电源   |   酷冷至尊 GX500  |   taobao  |</span><br><span class="line">|   固态   |   浦科特M9EG 512G   |  taobao   |</span><br><span class="line">|   机箱   |   酷冷至尊NR400  |  taobao  |</span><br><span class="line">|   合计   |    绝大部分游戏都能玩 |   6199   |</span><br><span class="line"></span><br><span class="line"><span class="bullet">+ </span>---</span><br><span class="line"><span class="xml"><span class="comment">&lt;!--more--&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-<p>解决办法就是在表格结束之后换行添加<code>---</code>分界线就好<br>###关于markdown的表格的另外一种写法参考这篇文章：<br><a href="https://www.codebai.com/posts/6b64eeb8.html" target="_blank" rel="noopener" class="LinkCard">Markdown–表格table处理</a></p>
+<p>肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置<br>果然自己在编写md文件的时候，有关表格的代码写的有问题<br>源码如下：</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">| 配件 	  |  名称	  | 	 价格 |</span><br><span class="line">|:-------: |:---------:|:--------:|</span><br><span class="line">|   处理器  |   锐龙3660|     taobao     |</span><br><span class="line">|   散热   |   AMD原装|   taobao   |</span><br><span class="line">|   主板   |微星B450M火箭筒|   taobao   |</span><br><span class="line">|   内存   |   金士顿 掠食者3200 8Gx2      |   taobao   |</span><br><span class="line">|   显卡   |   微星RX5700公版  |  taobao   |</span><br><span class="line">|   电源   |   酷冷至尊 GX500  |   taobao  |</span><br><span class="line">|   固态   |   浦科特M9EG 512G   |  taobao   |</span><br><span class="line">|   机箱   |   酷冷至尊NR400  |  taobao  |</span><br><span class="line">|   合计   |    绝大部分游戏都能玩 |   6199   |</span><br><span class="line"></span><br><span class="line"><span class="code">`+`</span> <span class="code">`---`</span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!--more--&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+<p>解决办法就是在表格结束之后换行添加<code>---</code>分界线就好<br>###关于markdown的表格的另外一种写法参考这篇文章：<br><a href="https://codebai.top/posts/6b64eeb8.html" target="_blank" rel="noopener" class="LinkCard">Markdown–表格table处理</a></p>
 
 
         
@@ -1264,7 +1264,7 @@ show_date_time();
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="Site words total count">4k</span>
+    <span title="Site words total count">4.1k</span>
   
 </div>
 
@@ -1288,7 +1288,7 @@ show_date_time();
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">全站共4k字 &nbsp;|&nbsp; Since 2019/8/7 七夕</span>
+  <span class="post-count">全站共4.1k字 &nbsp;|&nbsp; Since 2019/8/7 七夕</span>
 </div>
 
         
