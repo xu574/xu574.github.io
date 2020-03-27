@@ -139,7 +139,7 @@
     <link href="https://www.codebai.top/posts/bd8ce08f.html"/>
     <id>https://www.codebai.top/posts/bd8ce08f.html</id>
     <published>2020-03-23T02:37:04.000Z</published>
-    <updated>2020-03-27T09:44:44.227Z</updated>
+    <updated>2020-03-27T10:12:31.307Z</updated>
     
     <summary type="html">
     
@@ -326,12 +326,12 @@
     <link href="https://www.codebai.top/posts/e465cc7b.html"/>
     <id>https://www.codebai.top/posts/e465cc7b.html</id>
     <published>2020-03-20T15:28:16.000Z</published>
-    <updated>2020-03-27T09:56:09.604Z</updated>
+    <updated>2020-03-27T10:08:22.610Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-下载nginx安装包&quot;&gt;&lt;a href=&quot;#1-下载nginx安装包&quot; class=&quot;headerlink&quot; title=&quot;1)下载nginx安装包&quot;&gt;&lt;/a&gt;1)下载nginx安装包&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#wget -c https:&amp;#x2F;&amp;#x2F;nginx.org&amp;#x2F;download&amp;#x2F;nginx-1.16.0.tar.gz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;2）解压到-usr-local目录&quot;&gt;&lt;a href=&quot;#2）解压到-usr-local目录&quot; class=&quot;headerlink&quot; title=&quot;2）解压到/usr/local目录&quot;&gt;&lt;/a&gt;2）解压到/usr/local目录&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#tar -xvf nginx-1.16.0.tar.gz -C &amp;#x2F;usr&amp;#x2F;local&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;h3 id=&quot;1-下载nginx安装包&quot;&gt;&lt;a href=&quot;#1-下载nginx安装包&quot; class=&quot;headerlink&quot; title=&quot;1)下载nginx安装包&quot;&gt;&lt;/a&gt;1)下载nginx安装包&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;wget -c https://nginx.org/download/nginx-1.16.0.tar.gz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;2）解压到-usr-local目录&quot;&gt;&lt;a href=&quot;#2）解压到-usr-local目录&quot; class=&quot;headerlink&quot; title=&quot;2）解压到/usr/local目录&quot;&gt;&lt;/a&gt;2）解压到/usr/local目录&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;tar -xvf nginx-1.16.0.tar.gz -C /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
