@@ -1,4 +1,4 @@
-var a_idx = 0;
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">var a_idx = 0;
 jQuery(document).ready(function($) {
   $("body").click(function(e) {
     var a = new Array("喜欢我", "不喜欢我");

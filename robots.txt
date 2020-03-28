@@ -1,0 +1,16 @@
+#hexo robots.txt
+User-agent: *
+
+Allow: /
+Allow: /archives/
+
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: http://codebai.top/search.xml
+Sitemap: http://codebai.top/sitemap.xml
+Sitemap: http://codebai.top/baidusitemap.xml

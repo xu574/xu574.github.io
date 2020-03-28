@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.codebai.top/"/>
-  <updated>2020-03-27T10:57:51.231Z</updated>
+  <updated>2020-03-28T15:03:50.129Z</updated>
   <id>https://www.codebai.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.codebai.top/posts/6b64eeb8.html"/>
     <id>https://www.codebai.top/posts/6b64eeb8.html</id>
     <published>2020-03-26T16:38:12.000Z</published>
-    <updated>2020-03-27T10:57:51.231Z</updated>
+    <updated>2020-03-28T15:03:50.129Z</updated>
     
     <summary type="html">
     
@@ -39,7 +39,7 @@
     <link href="https://www.codebai.top/posts/a1cfa130.html"/>
     <id>https://www.codebai.top/posts/a1cfa130.html</id>
     <published>2020-03-26T16:06:05.000Z</published>
-    <updated>2020-03-27T10:57:15.971Z</updated>
+    <updated>2020-03-28T15:07:35.633Z</updated>
     
     <summary type="html">
     
@@ -230,6 +230,14 @@
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
     </summary>
     
     
@@ -249,7 +257,7 @@
       
         
         
-          &lt;a
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;a
         
       
     
@@ -278,8 +286,7 @@
       
         
         
-          &lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数  &lt;/p&gt;
-&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;off&quot;
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数 
         
       
     
@@ -306,8 +313,7 @@
       
         
         
-          &lt;p&gt;&amp;emsp; 当文件特别大或者网络特别慢的时候，往往一个文件还没有下载完，连接就已经被切断，此时就需要断点续传。&lt;br&gt;特别是使用谷歌浏览器下载东西的时候！&lt;br&gt;wget的断点续传是自动的，只需要使用-c参数，例如：&lt;/p&gt;
-&lt;div
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&amp;emsp;
         
       
     
@@ -356,7 +362,7 @@
       
         
         
-          &lt;a
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;a
         
       
     
