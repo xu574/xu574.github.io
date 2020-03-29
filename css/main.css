@@ -1320,6 +1320,14 @@ pre .javascript .function {
     word-break: break-word;
   }
 }
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #ff106c;
+  text-decoration: underline;
+}
 .post-body .fancybox img {
   display: block !important;
   margin: 0 auto;
@@ -1553,8 +1561,6 @@ pre .javascript .function {
 }
 .posts-expand .post-title-link {
   display: inline-block;
-  position: relative;
-  color: #555;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -2295,7 +2301,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #adff75;
+  background: #59f544;
 }
 .links-of-blogroll {
   font-size: 13px;
