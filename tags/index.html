@@ -402,42 +402,41 @@
 
           
                
-               <div class="tags" id="myTags" style="margin-left:300px">
-  <canvas width="350" height="350" id="my3DTags">
-    <p>Anything in here will be replaced on browsers that support the canvas element</p>
-  </canvas>
-</div>
-<div class="tags" id="tags">
-  <ul style="display: none">
-    <a href="/tags/Diary/" style="font-size: 16px; color: #f00">Diary</a> <a href="/tags/aliyun-win10/" style="font-size: 16px; color: #f00">aliyun.win10</a> <a href="/tags/git/" style="font-size: 16px; color: #f00">git</a> <a href="/tags/hexo/" style="font-size: 35px; color: #f00">hexo</a> <a href="/tags/install/" style="font-size: 16px; color: #f00">install</a> <a href="/tags/linux/" style="font-size: 25.5px; color: #f00">linux</a> <a href="/tags/next/" style="font-size: 16px; color: #f00">next</a> <a href="/tags/shell%E5%91%BD%E4%BB%A4/" style="font-size: 16px; color: #f00">shell命令</a> <a href="/tags/%E8%A3%85%E6%9C%BA/" style="font-size: 16px; color: #f00">装机</a>
-  </ul>
-</div>
-<script type="text/javascript" src="/js/tagcanvas.js"></script>
-<script type="text/javascript" >
-
-  var alltags = document.getElementsByClassName('tag-cloud-tags');
-  //隐藏tag-cloud-tags这个div
-  alltags[0].setAttribute("hidden", "hidden");
-
-  window.onload = function() {
-    try {
-      TagCanvas.Start('my3DTags','tags',{
-        textFont: 'Georgia,Optima',
-        textColour: null,
-        outlineColour: 'black',
-        weight: true,
-        reverse: true,
-        depth: 0.8,
-        maxSpeed: 0.05,
-        bgRadius: 1,
-        freezeDecel: true
-      });
-    } catch(e) {
-      // something went wrong, hide the canvas container
-      document.getElementById('myTags').style.display = 'none';
-    }
-  };
+               <script type="text/javascript">
+     var alltags = document.getElementsByClassName('tag-cloud-tags');
+     var tags = alltags[0].getElementsByTagName('a');
+     for (var i = tags.length - 1; i >= 0; i--) {
+       var r=Math.floor(Math.random()*75+130);
+       var g=Math.floor(Math.random()*75+100);
+       var b=Math.floor(Math.random()*75+80);
+       tags[i].style.background = "rgb("+r+","+g+","+b+")";
+     }
 </script>
+
+<style>
+  .tag-cloud-tags{
+    /*font-family: Helvetica, Tahoma, Arial;*/
+    /*font-weight: 100;*/
+    text-align: center;
+    counter-reset: tags;
+  }
+  .tag-cloud-tags a{
+    border-radius: 6px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 8px 5px 0px 0px;
+  }
+  .tag-cloud-tags a:before{
+    content: "🔖";
+  }
+
+  .tag-cloud-tags a:hover{
+     box-shadow: 0px 5px 15px 0px rgba(0,0,0,.4);
+     transform: scale(1.1);
+     /*box-shadow: 10px 10px 15px 2px rgba(0,0,0,.12), 0 0 6px 0 rgba(104, 104, 105, 0.1);*/
+     transition-duration: 0.15s;
+  }
+</style>
 
           
 
@@ -1818,8 +1817,6 @@ show_date_time();
 
   <!-- 看板娘 -->
   
-      <script async src="/live2d-widget/autoload.js"></script>
-  
 
   
       <!-- aplayer音频播放 -->
@@ -1847,5 +1844,5 @@ show_date_time();
 
 
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"superSample":2,"width":75,"height":150,"position":"left","hOffset":0,"vOffset":-20},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.8,"opacityOnHover":0.2}});</script></body>
+</body>
 </html>
