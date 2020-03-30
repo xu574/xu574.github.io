@@ -2301,7 +2301,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff9ff;
+  background: #1cffc7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3772,8 +3772,8 @@ body {
   margin-top: 20px;
   margin-bottom: 25px;
   padding: 30px;
-  -webkit-box-shadow: 0 0 35px rgba(0,0,0,0.9);
-  -moz-box-shadow: 0 0 35px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.9);
 }
 h1,
 h2,
@@ -4608,23 +4608,23 @@ a {
 }
 #content {
   background-color: rgba(255,255,255,0.8);
-  border-radius: 20px !important;
-  border-radius-inner: 20px 20px 20px 20px !important;
+  border-radius: 5px !important;
+  border-radius-inner: 5px 5px 5px 5px !important;
 }
 .content {
   background-color: rgba(255,255,255,0.8);
-  border-radius: 20px !important;
-  border-radius-inner: 20px 20px 20px 20px !important;
+  border-radius: 5px !important;
+  border-radius-inner: 5px 5px 5px 5px !important;
 }
 .sidebar {
   opacity: 0.9;
 }
 .sidebar-inner {
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: rgba(255,255,255,0.9);
 }
 .affix-top {
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: rgba(255,255,255,0.9);
 }
 .popup {
@@ -4841,48 +4841,48 @@ p#div-border-top-purple {
   border-top-color: #9954bb;
 }
 .header-inner {
-  border-radius-inner: 20px 20px 20px 20px;
-  border-radius: 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .affix-top {
-  border-radius: 20px;
-  border-radius-inner: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .site-overview-wrap {
-  border-radius: 20px;
-  border-radius-inner: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .affix {
-  border-radius: 20px;
-  border-radius-inner: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .sidebar-panel {
-  border-radius: 20px;
-  border-radius-inner: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .sidebar-panel-active {
-  border-radius: 20px;
-  border-radius-inner: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .post {
-  border-radius: 20px;
-  border-radius-inner: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .post-type-normal {
-  border-radius: 20px;
-  border-radius-inner: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .post-body {
-  border-radius: 20px;
-  border-radius-inner: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border-radius-inner: 5px 5px 5px 5px;
 }
 .comment_trigger {
-  border-radius: 20px !important;
-  border-radius-inner: 20px 20px 20px 20px !important;
+  border-radius: 5px !important;
+  border-radius-inner: 5px 5px 5px 5px !important;
 }
 .content-wrap {
-  border-radius: 20px !important;
-  border-radius-inner: 20px 20px 20px 20px !important;
+  border-radius: 5px !important;
+  border-radius-inner: 5px 5px 5px 5px !important;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
