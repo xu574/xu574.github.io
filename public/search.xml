@@ -130,7 +130,6 @@
     <url>/posts/bd8ce08f.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在MarkDown文档中插图最基础的格式就是：</p>
 <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">Alt text</span>](<span class="link">图片链接 "optional title"</span>)</span><br></pre></td></tr></table></figure></div>
-
 <p>或则</p>
 <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"图片链接"</span> <span class="attr">width</span>=<span class="string">""</span>  <span class="attr">height</span>=<span class="string">""</span> &gt;</span></span></span><br></pre></td></tr></table></figure></div>
 <a id="more"></a>
