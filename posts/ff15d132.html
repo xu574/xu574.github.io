@@ -2009,20 +2009,20 @@ show_date_time();
         })
       }
 
-      function appendCountTo(el) {
-        return function (count) {
-          $(el).append(
-            $('<span>').addClass('post-visitors-count').append(
-              $('<span>').addClass('post-meta-divider').text('|')
-            ).append(
-              $('<span>').addClass('post-meta-item-icon').append(
-               // $('<i>').addClass('fa fa-users')
-                $('<i>').addClass('fa fa-eye')
-              )
-              ).append($('<span>').text('浏览 ' + count + ' 次'))
-          )
-        }
-      }
+      //function appendCountTo(el) {
+      //  return function (count) {
+      //    $(el).append(
+      //      $('<span>').addClass('post-visitors-count').append(
+      //        $('<span>').addClass('post-meta-divider').text('|')
+      //      ).append(
+      //        $('<span>').addClass('post-meta-item-icon').append(
+               // $('<i>').addClass('fa fa-users')  //这个注释是原来就有的
+      //          $('<i>').addClass('fa fa-eye')
+      //        )
+      //        ).append($('<span>').text('浏览 ' + count + ' 次(google)'))
+      //    )
+      //  }
+      //}
 
       var db = firebase.firestore()
       var articles = db.collection('article')
