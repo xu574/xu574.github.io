@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.codebai.top/"/>
-  <updated>2020-03-31T14:03:10.592Z</updated>
+  <updated>2020-04-10T11:27:58.638Z</updated>
   <id>https://www.codebai.top/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>wincc自定义登录与退出界面</title>
+    <link href="https://www.codebai.top/posts/47a0fae9.html"/>
+    <id>https://www.codebai.top/posts/47a0fae9.html</id>
+    <published>2020-04-10T11:15:14.000Z</published>
+    <updated>2020-04-10T11:27:58.638Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wincc用户权限</title>
+    <link href="https://www.codebai.top/posts/a68fff4f.html"/>
+    <id>https://www.codebai.top/posts/a68fff4f.html</id>
+    <published>2020-04-10T11:11:54.000Z</published>
+    <updated>2020-04-10T11:15:48.408Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;默认授权概述&quot;&gt;&lt;a href=&quot;#默认授权概述&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
   
   <entry>
     <title>黑苹果</title>
