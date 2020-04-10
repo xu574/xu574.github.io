@@ -1,356 +1,326 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>黑苹果</title>
-    <url>/posts/55f059f2.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="今天逛了一下苹果官网，看了一下前一段时间出的MAC-Pro"><a href="#今天逛了一下苹果官网，看了一下前一段时间出的MAC-Pro" class="headerlink" title="今天逛了一下苹果官网，看了一下前一段时间出的MAC Pro"></a>今天逛了一下苹果官网，看了一下前一段时间出的MAC Pro</h1><h2 id="顶配RMB-411-768（四十万买个电脑hhh）"><a href="#顶配RMB-411-768（四十万买个电脑hhh）" class="headerlink" title="顶配RMB:411,768（四十万买个电脑hhh）"></a>顶配RMB:411,768（四十万买个电脑hhh）</h2><p><img src="https://i.loli.net/2020/03/31/Aw1aWrh4d3lEstf.png" alt="Snipaste_2020-03-31_20-41-19.png"></p>
-<a id="more"></a>
-<h2 id="低配RMB-54-999-除了存储1T，其他都是最低配"><a href="#低配RMB-54-999-除了存储1T，其他都是最低配" class="headerlink" title="低配RMB:54,999(除了存储1T，其他都是最低配)"></a>低配RMB:54,999(除了存储1T，其他都是最低配)</h2><p><img src="https://i.loli.net/2020/03/31/I8QLXoUBetnxTwk.png" alt="Snipaste_2020-03-31_21-25-39.png"></p>
-<h3 id="试试自己装一台相同性能配置的黑苹果要多少"><a href="#试试自己装一台相同性能配置的黑苹果要多少" class="headerlink" title="试试自己装一台相同性能配置的黑苹果要多少"></a>试试自己装一台相同性能配置的黑苹果要多少</h3><h4 id="以下配件都是参考别人的成功案例查找的可行配置"><a href="#以下配件都是参考别人的成功案例查找的可行配置" class="headerlink" title="以下配件都是参考别人的成功案例查找的可行配置"></a>以下配件都是参考别人的成功案例查找的可行配置</h4><p><img src="https://i.loli.net/2020/03/31/GAWrlB6HL5ZoX92.png" alt="Snipaste_2020-03-31_21-21-50.png"></p>
-<blockquote>
-<p>一套顶六套，个人感觉这套配置可以完成99%白苹果功能并且跑分会超过白苹果（不（<code>mei</code>）想（<code>qian</code>）实验）</p>
-</blockquote>
-<h2 id="八千多在官网上买个显示器都买不到，最多可以买个显示器支架hhh"><a href="#八千多在官网上买个显示器都买不到，最多可以买个显示器支架hhh" class="headerlink" title="八千多在官网上买个显示器都买不到，最多可以买个显示器支架hhh"></a>八千多在官网上买个显示器都买不到，最多可以买个显示器支架hhh</h2><p><img src="https://i.loli.net/2020/03/31/QJ7PHp2ej3A8MDx.png" alt="Snipaste_2020-03-31_21-14-29.png"><br><img src="https://i.loli.net/2020/03/31/lndDNoMkAEUvJbO.png" alt="Snipaste_2020-03-31_21-13-40.png"></p>
-<blockquote>
-<p>个人观点，仅供参考，装机小白，欢迎评论。</p>
-</blockquote>
-<blockquote>
-<p>参考文章链接<br> <a href="https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI" target="_blank" rel="noopener external nofollow noreferrer">github大神</a><br> <a href="https://www.apple.com.cn/" target="_blank" rel="noopener external nofollow noreferrer">苹果官网</a></p>
-</blockquote>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>wincc自定义登录与退出界面</title>
+      <link href="/posts/47a0fae9.html"/>
+      <url>/posts/47a0fae9.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p><img src="https://i.loli.net/2020/04/10/ENb5oUCRgcZh78n.png" alt="20200410063040399.png"><br>WinCC用户管理器的主要功能可以给不同的用户设置不同的密码和访问权限，以便对用户的登录和访问进行监控，从而达到拒绝没有授权的访问，保证系统安全。</p></blockquote><a id="more"></a><h3 id="在用户管理器中添加用户名和密码并进行授权"><a href="#在用户管理器中添加用户名和密码并进行授权" class="headerlink" title="在用户管理器中添加用户名和密码并进行授权."></a>在用户管理器中添加用户名和密码并进行授权.</h3><p><img src="https://i.loli.net/2020/04/10/oKFvk2t3U4f7PTZ.png" alt="20200410061723116.png"></p><h3 id="在图形编译器中新建启动登录界面（启动登陆-Pdl）和其他自己所需要的图形界面"><a href="#在图形编译器中新建启动登录界面（启动登陆-Pdl）和其他自己所需要的图形界面" class="headerlink" title="在图形编译器中新建启动登录界面（启动登陆.Pdl）和其他自己所需要的图形界面."></a>在图形编译器中新建启动登录界面（启动登陆.Pdl）和其他自己所需要的图形界面.</h3><p><img src="https://i.loli.net/2020/04/10/I1EY5xXANWv2Di6.png" alt="20200410062313380.png"></p><h3 id="进入启动登陆界面，插入2个输入-输出域，更改名为1-2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。"><a href="#进入启动登陆界面，插入2个输入-输出域，更改名为1-2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。" class="headerlink" title="进入启动登陆界面，插入2个输入/输出域，更改名为1,2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。"></a>进入启动登陆界面，插入2个输入/输出域，更改名为1,2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。</h3><p><img src="https://i.loli.net/2020/04/10/W4Pzm9IiCLYerNO.png" alt="20200410063350891.png"></p><h3 id="用户名的输入输出域的输出值为内部变量：-CurrentUserName"><a href="#用户名的输入输出域的输出值为内部变量：-CurrentUserName" class="headerlink" title="用户名的输入输出域的输出值为内部变量：@CurrentUserName"></a>用户名的输入输出域的输出值为内部变量：@CurrentUserName</h3><p>找到相应界面窗口<br><img src="https://i.loli.net/2020/04/10/Ys6GLvwUQh8KemM.png" alt="20200410065206664.png"><br>添加变量<br><img src="https://i.loli.net/2020/04/10/PH6GgDOrQbV1Xd9.png" alt="20200410065332595.png"></p><h3 id="在用户名的输入输出域的事件属性-gt-其他-gt-对象更改-加入C脚本函数"><a href="#在用户名的输入输出域的事件属性-gt-其他-gt-对象更改-加入C脚本函数" class="headerlink" title="在用户名的输入输出域的事件属性-&gt;其他-&gt;对象更改  加入C脚本函数"></a>在用户名的输入输出域的事件属性-&gt;其他-&gt;对象更改  加入C脚本函数</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="C"><figure class="iseeu highlight /c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"apdefap.h"</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">OnObjectChanged</span><span class="params">(<span class="keyword">char</span>* lpszPictureName, <span class="keyword">char</span>* lpszObjectName, <span class="keyword">char</span>* lpszPropertyName, <span class="keyword">char</span>* value)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">SetOutputValueChar(lpszPictureName,lpszObjectName,GetInputValueChar(lpszPictureName,lpszObjectName));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p><img src="https://i.loli.net/2020/04/10/c3BVDOCJGQy2ITS.png" alt="20200410064227543.png"></p><h3 id="按照上面做的-在密码输入输出域里加入同样的C脚本"><a href="#按照上面做的-在密码输入输出域里加入同样的C脚本" class="headerlink" title="按照上面做的 在密码输入输出域里加入同样的C脚本"></a>按照上面做的 在密码输入输出域里加入同样的C脚本</h3><h3 id="在登录按钮的事件-gt-按钮-gt-鼠标按下-加入C脚本"><a href="#在登录按钮的事件-gt-按钮-gt-鼠标按下-加入C脚本" class="headerlink" title="在登录按钮的事件-&gt;按钮-&gt;鼠标按下 加入C脚本"></a>在登录按钮的事件-&gt;按钮-&gt;鼠标按下 加入C脚本</h3><p>注意按照自己的需要更改openpicture()的画面</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="C"><figure class="iseeu highlight /c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"apdefap.h"</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">OnLButtonDown</span><span class="params">(<span class="keyword">char</span>* lpszPictureName, <span class="keyword">char</span>* lpszObjectName, <span class="keyword">char</span>* lpszPropertyName)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> code (<span class="meta-string">"UseAdmin.DLL"</span>)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"pwrt_api.h"</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> code ()</span></span><br><span class="line"><span class="keyword">if</span> (PWRTSilentLogin(GetInputValueChar(lpszPictureName,<span class="string">"1"</span>),GetInputValueChar(lpszPictureName,<span class="string">"2"</span>)) == FALSE)</span><br><span class="line">MessageBox (<span class="literal">NULL</span>, <span class="string">"错误,请重新输入!"</span> , <span class="string">"提示"</span>, MB_ICONEXCLAMATION| MB_SYSTEMMODAL );<span class="comment">// &#125;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">OpenPicture(<span class="string">"你要进入的画面"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p><img src="https://i.loli.net/2020/04/10/pbWEisJFAyX8kDZ.png" alt="20200410065631708.png"></p><h3 id="退出按钮中加入退出wincc脚本可以了"><a href="#退出按钮中加入退出wincc脚本可以了" class="headerlink" title="退出按钮中加入退出wincc脚本可以了"></a>退出按钮中加入退出wincc脚本可以了</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="C"><figure class="iseeu highlight /c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"apdefap.h"</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">OnLButtonDown</span><span class="params">(<span class="keyword">char</span>* lpszPictureName, <span class="keyword">char</span>* lpszObjectName, <span class="keyword">char</span>* lpszPropertyName, UINT nFlags, <span class="keyword">int</span> x, <span class="keyword">int</span> y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="keyword">long</span> Ret = IDNO; </span><br><span class="line"> Ret  = MessageBox(<span class="literal">NULL</span>, <span class="string">"您确实要退出 WinCC 运行系统么？"</span>,    <span class="string">"请确认"</span>, MB_YESNO | MB_ICONQUESTION | MB_DEFBUTTON2 |  MB_SYSTEMMODAL); </span><br><span class="line">  <span class="keyword">if</span> (Ret == IDYES)  </span><br><span class="line">ExitWinCC ();    <span class="comment">//退出wincc</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p><img src="https://i.loli.net/2020/04/10/BA4h3W8tGMsD9jJ.png" alt="20200410070217481.png"></p><h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3>]]></content>
+      
+      
       <categories>
-        <category>电脑装机</category>
+          
+          <category> 毕业设计 </category>
+          
       </categories>
-      <tags>
-        <tag>黑苹果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）</title>
-    <url>/posts/5080762b.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
-<p>基础知识：<br>Markdown 通过简单标记语法，使普通文本内容具有一定格式。但它本身不支持修改字体、字号与颜色等功能的。不过可以通过简单地HTML标签来实现<br>Size：规定文本的尺寸大小，取值从 1 到 7 ，浏览器默认值是 3.</p>
-</blockquote>
-<a id="more"></a>
-
-<h1 id="一、更改字体、大小、颜色"><a href="#一、更改字体、大小、颜色" class="headerlink" title="一、更改字体、大小、颜色"></a>一、更改字体、大小、颜色</h1><h2 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"黑体"</span>&gt;</span>我是黑体字<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"微软雅黑"</span>&gt;</span>我是微软雅黑<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"STCAIYUN"</span>&gt;</span>我是华文彩云<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">red</span>&gt;</span>我是红色<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">#008000</span>&gt;</span>我是绿色<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">Blue</span>&gt;</span>我是蓝色<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">5</span>&gt;</span>我是尺寸<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"黑体"</span> <span class="attr">color</span>=<span class="string">green</span> <span class="attr">size</span>=<span class="string">5</span>&gt;</span>我是黑体，绿色，尺寸为5<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="效果如下"><a href="#效果如下" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h2><p><font face="黑体">我是黑体字</font><br><font face="微软雅黑">我是微软雅黑</font><br><font face="STCAIYUN">我是华文彩云</font><br><font color=red>我是红色</font><br><font color=#008000>我是绿色</font><br><font color=Blue>我是蓝色</font><br><font size=5>我是尺寸</font><br><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font> </p>
-<h1 id="二、为文字添加背景色"><a href="#二、为文字添加背景色" class="headerlink" title="二、为文字添加背景色"></a>二、为文字添加背景色</h1><blockquote>
-<p>由于 style 标签和标签的 style 属性不被支持，所以这里只能是借助 table, tr, td 等表格标签的 bgcolor 属性来实现背景色。故这里对于文字背景色的设置，只是将那一整行看作一个表格，更改了那个格子的背景色（bgcolor）</p>
-</blockquote>
-<h2 id="Markdown语法-1"><a href="#Markdown语法-1" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span>&gt;</span><span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="tag">&lt;<span class="name">td</span> <span class="attr">bgcolor</span>=<span class="string">#bfa</span>&gt;</span>背景色#bfa<span class="tag">&lt;/<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">tr</span>&gt;</span><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="效果如下-1"><a href="#效果如下-1" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h2><table><tr><td bgcolor=black>背景色black</td></tr></table>
-
-<h1 id="三、设置图片大小"><a href="#三、设置图片大小" class="headerlink" title="三、设置图片大小"></a>三、设置图片大小</h1><h2 id="原图默认大小"><a href="#原图默认大小" class="headerlink" title="原图默认大小"></a>原图默认大小</h2><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" alt="良医">
-
-<h2 id="1、设置图片百分比"><a href="#1、设置图片百分比" class="headerlink" title="1、设置图片百分比"></a>1、设置图片百分比</h2><h3 id="Markdown语法-2"><a href="#Markdown语法-2" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"https://s1.ax1x.com/2020/03/23/8ojlQO.jpg"</span> <span class="attr">width</span>=<span class="string">"50%"</span> <span class="attr">height</span>=<span class="string">"50%"</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-<h3 id="效果如下-2"><a href="#效果如下-2" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h3><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" width="50%" height="50%">
-
-<h2 id="2、设置图片大小"><a href="#2、设置图片大小" class="headerlink" title="2、设置图片大小"></a>2、设置图片大小</h2><h3 id="Markdown语法-3"><a href="#Markdown语法-3" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"https://s1.ax1x.com/2020/03/23/8ojlQO.jpg"</span> <span class="attr">width</span>=<span class="string">"201"</span> <span class="attr">height</span>=<span class="string">"130"</span> &gt;</span></span><br></pre></td></tr></table></figure></div>
-<h3 id="效果如下-3"><a href="#效果如下-3" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h3><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" width="201" height="130" >
-
-<h2 id="3、设置图片居中"><a href="#3、设置图片居中" class="headerlink" title="3、设置图片居中"></a>3、设置图片居中</h2><h3 id="方法一：最常用的使用方法-使用center标签"><a href="#方法一：最常用的使用方法-使用center标签" class="headerlink" title="方法一：最常用的使用方法,使用center标签"></a>方法一：最常用的使用方法,使用<code>center</code>标签</h3><blockquote>
-<p>可以设置居中，但是不易更改图片大小<br>实际上<code>center</code>标签会使中间的说有内容都会居中</p>
-</blockquote>
-<h3 id="Markdown语法-4"><a href="#Markdown语法-4" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">center</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">![<span class="string">good doctor</span>](<span class="link">https://s1.ax1x.com/2020/03/23/8ojlQO.jpg "良医"</span>)</span><br><span class="line"><span class="section"># good doctor是当图片无法显示的时候出现在界面上，良医是鼠标放在图片上显示的内容，具体可以在效果图上自己演示</span></span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-<h3 id="效果如下-4"><a href="#效果如下-4" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h3><center>
-
-<p><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" alt="good doctor" title="良医"></p>
-</center>
-
-<h3 id="方法二：使用HTML中的标签"><a href="#方法二：使用HTML中的标签" class="headerlink" title="方法二：使用HTML中的标签"></a>方法二：使用HTML中的标签</h3><blockquote>
-<p>1.<strong>这里需要用的HTML中的块元素标签<code>div</code>, 使用内嵌样式align=right(left,center,right)</strong><br>  2.使用这种方法比较容易更改图片的位置和大小</p>
-</blockquote>
-<h3 id="Markdown语法-5"><a href="#Markdown语法-5" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"https://s1.ax1x.com/2020/03/23/8ojlQO.jpg"</span> <span class="attr">width</span>=<span class="string">"50%"</span> <span class="attr">height</span>=<span class="string">"50%"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-<h3 id="效果如下-5"><a href="#效果如下-5" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h3><div align=center><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" width="60%" height="60%"></div>
-
-
-<h1 id="四、有关图片和文字的内容会继续补充"><a href="#四、有关图片和文字的内容会继续补充" class="headerlink" title="四、有关图片和文字的内容会继续补充"></a>四、有关图片和文字的内容会继续补充</h1><center>
-
-<h2 id="To-be-continued"><a href="#To-be-continued" class="headerlink" title="To be continued"></a>To be continued</h2>]]></content>
+      
+      
+        <tags>
+            
+            <tag> wincc </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>wincc用户权限</title>
+      <link href="/posts/a68fff4f.html"/>
+      <url>/posts/a68fff4f.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="默认授权概述"><a href="#默认授权概述" class="headerlink" title="默认授权概述"></a>默认授权概述</h2><h3 id="1：用户管理"><a href="#1：用户管理" class="headerlink" title="1：用户管理"></a>1：用户管理</h3><p>用户可以访问用户管理并进行更改。</p><h3 id="2：-数值输入"><a href="#2：-数值输入" class="headerlink" title="2： 数值输入"></a>2： 数值输入</h3><p>用户可以手动输入值，例如在 I/O 字段中。</p><a id="more"></a><h3 id="3：-过程控制"><a href="#3：-过程控制" class="headerlink" title="3： 过程控制"></a>3： 过程控制</h3><p>用户可以操作过程。</p><h3 id="4：-画面编辑"><a href="#4：-画面编辑" class="headerlink" title="4： 画面编辑"></a>4： 画面编辑</h3><p>用户可以更改画面和画面元素。</p><h3 id="5：-画面切换"><a href="#5：-画面切换" class="headerlink" title="5： 画面切换"></a>5： 画面切换</h3><p>用户可以触发画面更改，并打开其它组态的画面。</p><h3 id="6：-窗口选择"><a href="#6：-窗口选择" class="headerlink" title="6： 窗口选择"></a>6： 窗口选择</h3><p>用户可以在 Windows 中切换应用程序窗口。</p><h3 id="7：-硬拷贝"><a href="#7：-硬拷贝" class="headerlink" title="7： 硬拷贝"></a>7： 硬拷贝</h3><p>用户可以建立当前过程画面的硬拷贝。</p><h3 id="8：-确认消息"><a href="#8：-确认消息" class="headerlink" title="8： 确认消息"></a>8： 确认消息</h3><p>用户可以确认消息。</p><h3 id="9：-锁定消息"><a href="#9：-锁定消息" class="headerlink" title="9： 锁定消息"></a>9： 锁定消息</h3><p>用户可以锁定消息。</p><h3 id="10：-解锁消息"><a href="#10：-解锁消息" class="headerlink" title="10： 解锁消息"></a>10： 解锁消息</h3><p>用户可以解锁消息。</p><h3 id="11：-消息编辑"><a href="#11：-消息编辑" class="headerlink" title="11： 消息编辑"></a>11： 消息编辑</h3><p>用户可以在“报警记录”编辑器（例如使用 ODK）中编辑消息。</p><h3 id="12：-启动归档"><a href="#12：-启动归档" class="headerlink" title="12： 启动归档"></a>12： 启动归档</h3><p>用户可以启动归档过程。</p><h3 id="13：-停止归档"><a href="#13：-停止归档" class="headerlink" title="13： 停止归档"></a>13： 停止归档</h3><p>用户可以结束归档。</p><h3 id="14：-归档值编辑"><a href="#14：-归档值编辑" class="headerlink" title="14： 归档值编辑"></a>14： 归档值编辑</h3><p>用户可以组态归档变量的计算。</p><h3 id="15：-归档编辑"><a href="#15：-归档编辑" class="headerlink" title="15： 归档编辑"></a>15： 归档编辑</h3><p>用户可以控制并更改归档。</p><h3 id="16：-动作编辑"><a href="#16：-动作编辑" class="headerlink" title="16： 动作编辑"></a>16： 动作编辑</h3><p>用户可以运行和编辑脚本（例如使用 ODK）。</p><h3 id="17：-项目管理器"><a href="#17：-项目管理器" class="headerlink" title="17： 项目管理器"></a>17： 项目管理器</h3><p>用户可以不受限制访问 WinCC 项目管理器。</p><h3 id="18：-远程激活"><a href="#18：-远程激活" class="headerlink" title="18： 远程激活"></a>18： 远程激活</h3><p>用户可通过另一台计算机启动和终止运行系统。</p><h3 id="19：-远程组态"><a href="#19：-远程组态" class="headerlink" title="19： 远程组态"></a>19： 远程组态</h3><p>用户可通过另一台计算机组态和编辑项目。</p><h3 id="20：-Web-访问-仅监视"><a href="#20：-Web-访问-仅监视" class="headerlink" title="20： Web 访问 - 仅监视"></a>20： Web 访问 - 仅监视</h3><p>用户可通过另一台计算机打开项目，但是无法更改或控制该项目。</p>]]></content>
+      
+      
       <categories>
-        <category>MarkDown</category>
+          
+          <category> 毕业设计 </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>wincc自定义登录与退出界面</title>
-    <url>/posts/47a0fae9.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
-<p><img src="https://i.loli.net/2020/04/10/ENb5oUCRgcZh78n.png" alt="20200410063040399.png"><br>WinCC用户管理器的主要功能可以给不同的用户设置不同的密码和访问权限，以便对用户的登录和访问进行监控，从而达到拒绝没有授权的访问，保证系统安全。</p>
-</blockquote>
-<a id="more"></a>
-<h3 id="在用户管理器中添加用户名和密码并进行授权"><a href="#在用户管理器中添加用户名和密码并进行授权" class="headerlink" title="在用户管理器中添加用户名和密码并进行授权."></a>在用户管理器中添加用户名和密码并进行授权.</h3><p><img src="https://i.loli.net/2020/04/10/oKFvk2t3U4f7PTZ.png" alt="20200410061723116.png"></p>
-<h3 id="在图形编译器中新建启动登录界面（启动登陆-Pdl）和其他自己所需要的图形界面"><a href="#在图形编译器中新建启动登录界面（启动登陆-Pdl）和其他自己所需要的图形界面" class="headerlink" title="在图形编译器中新建启动登录界面（启动登陆.Pdl）和其他自己所需要的图形界面."></a>在图形编译器中新建启动登录界面（启动登陆.Pdl）和其他自己所需要的图形界面.</h3><p><img src="https://i.loli.net/2020/04/10/I1EY5xXANWv2Di6.png" alt="20200410062313380.png"></p>
-<h3 id="进入启动登陆界面，插入2个输入-输出域，更改名为1-2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。"><a href="#进入启动登陆界面，插入2个输入-输出域，更改名为1-2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。" class="headerlink" title="进入启动登陆界面，插入2个输入/输出域，更改名为1,2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。"></a>进入启动登陆界面，插入2个输入/输出域，更改名为1,2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。</h3><p><img src="https://i.loli.net/2020/04/10/W4Pzm9IiCLYerNO.png" alt="20200410063350891.png"></p>
-<h3 id="用户名的输入输出域的输出值为内部变量：-CurrentUserName"><a href="#用户名的输入输出域的输出值为内部变量：-CurrentUserName" class="headerlink" title="用户名的输入输出域的输出值为内部变量：@CurrentUserName"></a>用户名的输入输出域的输出值为内部变量：@CurrentUserName</h3><p>找到相应界面窗口<br><img src="https://i.loli.net/2020/04/10/Ys6GLvwUQh8KemM.png" alt="20200410065206664.png"><br>添加变量<br><img src="https://i.loli.net/2020/04/10/PH6GgDOrQbV1Xd9.png" alt="20200410065332595.png"></p>
-<h3 id="在用户名的输入输出域的事件属性-gt-其他-gt-对象更改-加入C脚本函数"><a href="#在用户名的输入输出域的事件属性-gt-其他-gt-对象更改-加入C脚本函数" class="headerlink" title="在用户名的输入输出域的事件属性-&gt;其他-&gt;对象更改  加入C脚本函数"></a>在用户名的输入输出域的事件属性-&gt;其他-&gt;对象更改  加入C脚本函数</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="C"><figure class="iseeu highlight /c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"apdefap.h"</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">OnObjectChanged</span><span class="params">(<span class="keyword">char</span>* lpszPictureName, <span class="keyword">char</span>* lpszObjectName, <span class="keyword">char</span>* lpszPropertyName, <span class="keyword">char</span>* value)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">SetOutputValueChar(lpszPictureName,lpszObjectName,GetInputValueChar(lpszPictureName,lpszObjectName));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p><img src="https://i.loli.net/2020/04/10/c3BVDOCJGQy2ITS.png" alt="20200410064227543.png"></p>
-<h3 id="按照上面做的-在密码输入输出域里加入同样的C脚本"><a href="#按照上面做的-在密码输入输出域里加入同样的C脚本" class="headerlink" title="按照上面做的 在密码输入输出域里加入同样的C脚本"></a>按照上面做的 在密码输入输出域里加入同样的C脚本</h3><h3 id="在登录按钮的事件-gt-按钮-gt-鼠标按下-加入C脚本"><a href="#在登录按钮的事件-gt-按钮-gt-鼠标按下-加入C脚本" class="headerlink" title="在登录按钮的事件-&gt;按钮-&gt;鼠标按下 加入C脚本"></a>在登录按钮的事件-&gt;按钮-&gt;鼠标按下 加入C脚本</h3><p>注意按照自己的需要更改openpicture()的画面</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="C"><figure class="iseeu highlight /c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"apdefap.h"</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">OnLButtonDown</span><span class="params">(<span class="keyword">char</span>* lpszPictureName, <span class="keyword">char</span>* lpszObjectName, <span class="keyword">char</span>* lpszPropertyName)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> code (<span class="meta-string">"UseAdmin.DLL"</span>)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"pwrt_api.h"</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> code ()</span></span><br><span class="line"><span class="keyword">if</span> (PWRTSilentLogin(GetInputValueChar(lpszPictureName,<span class="string">"1"</span>),GetInputValueChar(lpszPictureName,<span class="string">"2"</span>)) == FALSE)</span><br><span class="line">MessageBox (<span class="literal">NULL</span>, <span class="string">"错误,请重新输入!"</span> , <span class="string">"提示"</span>, MB_ICONEXCLAMATION| MB_SYSTEMMODAL );<span class="comment">// &#125;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">OpenPicture(<span class="string">"你要进入的画面"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p><img src="https://i.loli.net/2020/04/10/pbWEisJFAyX8kDZ.png" alt="20200410065631708.png"></p>
-<h3 id="退出按钮中加入退出wincc脚本可以了"><a href="#退出按钮中加入退出wincc脚本可以了" class="headerlink" title="退出按钮中加入退出wincc脚本可以了"></a>退出按钮中加入退出wincc脚本可以了</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="C"><figure class="iseeu highlight /c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"apdefap.h"</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">OnLButtonDown</span><span class="params">(<span class="keyword">char</span>* lpszPictureName, <span class="keyword">char</span>* lpszObjectName, <span class="keyword">char</span>* lpszPropertyName, UINT nFlags, <span class="keyword">int</span> x, <span class="keyword">int</span> y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="keyword">long</span> Ret = IDNO; </span><br><span class="line"> Ret  = MessageBox(<span class="literal">NULL</span>, <span class="string">"您确实要退出 WinCC 运行系统么？"</span>,    <span class="string">"请确认"</span>, MB_YESNO | MB_ICONQUESTION | MB_DEFBUTTON2 |  MB_SYSTEMMODAL); </span><br><span class="line">  <span class="keyword">if</span> (Ret == IDYES)  </span><br><span class="line">ExitWinCC ();    <span class="comment">//退出wincc</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p><img src="https://i.loli.net/2020/04/10/BA4h3W8tGMsD9jJ.png" alt="20200410070217481.png"></p>
-<h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3>]]></content>
+      
+      
+        <tags>
+            
+            <tag> wincc </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>黑苹果</title>
+      <link href="/posts/55f059f2.html"/>
+      <url>/posts/55f059f2.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="今天逛了一下苹果官网，看了一下前一段时间出的MAC-Pro"><a href="#今天逛了一下苹果官网，看了一下前一段时间出的MAC-Pro" class="headerlink" title="今天逛了一下苹果官网，看了一下前一段时间出的MAC Pro"></a>今天逛了一下苹果官网，看了一下前一段时间出的MAC Pro</h1><h2 id="顶配RMB-411-768（四十万买个电脑hhh）"><a href="#顶配RMB-411-768（四十万买个电脑hhh）" class="headerlink" title="顶配RMB:411,768（四十万买个电脑hhh）"></a>顶配RMB:411,768（四十万买个电脑hhh）</h2><p><img src="https://i.loli.net/2020/03/31/Aw1aWrh4d3lEstf.png" alt="Snipaste_2020-03-31_20-41-19.png"></p><a id="more"></a><h2 id="低配RMB-54-999-除了存储1T，其他都是最低配"><a href="#低配RMB-54-999-除了存储1T，其他都是最低配" class="headerlink" title="低配RMB:54,999(除了存储1T，其他都是最低配)"></a>低配RMB:54,999(除了存储1T，其他都是最低配)</h2><p><img src="https://i.loli.net/2020/03/31/I8QLXoUBetnxTwk.png" alt="Snipaste_2020-03-31_21-25-39.png"></p><h3 id="试试自己装一台相同性能配置的黑苹果要多少"><a href="#试试自己装一台相同性能配置的黑苹果要多少" class="headerlink" title="试试自己装一台相同性能配置的黑苹果要多少"></a>试试自己装一台相同性能配置的黑苹果要多少</h3><h4 id="以下配件都是参考别人的成功案例查找的可行配置"><a href="#以下配件都是参考别人的成功案例查找的可行配置" class="headerlink" title="以下配件都是参考别人的成功案例查找的可行配置"></a>以下配件都是参考别人的成功案例查找的可行配置</h4><p><img src="https://i.loli.net/2020/03/31/GAWrlB6HL5ZoX92.png" alt="Snipaste_2020-03-31_21-21-50.png"></p><blockquote><p>一套顶六套，个人感觉这套配置可以完成99%白苹果功能并且跑分会超过白苹果（不（<code>mei</code>）想（<code>qian</code>）实验）</p></blockquote><h2 id="八千多在官网上买个显示器都买不到，最多可以买个显示器支架hhh"><a href="#八千多在官网上买个显示器都买不到，最多可以买个显示器支架hhh" class="headerlink" title="八千多在官网上买个显示器都买不到，最多可以买个显示器支架hhh"></a>八千多在官网上买个显示器都买不到，最多可以买个显示器支架hhh</h2><p><img src="https://i.loli.net/2020/03/31/QJ7PHp2ej3A8MDx.png" alt="Snipaste_2020-03-31_21-14-29.png"><br><img src="https://i.loli.net/2020/03/31/lndDNoMkAEUvJbO.png" alt="Snipaste_2020-03-31_21-13-40.png"></p><blockquote><p>个人观点，仅供参考，装机小白，欢迎评论。</p></blockquote><blockquote><p>参考文章链接<br> <a href="https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI" target="_blank" rel="noopener external nofollow noreferrer">github大神</a><br> <a href="https://www.apple.com.cn/" target="_blank" rel="noopener external nofollow noreferrer">苹果官网</a></p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>毕业设计</category>
+          
+          <category> 电脑装机 </category>
+          
       </categories>
-      <tags>
-        <tag>wincc</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>wincc用户权限</title>
-    <url>/posts/a68fff4f.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="默认授权概述"><a href="#默认授权概述" class="headerlink" title="默认授权概述"></a>默认授权概述</h2><h3 id="1：用户管理"><a href="#1：用户管理" class="headerlink" title="1：用户管理"></a>1：用户管理</h3><p>用户可以访问用户管理并进行更改。</p>
-<h3 id="2：-数值输入"><a href="#2：-数值输入" class="headerlink" title="2： 数值输入"></a>2： 数值输入</h3><p>用户可以手动输入值，例如在 I/O 字段中。</p>
-<a id="more"></a>
-<h3 id="3：-过程控制"><a href="#3：-过程控制" class="headerlink" title="3： 过程控制"></a>3： 过程控制</h3><p>用户可以操作过程。</p>
-<h3 id="4：-画面编辑"><a href="#4：-画面编辑" class="headerlink" title="4： 画面编辑"></a>4： 画面编辑</h3><p>用户可以更改画面和画面元素。</p>
-<h3 id="5：-画面切换"><a href="#5：-画面切换" class="headerlink" title="5： 画面切换"></a>5： 画面切换</h3><p>用户可以触发画面更改，并打开其它组态的画面。</p>
-<h3 id="6：-窗口选择"><a href="#6：-窗口选择" class="headerlink" title="6： 窗口选择"></a>6： 窗口选择</h3><p>用户可以在 Windows 中切换应用程序窗口。</p>
-<h3 id="7：-硬拷贝"><a href="#7：-硬拷贝" class="headerlink" title="7： 硬拷贝"></a>7： 硬拷贝</h3><p>用户可以建立当前过程画面的硬拷贝。</p>
-<h3 id="8：-确认消息"><a href="#8：-确认消息" class="headerlink" title="8： 确认消息"></a>8： 确认消息</h3><p>用户可以确认消息。</p>
-<h3 id="9：-锁定消息"><a href="#9：-锁定消息" class="headerlink" title="9： 锁定消息"></a>9： 锁定消息</h3><p>用户可以锁定消息。</p>
-<h3 id="10：-解锁消息"><a href="#10：-解锁消息" class="headerlink" title="10： 解锁消息"></a>10： 解锁消息</h3><p>用户可以解锁消息。</p>
-<h3 id="11：-消息编辑"><a href="#11：-消息编辑" class="headerlink" title="11： 消息编辑"></a>11： 消息编辑</h3><p>用户可以在“报警记录”编辑器（例如使用 ODK）中编辑消息。</p>
-<h3 id="12：-启动归档"><a href="#12：-启动归档" class="headerlink" title="12： 启动归档"></a>12： 启动归档</h3><p>用户可以启动归档过程。</p>
-<h3 id="13：-停止归档"><a href="#13：-停止归档" class="headerlink" title="13： 停止归档"></a>13： 停止归档</h3><p>用户可以结束归档。</p>
-<h3 id="14：-归档值编辑"><a href="#14：-归档值编辑" class="headerlink" title="14： 归档值编辑"></a>14： 归档值编辑</h3><p>用户可以组态归档变量的计算。</p>
-<h3 id="15：-归档编辑"><a href="#15：-归档编辑" class="headerlink" title="15： 归档编辑"></a>15： 归档编辑</h3><p>用户可以控制并更改归档。</p>
-<h3 id="16：-动作编辑"><a href="#16：-动作编辑" class="headerlink" title="16： 动作编辑"></a>16： 动作编辑</h3><p>用户可以运行和编辑脚本（例如使用 ODK）。</p>
-<h3 id="17：-项目管理器"><a href="#17：-项目管理器" class="headerlink" title="17： 项目管理器"></a>17： 项目管理器</h3><p>用户可以不受限制访问 WinCC 项目管理器。</p>
-<h3 id="18：-远程激活"><a href="#18：-远程激活" class="headerlink" title="18： 远程激活"></a>18： 远程激活</h3><p>用户可通过另一台计算机启动和终止运行系统。</p>
-<h3 id="19：-远程组态"><a href="#19：-远程组态" class="headerlink" title="19： 远程组态"></a>19： 远程组态</h3><p>用户可通过另一台计算机组态和编辑项目。</p>
-<h3 id="20：-Web-访问-仅监视"><a href="#20：-Web-访问-仅监视" class="headerlink" title="20： Web 访问 - 仅监视"></a>20： Web 访问 - 仅监视</h3><p>用户可通过另一台计算机打开项目，但是无法更改或控制该项目。</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 黑苹果 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown--表格table处理</title>
+      <link href="/posts/6b64eeb8.html"/>
+      <url>/posts/6b64eeb8.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="利用HTML来实现表格功能"><a href="#利用HTML来实现表格功能" class="headerlink" title="利用HTML来实现表格功能"></a>利用HTML来实现表格功能</h2><p>插入表格代码如下：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">table</span> <span class="attr">class</span>=<span class="string">"table table-bordered table-striped table-condensed"</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;苹果&lt;/td&gt;</span></span><br><span class="line"><span class="code">&lt;td&gt;apple&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;香蕉&lt;/td&gt;</span></span><br><span class="line"><span class="code">&lt;td&gt;banana&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div><a id="more"></a><p>以上代码实际上是属于HTML CSS代码，不过好在markdown支持<strong>部分</strong>HTML语法<br>如果只是table标签 表格功能在markdown中将不起作用。<br>如果table中加了个class属性，就可以正常使用表格功能了（可能是自动将md文件转HTML时候突然认出了“哇！这个加了class属性的table，感觉很是熟悉”hhh）</p><h3 id="其中"><a href="#其中" class="headerlink" title="其中"></a><strong>其中</strong></h3><blockquote><p>table-bordered：带圆角边框和竖线<br>table-striped：奇偶行颜色不同<br>table-condensed：压缩行距</p></blockquote><h3 id="除了以上另外还有其他可供选择："><a href="#除了以上另外还有其他可供选择：" class="headerlink" title="除了以上另外还有其他可供选择："></a>除了以上另外还有其他可供选择：</h3><p>1、如果需要表头跟内容不一样，可以将<code>&lt;td&gt;表头内容&lt;/td&gt; 更换成 &lt;th&gt;表头内容&lt;/th&gt;</code>。<br>2、如果表格内文需要换行，可以在要换行的内容后加入<code>&lt;br&gt;</code>，后面的内容就会跑到下一行。<br>3、如果内文中有代码，需要特别显示，可使用：<code>&lt;code&gt;代码&lt;/code&gt;</code>。<br>4、如果表格中有需要设为斜体的内容，可使用：<I>要设为斜体的内容</I>。<br>5、如果有跨行或者跨列的单元格，可用<code>&lt;th colspan=&quot;跨列数&quot;&gt;内容&lt;/th&gt;</code>。<br>6、如果要调整某一列的宽度，可使用：<code>&lt;th width=&quot;宽度值或百分比&quot;&gt;表头内容&lt;/th&gt;</code>。  </p><p>最后效果如下：</p><table class="table table-bordered table-striped table-condensed">    <tr>        <td>苹果</td>    <td>apple</td>    </tr>    <tr>        <td>香蕉</td>    <td>banana</td>    </tr></table><p>有关使用表格功能可能会出现的问题可以参考这一篇文章<br><a href="https://codebai.top/posts/a1cfa130.html" target="_blank" rel="noopener external nofollow noreferrer">siderbar侧栏进入post-body栏解决方案</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>siderbar进入post-body解决方案</title>
+      <link href="/posts/a1cfa130.html"/>
+      <url>/posts/a1cfa130.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>&emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。<br><img src="https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png" alt="image.png"></p><a id="more"></a><blockquote><p><strong>what?难道还有宽度塌陷（hhh）</strong></p></blockquote><p>肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置<br>果然自己在编写md文件的时候，有关表格的代码写的有问题<br>源码如下：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">| 配件   |  名称  |  价格 |</span><br><span class="line">|:-------: |:---------:|:--------:|</span><br><span class="line">|   处理器  |   锐龙3660|     taobao     |</span><br><span class="line">|   散热   |   AMD原装|   taobao   |</span><br><span class="line">|   主板   |微星B450M火箭筒|   taobao   |</span><br><span class="line">|   内存   |   金士顿 掠食者3200 8Gx2      |   taobao   |</span><br><span class="line">|   显卡   |   微星RX5700公版  |  taobao   |</span><br><span class="line">|   电源   |   酷冷至尊 GX500  |   taobao  |</span><br><span class="line">|   固态   |   浦科特M9EG 512G   |  taobao   |</span><br><span class="line">|   机箱   |   酷冷至尊NR400  |  taobao  |</span><br><span class="line">|   合计   |    绝大部分游戏都能玩 |   6199   |</span><br><span class="line"></span><br><span class="line"><span class="code">`+`</span> <span class="code">`---`</span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!--more--&gt;</span></span></span><br></pre></td></tr></table></figure></div><p>解决办法就是在表格结束之后换行添加<code>---</code>分界线就好<br>###关于markdown的表格的另外一种写法参考这篇文章：</p><h3 id="Markdown–表格table处理"><a href="#Markdown–表格table处理" class="headerlink" title="Markdown–表格table处理"></a><a href="https://codebai.top/posts/6b64eeb8.html" target="_blank" rel="noopener external nofollow noreferrer">Markdown–表格table处理</a></h3>]]></content>
+      
+      
       <categories>
-        <category>毕业设计</category>
+          
+          <category> hexo报错 </category>
+          
       </categories>
-      <tags>
-        <tag>wincc</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown--表格table处理</title>
-    <url>/posts/6b64eeb8.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="利用HTML来实现表格功能"><a href="#利用HTML来实现表格功能" class="headerlink" title="利用HTML来实现表格功能"></a>利用HTML来实现表格功能</h2><p>插入表格代码如下：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">table</span> <span class="attr">class</span>=<span class="string">"table table-bordered table-striped table-condensed"</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;苹果&lt;/td&gt;</span></span><br><span class="line"><span class="code">	&lt;td&gt;apple&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="code">    &lt;tr&gt;</span></span><br><span class="line"><span class="code">        &lt;td&gt;香蕉&lt;/td&gt;</span></span><br><span class="line"><span class="code">	&lt;td&gt;banana&lt;/td&gt;</span></span><br><span class="line"><span class="code">    &lt;/tr&gt;</span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-
-<a id="more"></a>
-<p>以上代码实际上是属于HTML CSS代码，不过好在markdown支持<strong>部分</strong>HTML语法<br>如果只是table标签 表格功能在markdown中将不起作用。<br>如果table中加了个class属性，就可以正常使用表格功能了（可能是自动将md文件转HTML时候突然认出了“哇！这个加了class属性的table，感觉很是熟悉”hhh）</p>
-<h3 id="其中"><a href="#其中" class="headerlink" title="其中"></a><strong>其中</strong></h3><blockquote>
-<p>table-bordered：带圆角边框和竖线<br>table-striped：奇偶行颜色不同<br>table-condensed：压缩行距</p>
-</blockquote>
-<h3 id="除了以上另外还有其他可供选择："><a href="#除了以上另外还有其他可供选择：" class="headerlink" title="除了以上另外还有其他可供选择："></a>除了以上另外还有其他可供选择：</h3><p>1、如果需要表头跟内容不一样，可以将<code>&lt;td&gt;表头内容&lt;/td&gt; 更换成 &lt;th&gt;表头内容&lt;/th&gt;</code>。<br>2、如果表格内文需要换行，可以在要换行的内容后加入<code>&lt;br&gt;</code>，后面的内容就会跑到下一行。<br>3、如果内文中有代码，需要特别显示，可使用：<code>&lt;code&gt;代码&lt;/code&gt;</code>。<br>4、如果表格中有需要设为斜体的内容，可使用：<I>要设为斜体的内容</I>。<br>5、如果有跨行或者跨列的单元格，可用<code>&lt;th colspan=&quot;跨列数&quot;&gt;内容&lt;/th&gt;</code>。<br>6、如果要调整某一列的宽度，可使用：<code>&lt;th width=&quot;宽度值或百分比&quot;&gt;表头内容&lt;/th&gt;</code>。  </p>
-<p>最后效果如下：</p>
-<table class="table table-bordered table-striped table-condensed">
-    <tr>
-        <td>苹果</td>
-    <td>apple</td>
-    </tr>
-    <tr>
-        <td>香蕉</td>
-    <td>banana</td>
-    </tr>
-</table>
-
-<p>有关使用表格功能可能会出现的问题可以参考这一篇文章<br><a href="https://codebai.top/posts/a1cfa130.html" target="_blank" rel="noopener external nofollow noreferrer">siderbar侧栏进入post-body栏解决方案</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>siderbar进入post-body解决方案</title>
-    <url>/posts/a1cfa130.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>&emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。<br><img src="https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png" alt="image.png"></p>
-<a id="more"></a>
-<blockquote>
-<p><strong>what?难道还有宽度塌陷（hhh）</strong></p>
-</blockquote>
-<p>肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置<br>果然自己在编写md文件的时候，有关表格的代码写的有问题<br>源码如下：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">| 配件 	  |  名称	  | 	 价格 |</span><br><span class="line">|:-------: |:---------:|:--------:|</span><br><span class="line">|   处理器  |   锐龙3660|     taobao     |</span><br><span class="line">|   散热   |   AMD原装|   taobao   |</span><br><span class="line">|   主板   |微星B450M火箭筒|   taobao   |</span><br><span class="line">|   内存   |   金士顿 掠食者3200 8Gx2      |   taobao   |</span><br><span class="line">|   显卡   |   微星RX5700公版  |  taobao   |</span><br><span class="line">|   电源   |   酷冷至尊 GX500  |   taobao  |</span><br><span class="line">|   固态   |   浦科特M9EG 512G   |  taobao   |</span><br><span class="line">|   机箱   |   酷冷至尊NR400  |  taobao  |</span><br><span class="line">|   合计   |    绝大部分游戏都能玩 |   6199   |</span><br><span class="line"></span><br><span class="line"><span class="code">`+`</span> <span class="code">`---`</span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!--more--&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-<p>解决办法就是在表格结束之后换行添加<code>---</code>分界线就好<br>###关于markdown的表格的另外一种写法参考这篇文章：</p>
-<h3 id="Markdown–表格table处理"><a href="#Markdown–表格table处理" class="headerlink" title="Markdown–表格table处理"></a><a href="https://codebai.top/posts/6b64eeb8.html" target="_blank" rel="noopener external nofollow noreferrer">Markdown–表格table处理</a></h3>]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> next </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MarkDown添加图片的几种方式</title>
+      <link href="/posts/bd8ce08f.html"/>
+      <url>/posts/bd8ce08f.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在MarkDown文档中插图最基础的格式就是：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">Alt text</span>](<span class="link">图片链接 "optional title"</span>)</span><br></pre></td></tr></table></figure></div><p>或则</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"图片链接"</span> <span class="attr">width</span>=<span class="string">""</span>  <span class="attr">height</span>=<span class="string">""</span> &gt;</span></span></span><br></pre></td></tr></table></figure></div><a id="more"></a><blockquote><p>Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 </p></blockquote><blockquote><p>图片链接：可以是图片的本地地址或者是网址。</p></blockquote><blockquote><p>“optional title”：鼠标悬置于图片上会出现的标题文字，可以不写。</p></blockquote><h2 id="插入网络图片：最常用的最方便的方法"><a href="#插入网络图片：最常用的最方便的方法" class="headerlink" title="插入网络图片：最常用的最方便的方法"></a>插入网络图片：最常用的最方便的方法</h2><p>只需要在基础语法的括号中填入图片的网络链接即可，现在已经有很多免费/收费图床和方便传图的小工具可选。<br>例如：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">good doctor</span>](<span class="link">https://s1.ax1x.com/2020/03/23/8ojlQO.jpg  "良医"</span>)</span><br></pre></td></tr></table></figure></div><p><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" alt="good doctor" title="良医"></p><blockquote><p>1、good doctor是当图片无法显示的时候出现在界面上，良医是鼠标放在图片上显示的内容，具体可以在效果图上自己演示<br>  2、将图片存在网络服务器上，有点依赖网络，其实个人感觉印象不是太大（可能本人用的比较少）<br>  3、后面会分享一下自己使用过的图床。  </p></blockquote><h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><p>只需要在基础语法的括号中填入图片的位置路径即可，支持绝对路径和相对路径。<br>例如：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">avatar</span>](<span class="link">/home/picture/1.png</span>)</span><br></pre></td></tr></table></figure></div><blockquote><p>不灵活不好分享，本地图片的路径更改或丢失都会造成markdown文件调不出图。</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo博客解决文章置顶问题</title>
+      <link href="/posts/95ddd57d.html"/>
+      <url>/posts/95ddd57d.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="示例图："><a href="#示例图：" class="headerlink" title="示例图："></a>示例图：</h3><p><img src="https://s1.ax1x.com/2020/03/27/GPLisU.png" alt="置顶图片"></p><a id="more"></a><h2 id="博文置顶"><a href="#博文置顶" class="headerlink" title="博文置顶"></a>博文置顶</h2><p> 一种方法是手动对相关文件进行修改，具体可参考<a href="https://www.jianshu.com/p/42a4efcdf8d7" target="_blank" rel="noopener external nofollow noreferrer" class="LinkCard">手动设置博文置顶</a></p><p> 另一种方法就是，目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure></div><p>然后在需要置顶的文章的Front-matter中加上top: true即可。比如下面这篇文章：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---markdown</span><br><span class="line">title: Markdown进阶（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）</span><br><span class="line">date: 2020-03-23 08:19:22</span><br><span class="line">tags: hexo </span><br><span class="line">top: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure></div><p>到目前为止，置顶功能已经可以实现了。所有相关博文到这边就结束了。<br>样式如下：<br><img src="https://s1.ax1x.com/2020/03/27/GPLisU.png" alt="文章置顶"></p><p>不过置顶的文章显示在最上面之后，如果没有明确的置顶标志，是不是感觉有点怪怪的呢？</p><h2 id="设置置顶标志"><a href="#设置置顶标志" class="headerlink" title="设置置顶标志"></a>设置置顶标志</h2><p>打开：/blog/themes/next/layout/_macro 目录下的post.swig文件，定位到<code>&lt;div class=&quot;post-meta&quot;&gt;</code>标签下，插入如下代码：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JS"><figure class="iseeu highlight /js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> post.top %&#125;</span><br><span class="line">  &lt;i <span class="class"><span class="keyword">class</span></span>=<span class="string">"fa fa-thumb-tack"</span>&gt;&lt;<span class="regexp">/i&gt;</span></span><br><span class="line"><span class="regexp">  &lt;font color=7D26CD&gt;置顶&lt;/</span>font&gt;</span><br><span class="line">  &lt;span <span class="class"><span class="keyword">class</span></span>=<span class="string">"post-meta-divider"</span>&gt;|&lt;<span class="regexp">/span&gt;</span></span><br><span class="line"><span class="regexp">&#123;% endif %&#125;</span></span><br></pre></td></tr></table></figure></div><p>效果展示：</p><p><img src="https://s1.ax1x.com/2020/03/27/GPLisU.png" alt="alt 置顶图片" title="置顶"></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><p><a href="https://www.jianshu.com/p/42a4efcdf8d7" target="_blank" rel="noopener external nofollow noreferrer">解决Hexo博客文章置顶问题</a></p></li><li><p><a href="http://www.netcan666.com/2015/11/22/%E8%A7%A3%E5%86%B3Hexo%E7%BD%AE%E9%A1%B6%E9%97%AE%E9%A2%98/" target="_blank" rel="noopener external nofollow noreferrer">解决Hexo置顶问题</a></p></li><li><p><a href="http://jinfang.life/posts/e0bb97e1/" target="_blank" rel="noopener external nofollow noreferrer">Hexo主题的数据封装，样式渲染和扩展实例</a></p></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）</title>
+      <link href="/posts/5080762b.html"/>
+      <url>/posts/5080762b.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>基础知识：<br>Markdown 通过简单标记语法，使普通文本内容具有一定格式。但它本身不支持修改字体、字号与颜色等功能的。不过可以通过简单地HTML标签来实现<br>Size：规定文本的尺寸大小，取值从 1 到 7 ，浏览器默认值是 3.</p></blockquote><a id="more"></a><h1 id="一、更改字体、大小、颜色"><a href="#一、更改字体、大小、颜色" class="headerlink" title="一、更改字体、大小、颜色"></a>一、更改字体、大小、颜色</h1><h2 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"黑体"</span>&gt;</span>我是黑体字<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"微软雅黑"</span>&gt;</span>我是微软雅黑<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"STCAIYUN"</span>&gt;</span>我是华文彩云<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">red</span>&gt;</span>我是红色<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">#008000</span>&gt;</span>我是绿色<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">Blue</span>&gt;</span>我是蓝色<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">5</span>&gt;</span>我是尺寸<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">"黑体"</span> <span class="attr">color</span>=<span class="string">green</span> <span class="attr">size</span>=<span class="string">5</span>&gt;</span>我是黑体，绿色，尺寸为5<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h2 id="效果如下"><a href="#效果如下" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h2><p><font face="黑体">我是黑体字</font><br><font face="微软雅黑">我是微软雅黑</font><br><font face="STCAIYUN">我是华文彩云</font><br><font color=red>我是红色</font><br><font color=#008000>我是绿色</font><br><font color=Blue>我是蓝色</font><br><font size=5>我是尺寸</font><br><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font> </p><h1 id="二、为文字添加背景色"><a href="#二、为文字添加背景色" class="headerlink" title="二、为文字添加背景色"></a>二、为文字添加背景色</h1><blockquote><p>由于 style 标签和标签的 style 属性不被支持，所以这里只能是借助 table, tr, td 等表格标签的 bgcolor 属性来实现背景色。故这里对于文字背景色的设置，只是将那一整行看作一个表格，更改了那个格子的背景色（bgcolor）</p></blockquote><h2 id="Markdown语法-1"><a href="#Markdown语法-1" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span>&gt;</span><span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="tag">&lt;<span class="name">td</span> <span class="attr">bgcolor</span>=<span class="string">#bfa</span>&gt;</span>背景色#bfa<span class="tag">&lt;/<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">tr</span>&gt;</span><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h2 id="效果如下-1"><a href="#效果如下-1" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h2><table><tr><td bgcolor=black>背景色black</td></tr></table><h1 id="三、设置图片大小"><a href="#三、设置图片大小" class="headerlink" title="三、设置图片大小"></a>三、设置图片大小</h1><h2 id="原图默认大小"><a href="#原图默认大小" class="headerlink" title="原图默认大小"></a>原图默认大小</h2><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" alt="良医"><h2 id="1、设置图片百分比"><a href="#1、设置图片百分比" class="headerlink" title="1、设置图片百分比"></a>1、设置图片百分比</h2><h3 id="Markdown语法-2"><a href="#Markdown语法-2" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"https://s1.ax1x.com/2020/03/23/8ojlQO.jpg"</span> <span class="attr">width</span>=<span class="string">"50%"</span> <span class="attr">height</span>=<span class="string">"50%"</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h3 id="效果如下-2"><a href="#效果如下-2" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h3><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" width="50%" height="50%"><h2 id="2、设置图片大小"><a href="#2、设置图片大小" class="headerlink" title="2、设置图片大小"></a>2、设置图片大小</h2><h3 id="Markdown语法-3"><a href="#Markdown语法-3" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"https://s1.ax1x.com/2020/03/23/8ojlQO.jpg"</span> <span class="attr">width</span>=<span class="string">"201"</span> <span class="attr">height</span>=<span class="string">"130"</span> &gt;</span></span><br></pre></td></tr></table></figure></div><h3 id="效果如下-3"><a href="#效果如下-3" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h3><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" width="201" height="130" ><h2 id="3、设置图片居中"><a href="#3、设置图片居中" class="headerlink" title="3、设置图片居中"></a>3、设置图片居中</h2><h3 id="方法一：最常用的使用方法-使用center标签"><a href="#方法一：最常用的使用方法-使用center标签" class="headerlink" title="方法一：最常用的使用方法,使用center标签"></a>方法一：最常用的使用方法,使用<code>center</code>标签</h3><blockquote><p>可以设置居中，但是不易更改图片大小<br>实际上<code>center</code>标签会使中间的说有内容都会居中</p></blockquote><h3 id="Markdown语法-4"><a href="#Markdown语法-4" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">center</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">![<span class="string">good doctor</span>](<span class="link">https://s1.ax1x.com/2020/03/23/8ojlQO.jpg "良医"</span>)</span><br><span class="line"><span class="section"># good doctor是当图片无法显示的时候出现在界面上，良医是鼠标放在图片上显示的内容，具体可以在效果图上自己演示</span></span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div><h3 id="效果如下-4"><a href="#效果如下-4" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h3><center><p><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" alt="good doctor" title="良医"></p></center><h3 id="方法二：使用HTML中的标签"><a href="#方法二：使用HTML中的标签" class="headerlink" title="方法二：使用HTML中的标签"></a>方法二：使用HTML中的标签</h3><blockquote><p>1.<strong>这里需要用的HTML中的块元素标签<code>div</code>, 使用内嵌样式align=right(left,center,right)</strong><br>  2.使用这种方法比较容易更改图片的位置和大小</p></blockquote><h3 id="Markdown语法-5"><a href="#Markdown语法-5" class="headerlink" title="Markdown语法"></a><font color=Blue>Markdown语法</font></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"https://s1.ax1x.com/2020/03/23/8ojlQO.jpg"</span> <span class="attr">width</span>=<span class="string">"50%"</span> <span class="attr">height</span>=<span class="string">"50%"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h3 id="效果如下-5"><a href="#效果如下-5" class="headerlink" title="效果如下"></a><font color=Blue>效果如下</font></h3><div align=center><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" width="60%" height="60%"></div><h1 id="四、有关图片和文字的内容会继续补充"><a href="#四、有关图片和文字的内容会继续补充" class="headerlink" title="四、有关图片和文字的内容会继续补充"></a>四、有关图片和文字的内容会继续补充</h1><center><h2 id="To-be-continued"><a href="#To-be-continued" class="headerlink" title="To be continued"></a>To be continued</h2>]]></content>
+      
+      
       <categories>
-        <category>hexo报错</category>
+          
+          <category> MarkDown </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MarkDown添加图片的几种方式</title>
-    <url>/posts/bd8ce08f.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在MarkDown文档中插图最基础的格式就是：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">Alt text</span>](<span class="link">图片链接 "optional title"</span>)</span><br></pre></td></tr></table></figure></div>
-<p>或则</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"图片链接"</span> <span class="attr">width</span>=<span class="string">""</span>  <span class="attr">height</span>=<span class="string">""</span> &gt;</span></span></span><br></pre></td></tr></table></figure></div>
-<a id="more"></a>
-<blockquote>
-<p>Alt text：图片的Alt标签，用来描述图片的关键词，可以不写。最初的本意是当图片因为某种原因不能被显示时而出现的替代文字，后来又被用于SEO，可以方便搜索引擎根据Alt text里面的关键词搜索到图片。 </p>
-</blockquote>
-<blockquote>
-<p>图片链接：可以是图片的本地地址或者是网址。</p>
-</blockquote>
-<blockquote>
-<p>“optional title”：鼠标悬置于图片上会出现的标题文字，可以不写。</p>
-</blockquote>
-<h2 id="插入网络图片：最常用的最方便的方法"><a href="#插入网络图片：最常用的最方便的方法" class="headerlink" title="插入网络图片：最常用的最方便的方法"></a>插入网络图片：最常用的最方便的方法</h2><p>只需要在基础语法的括号中填入图片的网络链接即可，现在已经有很多免费/收费图床和方便传图的小工具可选。<br>例如：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">good doctor</span>](<span class="link">https://s1.ax1x.com/2020/03/23/8ojlQO.jpg  "良医"</span>)</span><br></pre></td></tr></table></figure></div>
-
-<p><img src="https://s1.ax1x.com/2020/03/23/8ojlQO.jpg" alt="good doctor" title="良医"></p>
-<blockquote>
-<p>1、good doctor是当图片无法显示的时候出现在界面上，良医是鼠标放在图片上显示的内容，具体可以在效果图上自己演示<br>  2、将图片存在网络服务器上，有点依赖网络，其实个人感觉印象不是太大（可能本人用的比较少）<br>  3、后面会分享一下自己使用过的图床。  </p>
-</blockquote>
-<h2 id="插入本地图片"><a href="#插入本地图片" class="headerlink" title="插入本地图片"></a>插入本地图片</h2><p>只需要在基础语法的括号中填入图片的位置路径即可，支持绝对路径和相对路径。<br>例如：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">avatar</span>](<span class="link">/home/picture/1.png</span>)</span><br></pre></td></tr></table></figure></div>
-<blockquote>
-<p>不灵活不好分享，本地图片的路径更改或丢失都会造成markdown文件调不出图。</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo博客解决文章置顶问题</title>
-    <url>/posts/95ddd57d.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="示例图："><a href="#示例图：" class="headerlink" title="示例图："></a>示例图：</h3><p><img src="https://s1.ax1x.com/2020/03/27/GPLisU.png" alt="置顶图片"></p>
-<a id="more"></a>
-<h2 id="博文置顶"><a href="#博文置顶" class="headerlink" title="博文置顶"></a>博文置顶</h2><p> 一种方法是手动对相关文件进行修改，具体可参考<a href="https://www.jianshu.com/p/42a4efcdf8d7" target="_blank" rel="noopener external nofollow noreferrer" class="LinkCard">手动设置博文置顶</a></p>
-<p> 另一种方法就是，目前已经有修改后支持置顶的仓库，可以直接用以下命令安装。</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure></div>
-<p>然后在需要置顶的文章的Front-matter中加上top: true即可。比如下面这篇文章：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">---markdown</span><br><span class="line">title: Markdown进阶（更改字体、颜色、大小，设置文字背景色，调整图片大小设置居中）</span><br><span class="line">date: 2020-03-23 08:19:22</span><br><span class="line">tags: hexo </span><br><span class="line">top: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure></div>
-<p>到目前为止，置顶功能已经可以实现了。所有相关博文到这边就结束了。<br>样式如下：<br><img src="https://s1.ax1x.com/2020/03/27/GPLisU.png" alt="文章置顶"></p>
-<p>不过置顶的文章显示在最上面之后，如果没有明确的置顶标志，是不是感觉有点怪怪的呢？</p>
-<h2 id="设置置顶标志"><a href="#设置置顶标志" class="headerlink" title="设置置顶标志"></a>设置置顶标志</h2><p>打开：/blog/themes/next/layout/_macro 目录下的post.swig文件，定位到<code>&lt;div class=&quot;post-meta&quot;&gt;</code>标签下，插入如下代码：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JS"><figure class="iseeu highlight /js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> post.top %&#125;</span><br><span class="line">  &lt;i <span class="class"><span class="keyword">class</span></span>=<span class="string">"fa fa-thumb-tack"</span>&gt;&lt;<span class="regexp">/i&gt;</span></span><br><span class="line"><span class="regexp">  &lt;font color=7D26CD&gt;置顶&lt;/</span>font&gt;</span><br><span class="line">  &lt;span <span class="class"><span class="keyword">class</span></span>=<span class="string">"post-meta-divider"</span>&gt;|&lt;<span class="regexp">/span&gt;</span></span><br><span class="line"><span class="regexp">&#123;% endif %&#125;</span></span><br></pre></td></tr></table></figure></div>
-<p>效果展示：</p>
-<p><img src="https://s1.ax1x.com/2020/03/27/GPLisU.png" alt="alt 置顶图片" title="置顶"></p>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
-<li><p><a href="https://www.jianshu.com/p/42a4efcdf8d7" target="_blank" rel="noopener external nofollow noreferrer">解决Hexo博客文章置顶问题</a></p>
-</li>
-<li><p><a href="http://www.netcan666.com/2015/11/22/%E8%A7%A3%E5%86%B3Hexo%E7%BD%AE%E9%A1%B6%E9%97%AE%E9%A2%98/" target="_blank" rel="noopener external nofollow noreferrer">解决Hexo置顶问题</a></p>
-</li>
-<li><p><a href="http://jinfang.life/posts/e0bb97e1/" target="_blank" rel="noopener external nofollow noreferrer">Hexo主题的数据封装，样式渲染和扩展实例</a></p>
-</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为博客添加站内搜索功能</title>
-    <url>/posts/60daf15.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
-<p>当我的博客文章和练习题发表得比较多的时候，要查询哪些习题是我曾经整理过的，就变得比较复杂和麻烦了，我们不可能一个一个文件的挨着去找。为了方便读者查询相应的题目以及为了我能快速定位我整理过哪些习题，故添加了站内搜索功能。</p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="a-前言"><a href="#a-前言" class="headerlink" title="a.前言"></a>a.前言</h2><p>我的博客采用的是hexo进行搭建，选择的是next主题。而next主题其实也集成了几种搜索插件，我采用的是local-search插件。此插件会生成一个search.xml文件，其中包含了你网站上所有相关的数据，搜索的时候就从这个文件中根据关键字检索出相应的链接。</p>
-<h2 id="b-安装"><a href="#b-安装" class="headerlink" title="b.安装"></a>b.安装</h2><p>在项目的根目录下，通过<code>cmd</code>或者<code>Git Bash</code>执行下面这条命令以安装<code>hexo-generator-searchdb</code>插件。</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure></div>
-<h2 id="c-配置"><a href="#c-配置" class="headerlink" title="c.配置"></a>c.配置</h2><h3 id="1-修改站点配置文件"><a href="#1-修改站点配置文件" class="headerlink" title="1.修改站点配置文件"></a>1.修改站点配置文件</h3><p>打开站点配置文件，即根目录下的_config.yml文件，添加以下代码</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="YML"><figure class="iseeu highlight /yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span> <span class="comment">##索引文件的路径，相对于站点根目录</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span>       <span class="comment">##搜索范围，默认是 post，还可以选择 page、all，设置成 all 表示搜索所有页面</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span>         <span class="comment">##限制搜索的条目数</span></span><br></pre></td></tr></table></figure></div>
-<p>注意冒号和空格的处理。这些参数都是可以修改的，不过默认设置为这样就行了，一般也不需要修改。如果要修改，请查看<a href="https://github.com/theme-next/hexo-generator-searchdb" target="_blank" rel="noopener external nofollow noreferrer">hexo-generator-searchdb</a>配置参数。</p>
-<h3 id="2-修改主题配置文件"><a href="#2-修改主题配置文件" class="headerlink" title="2.修改主题配置文件"></a>2.修改主题配置文件</h3><p>打开主题配置文件，即<code>themes/next</code>下的<code>_config.yml</code>文件，将<code>local_search</code>下的<code>enable</code>修改为<code>true</code>，即启用<code>local_search</code>插件。</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="YML"><figure class="iseeu highlight /yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">True</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="d-部署"><a href="#d-部署" class="headerlink" title="d.部署"></a>d.部署</h2><p>  执行上述步骤后，再运行以下命令，部署上去，就可以看到在页面上有一个搜索图标，点击并输入相关文字，就可以看到搜索结果，点击即可跳转到对应页面，十分方便。<br>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">hexo clean</span></span><br><span class="line"><span class="meta">#</span><span class="bash">hexo g</span></span><br><span class="line"><span class="meta">#</span><span class="bash">hexo d</span></span><br></pre></td></tr></table></figure></div></p>
-<h2 id="e-最终效果见本人博客主页"><a href="#e-最终效果见本人博客主页" class="headerlink" title="e.最终效果见本人博客主页"></a>e.最终效果见本人博客主页</h2>]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用hexo免费搭建github博客</title>
-    <url>/posts/2dc19a8f.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>Win10环境下基于Hexo的静态博客环境搭建，及其阿里云部署</title>
-    <url>/posts/3c1d3d37.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>aliyun.win10</tag>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>tar命令中的-C作用</title>
-    <url>/posts/f9a72a7f.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数  </p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#tar -xvf nginx-1.16.0.tar.gz -C &#x2F;usr&#x2F;local</span><br></pre></td></tr></table></figure></div>
-<p><strong>注释：</strong>上面的命令将 nginx-1.16.0.tar.gz 这个压缩包解压到/usr/local目录下。</p>
-<h4 id="C-选项的作用是：指定需要解压到的目录。"><a href="#C-选项的作用是：指定需要解压到的目录。" class="headerlink" title="-C 选项的作用是：指定需要解压到的目录。"></a>-C 选项的作用是：指定需要解压到的目录。</h4>]]></content>
-      <tags>
-        <tag>linux</tag>
-        <tag>shell命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>需要记住的断点续传命令wget -c 网址</title>
-    <url>/posts/c9f35c85.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>&emsp; 当文件特别大或者网络特别慢的时候，往往一个文件还没有下载完，连接就已经被切断，此时就需要断点续传。<br>特别是使用谷歌浏览器下载东西的时候！<br>wget的断点续传是自动的，只需要使用-c参数，例如：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#wget -c https:&#x2F;&#x2F;nginx.org&#x2F;download&#x2F;nginx-1.10.1.tar.gz</span><br></pre></td></tr></table></figure></div>]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为博客添加站内搜索功能</title>
+      <link href="/posts/60daf15.html"/>
+      <url>/posts/60daf15.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote><p>当我的博客文章和练习题发表得比较多的时候，要查询哪些习题是我曾经整理过的，就变得比较复杂和麻烦了，我们不可能一个一个文件的挨着去找。为了方便读者查询相应的题目以及为了我能快速定位我整理过哪些习题，故添加了站内搜索功能。</p></blockquote><a id="more"></a><h2 id="a-前言"><a href="#a-前言" class="headerlink" title="a.前言"></a>a.前言</h2><p>我的博客采用的是hexo进行搭建，选择的是next主题。而next主题其实也集成了几种搜索插件，我采用的是local-search插件。此插件会生成一个search.xml文件，其中包含了你网站上所有相关的数据，搜索的时候就从这个文件中根据关键字检索出相应的链接。</p><h2 id="b-安装"><a href="#b-安装" class="headerlink" title="b.安装"></a>b.安装</h2><p>在项目的根目录下，通过<code>cmd</code>或者<code>Git Bash</code>执行下面这条命令以安装<code>hexo-generator-searchdb</code>插件。</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure></div><h2 id="c-配置"><a href="#c-配置" class="headerlink" title="c.配置"></a>c.配置</h2><h3 id="1-修改站点配置文件"><a href="#1-修改站点配置文件" class="headerlink" title="1.修改站点配置文件"></a>1.修改站点配置文件</h3><p>打开站点配置文件，即根目录下的_config.yml文件，添加以下代码</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="YML"><figure class="iseeu highlight /yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span> <span class="comment">##索引文件的路径，相对于站点根目录</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span>       <span class="comment">##搜索范围，默认是 post，还可以选择 page、all，设置成 all 表示搜索所有页面</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span>         <span class="comment">##限制搜索的条目数</span></span><br></pre></td></tr></table></figure></div><p>注意冒号和空格的处理。这些参数都是可以修改的，不过默认设置为这样就行了，一般也不需要修改。如果要修改，请查看<a href="https://github.com/theme-next/hexo-generator-searchdb" target="_blank" rel="noopener external nofollow noreferrer">hexo-generator-searchdb</a>配置参数。</p><h3 id="2-修改主题配置文件"><a href="#2-修改主题配置文件" class="headerlink" title="2.修改主题配置文件"></a>2.修改主题配置文件</h3><p>打开主题配置文件，即<code>themes/next</code>下的<code>_config.yml</code>文件，将<code>local_search</code>下的<code>enable</code>修改为<code>true</code>，即启用<code>local_search</code>插件。</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="YML"><figure class="iseeu highlight /yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">True</span></span><br><span class="line">  <span class="comment"># If auto, trigger search by changing input.</span></span><br><span class="line">  <span class="comment"># If manual, trigger search by pressing enter key or search button.</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></div><h2 id="d-部署"><a href="#d-部署" class="headerlink" title="d.部署"></a>d.部署</h2><p>  执行上述步骤后，再运行以下命令，部署上去，就可以看到在页面上有一个搜索图标，点击并输入相关文字，就可以看到搜索结果，点击即可跳转到对应页面，十分方便。<br>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">hexo clean</span></span><br><span class="line"><span class="meta">#</span><span class="bash">hexo g</span></span><br><span class="line"><span class="meta">#</span><span class="bash">hexo d</span></span><br></pre></td></tr></table></figure></div></p><h2 id="e-最终效果见本人博客主页"><a href="#e-最终效果见本人博客主页" class="headerlink" title="e.最终效果见本人博客主页"></a>e.最终效果见本人博客主页</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用hexo免费搭建github博客</title>
+      <link href="/posts/2dc19a8f.html"/>
+      <url>/posts/2dc19a8f.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Win10环境下基于Hexo的静态博客环境搭建，及其阿里云部署</title>
+      <link href="/posts/3c1d3d37.html"/>
+      <url>/posts/3c1d3d37.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> aliyun.win10 </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tar命令中的-C作用</title>
+      <link href="/posts/f9a72a7f.html"/>
+      <url>/posts/f9a72a7f.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数  </p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#tar -xvf nginx-1.16.0.tar.gz -C &#x2F;usr&#x2F;local</span><br></pre></td></tr></table></figure></div><p><strong>注释：</strong>上面的命令将 nginx-1.16.0.tar.gz 这个压缩包解压到/usr/local目录下。</p><h4 id="C-选项的作用是：指定需要解压到的目录。"><a href="#C-选项的作用是：指定需要解压到的目录。" class="headerlink" title="-C 选项的作用是：指定需要解压到的目录。"></a>-C 选项的作用是：指定需要解压到的目录。</h4>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> shell命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>需要记住的断点续传命令wget -c 网址</title>
+      <link href="/posts/c9f35c85.html"/>
+      <url>/posts/c9f35c85.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>&emsp; 当文件特别大或者网络特别慢的时候，往往一个文件还没有下载完，连接就已经被切断，此时就需要断点续传。<br>特别是使用谷歌浏览器下载东西的时候！<br>wget的断点续传是自动的，只需要使用-c参数，例如：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#wget -c https:&#x2F;&#x2F;nginx.org&#x2F;download&#x2F;nginx-1.10.1.tar.gz</span><br></pre></td></tr></table></figure></div>]]></content>
+      
+      
       <categories>
-        <category>Linux</category>
+          
+          <category> Linux </category>
+          
       </categories>
-      <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux 下如何安装nginx</title>
-    <url>/posts/e465cc7b.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="1-下载nginx安装包"><a href="#1-下载nginx安装包" class="headerlink" title="1)下载nginx安装包"></a>1)下载nginx安装包</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">wget -c https://nginx.org/download/nginx-1.16.0.tar.gz</span></span><br></pre></td></tr></table></figure></div>
-<h3 id="2）解压到-usr-local目录"><a href="#2）解压到-usr-local目录" class="headerlink" title="2）解压到/usr/local目录"></a>2）解压到/usr/local目录</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">tar -xvf nginx-1.16.0.tar.gz -C /usr/<span class="built_in">local</span></span></span><br></pre></td></tr></table></figure></div>
-<a id="more"></a>
-
-<p><em>此时压缩包已经解压完成，可以在当前目录将压缩包删除</em> </p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">rm nginx-1.16.0.tar.gz</span><br></pre></td></tr></table></figure></div>
-<h3 id="3-进入-usr-local目录，确认nginx解压到该目录下"><a href="#3-进入-usr-local目录，确认nginx解压到该目录下" class="headerlink" title="3)进入/usr/local目录，确认nginx解压到该目录下"></a>3)进入/usr/local目录，确认nginx解压到该目录下</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#cd &#x2F;usr&#x2F;local</span><br><span class="line">#ls</span><br></pre></td></tr></table></figure></div>
-<h3 id="4-进入nginx-1-16-0目录，会发现该目录下有一个configure文件，执行该配置文件。"><a href="#4-进入nginx-1-16-0目录，会发现该目录下有一个configure文件，执行该配置文件。" class="headerlink" title="4)进入nginx-1.16.0目录，会发现该目录下有一个configure文件，执行该配置文件。"></a>4)进入nginx-1.16.0目录，会发现该目录下有一个configure文件，执行该配置文件。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#cd nginx-1.16.0&#x2F;</span><br><span class="line">#ls</span><br><span class="line">#.&#x2F;configure</span><br></pre></td></tr></table></figure></div>
-<h3 id="5-编译并安装nginx。（问题的解决方案在最后）"><a href="#5-编译并安装nginx。（问题的解决方案在最后）" class="headerlink" title="5)编译并安装nginx。（问题的解决方案在最后）"></a>5)编译并安装nginx。（问题的解决方案在最后）</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#make</span><br><span class="line">#make install</span><br></pre></td></tr></table></figure></div>
-<h3 id="6-查找nginx安装目录。"><a href="#6-查找nginx安装目录。" class="headerlink" title="6)查找nginx安装目录。"></a>6)查找nginx安装目录。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#whereis nginx</span><br></pre></td></tr></table></figure></div>
-<h3 id="7-进入安装目录。"><a href="#7-进入安装目录。" class="headerlink" title="7)进入安装目录。"></a>7)进入安装目录。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#cd &#x2F;usr&#x2F;local&#x2F;nginx</span><br><span class="line">#ls</span><br></pre></td></tr></table></figure></div>
-<h3 id="8-由于nginx默认通过80端口访问，而Linux默认情况下不会开发该端口号，因此需要开放linux的80端口供外部访问。"><a href="#8-由于nginx默认通过80端口访问，而Linux默认情况下不会开发该端口号，因此需要开放linux的80端口供外部访问。" class="headerlink" title="8)由于nginx默认通过80端口访问，而Linux默认情况下不会开发该端口号，因此需要开放linux的80端口供外部访问。"></a>8)由于nginx默认通过80端口访问，而Linux默认情况下不会开发该端口号，因此需要开放linux的80端口供外部访问。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#&#x2F;sbin&#x2F;iptables -I INPUT -p tcp –-dport 80 -j ACCEPT</span><br></pre></td></tr></table></figure></div>
-<h3 id="9-进入-usr-local-nginx-sbin目录，启动nginx。"><a href="#9-进入-usr-local-nginx-sbin目录，启动nginx。" class="headerlink" title="9)进入/usr/local/nginx/sbin目录，启动nginx。"></a>9)进入/usr/local/nginx/sbin目录，启动nginx。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#cd sbin</span><br><span class="line">#.&#x2F;nginx</span><br></pre></td></tr></table></figure></div>
-<p>没有任何消息，代表启动成功。此时，便可以通过“公网IP+端口”的方式访问 <a href="http://xx.xx.xxx.xxx:80/" target="_blank" rel="noopener external nofollow noreferrer">http://xx.xx.xxx.xxx:80/</a> 进入nginx欢迎页面了。<br>注：可以使用./nginx -s stop命令停止服务,使用的时候要按照9）开启nginx</p>
-<h2 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题"></a>可能遇到的问题</h2><h3 id="1）安装nginx时出现In-function‘ngx-murmur-hash2’-‘ngx-murmurhash-o-failed’等错误，如："><a href="#1）安装nginx时出现In-function‘ngx-murmur-hash2’-‘ngx-murmurhash-o-failed’等错误，如：" class="headerlink" title="1）安装nginx时出现In function‘ngx_murmur_hash2’ ‘ngx_murmurhash.o failed’等错误，如："></a>1）安装nginx时出现In function‘ngx_murmur_hash2’ ‘ngx_murmurhash.o failed’等错误，如：</h3><p><img src="/linux%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85.tar.gz%E5%8C%85/20200321023230767.png" alt=""></p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">URCE&#x3D;2 -I src&#x2F;core -I src&#x2F;event -I src&#x2F;event&#x2F;modules -I src&#x2F;os&#x2F;unix -I &#x2F;home&#x2F;always&#x2F;tools&#x2F;nginx-rtmp-module -I &#x2F;usr&#x2F;include&#x2F;libxml2 -I objs \</span><br><span class="line">        -o objs&#x2F;src&#x2F;core&#x2F;ngx_murmurhash.o \</span><br><span class="line">        src&#x2F;core&#x2F;ngx_murmurhash.c</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c: In function ‘ngx_murmur_hash2’:</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c:37:11: error: this statement may fall through [-Werror&#x3D;implicit-fallthrough&#x3D;]</span><br><span class="line">         h ^&#x3D; data[2] &lt;&lt; 16;</span><br><span class="line">         ~~^~~~~~~~~~~~~~~~</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c:38:5: note: here</span><br><span class="line">     case 2:</span><br><span class="line">     ^~~~</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c:39:11: error: this statement may fall through [-Werror&#x3D;implicit-fallthrough&#x3D;]</span><br><span class="line">         h ^&#x3D; data[1] &lt;&lt; 8;</span><br><span class="line">         ~~^~~~~~~~~~~~~~~</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c:40:5: note: here</span><br><span class="line">     case 1:</span><br><span class="line">     ^~~~</span><br><span class="line">cc1: all warnings being treated as errors</span><br><span class="line">objs&#x2F;Makefile:659: recipe for target &#39;objs&#x2F;src&#x2F;core&#x2F;ngx_murmurhash.o&#39; failed</span><br><span class="line">make[1]: *** [objs&#x2F;src&#x2F;core&#x2F;ngx_murmurhash.o] Error 1</span><br><span class="line">make[1]: Leaving directory &#39;&#x2F;home&#x2F;always&#x2F;tools&#x2F;nginx-1.10.3&#39;</span><br><span class="line">Makefile:8: recipe for target &#39;build&#39; failed</span><br><span class="line">make: *** [build] Error 2</span><br></pre></td></tr></table></figure></div>
-<h4 id="原因-是将警告当成了错误处理"><a href="#原因-是将警告当成了错误处理" class="headerlink" title="原因:是将警告当成了错误处理"></a><code>原因:是将警告当成了错误处理</code></h4><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>打开./objs/Makefile，</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#nano .&#x2F;objs&#x2F;Makefile</span><br></pre></td></tr></table></figure></div>
-<p>CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g (去掉-Werror)<br><img src="/linux%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85.tar.gz%E5%8C%85/20200321012500909.png" alt=""><br>ctrl + S保存   Ctrl + X退出nano回到终端<br>再重新make </p>
-<blockquote>
-<p>-Wall 表示打开gcc的所有警告<br>-Werror，它要求gcc将所有的警告当成错误进行处理  </p>
-</blockquote>
-<hr>
-<h3 id="2）安装nginx报错“src-os-unix-ngx-user-c-26-7-error-‘struct-crypt-data’-has-no-member-named-‘current-salt’”"><a href="#2）安装nginx报错“src-os-unix-ngx-user-c-26-7-error-‘struct-crypt-data’-has-no-member-named-‘current-salt’”" class="headerlink" title="2）安装nginx报错“src/os/unix/ngx_user.c:26:7: error: ‘struct crypt_data’ has no member named ‘current_salt’”"></a>2）安装nginx报错“src/os/unix/ngx_user.c:26:7: error: ‘struct crypt_data’ has no member named ‘current_salt’”</h3><p><img src="/linux%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85.tar.gz%E5%8C%85/20200321013011816.png" alt=""></p>
-<h3 id="解决办法-1"><a href="#解决办法-1" class="headerlink" title="解决办法"></a>解决办法</h3><p>打开报错的位置文件，我的位置是/usr/local/nginx-1.16.0/src/os/unix<br><strong>版本号不一样，注意自己的版本和错误位置，正常安装就是我下面的位置</strong></p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#nano &#x2F;usr&#x2F;local&#x2F;nginx-1.16.0&#x2F;src&#x2F;os&#x2F;unix&#x2F;ngx_user.c</span><br></pre></td></tr></table></figure></div>
-<p>直接将current_salt相关的信息给注释掉<br><img src="/linux%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85.tar.gz%E5%8C%85/20200321030017284.png" alt=""><br>ctrl + S保存   Ctrl + X退出nano回到终端<br>注意：要回到正确的位置，以防出错可以直接执行以下命令</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#cd &#x2F;usr&#x2F;local&#x2F;nginx-1.16.0</span><br></pre></td></tr></table></figure></div>
-<p>再重新make   make install</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">#make</span><br><span class="line">#make install</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <tags>
-        <tag>linux</tag>
-        <tag>install</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>D 2020-03-17</title>
-    <url>/posts/5568289d.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="2d915af7c70ce712bd94a8fc9bc8e2cbacd2a4ae88820cf7fa08b4e9aaaa1b14">7f47adbb4ac80f62198aea68fb36b0dafef9647e8a4d1b96a45666b1521232300992b24630fda4de4db934027f7def18cc59fc20747d35cc750618b40ad528e2ad91c90c5234894fa45e6cabe9dc71f757baec1edc1c2ce22b9ccee39a1bbb2387bfbde02817befbfebe024b20e44a9d04866df1616d2f51fcaf374ee6a1b1a027c57bc7d054c1057e62faf99ad79cd1cb9692f638ae42d29cb5c3213597fa0fb6b5a604a576bfcf96d406fae02ecfb5c59bfe9ce5dff0d804d059b4bff810d3de56e65c6956d53afa3f039401611ee571534e64c41c17cc067a7b3fd256f2ca936746fd6b6e77d6431e7500b9cb1752caf924879a9d9ee3702d4f3395cbc3630327c6d094d4b180196024fe62e920669f44a4340204331ba7a4d5498d16016512689790c16c41c157aca50469cd413293bec0b31bb551a0ce416992d066cc030ec6e4ed67eaae04413ae1c5ae3c911dcc55d94db2c3c81c524a6afc50c843c21ffa5f9cf7b79baec7a8a0f7675125d4e798bea05e3c99ba89af6c63cc5d83f6431241f7834aecb7b728cb91490e77680c8fbe47459792d877eade12916610dd06e50e129c624a44faa954681b118385a073df127177f57acf1b1933dd8007844cd0eb09dd8a22d4185d9cf026e4b0e47ef4144ea12d597089fd6e1cd5246b2ba178dbcfb0595586ec138fc9fa228dcc6076d2a06141e0ba7430c9e36ff0db6723a4e59d3865a57a48b057f6c9da6a85d7f442e8bf7e7229db3dcc95b3d008610e642684edf9565f8735aa52ef574035a5ec471df868a0fca80945b750954f372643d46a2374fdd1c1054a7e0502e432e2e5d3658fddf12673946c791a90e3aa72e692c316718d661e6812872e058dcfdd81edad2b6228a38d8210ee1eb1927ccfbeb4c35e0493c5d72b168eba8f2c00b3c520fd9f9fbf3d341f860d7112bae78756325dd51aed725515fdffe8a416843641ea883ec9af76231f931e455f1733a0e49fe4d2c4f4736e88ea1a70536486</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>Diary</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux 下如何安装nginx</title>
+      <link href="/posts/e465cc7b.html"/>
+      <url>/posts/e465cc7b.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="1-下载nginx安装包"><a href="#1-下载nginx安装包" class="headerlink" title="1)下载nginx安装包"></a>1)下载nginx安装包</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">wget -c https://nginx.org/download/nginx-1.16.0.tar.gz</span></span><br></pre></td></tr></table></figure></div><h3 id="2）解压到-usr-local目录"><a href="#2）解压到-usr-local目录" class="headerlink" title="2）解压到/usr/local目录"></a>2）解压到/usr/local目录</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">tar -xvf nginx-1.16.0.tar.gz -C /usr/<span class="built_in">local</span></span></span><br></pre></td></tr></table></figure></div><a id="more"></a><p><em>此时压缩包已经解压完成，可以在当前目录将压缩包删除</em> </p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm nginx-1.16.0.tar.gz</span><br></pre></td></tr></table></figure></div><h3 id="3-进入-usr-local目录，确认nginx解压到该目录下"><a href="#3-进入-usr-local目录，确认nginx解压到该目录下" class="headerlink" title="3)进入/usr/local目录，确认nginx解压到该目录下"></a>3)进入/usr/local目录，确认nginx解压到该目录下</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#cd &#x2F;usr&#x2F;local</span><br><span class="line">#ls</span><br></pre></td></tr></table></figure></div><h3 id="4-进入nginx-1-16-0目录，会发现该目录下有一个configure文件，执行该配置文件。"><a href="#4-进入nginx-1-16-0目录，会发现该目录下有一个configure文件，执行该配置文件。" class="headerlink" title="4)进入nginx-1.16.0目录，会发现该目录下有一个configure文件，执行该配置文件。"></a>4)进入nginx-1.16.0目录，会发现该目录下有一个configure文件，执行该配置文件。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#cd nginx-1.16.0&#x2F;</span><br><span class="line">#ls</span><br><span class="line">#.&#x2F;configure</span><br></pre></td></tr></table></figure></div><h3 id="5-编译并安装nginx。（问题的解决方案在最后）"><a href="#5-编译并安装nginx。（问题的解决方案在最后）" class="headerlink" title="5)编译并安装nginx。（问题的解决方案在最后）"></a>5)编译并安装nginx。（问题的解决方案在最后）</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#make</span><br><span class="line">#make install</span><br></pre></td></tr></table></figure></div><h3 id="6-查找nginx安装目录。"><a href="#6-查找nginx安装目录。" class="headerlink" title="6)查找nginx安装目录。"></a>6)查找nginx安装目录。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#whereis nginx</span><br></pre></td></tr></table></figure></div><h3 id="7-进入安装目录。"><a href="#7-进入安装目录。" class="headerlink" title="7)进入安装目录。"></a>7)进入安装目录。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#cd &#x2F;usr&#x2F;local&#x2F;nginx</span><br><span class="line">#ls</span><br></pre></td></tr></table></figure></div><h3 id="8-由于nginx默认通过80端口访问，而Linux默认情况下不会开发该端口号，因此需要开放linux的80端口供外部访问。"><a href="#8-由于nginx默认通过80端口访问，而Linux默认情况下不会开发该端口号，因此需要开放linux的80端口供外部访问。" class="headerlink" title="8)由于nginx默认通过80端口访问，而Linux默认情况下不会开发该端口号，因此需要开放linux的80端口供外部访问。"></a>8)由于nginx默认通过80端口访问，而Linux默认情况下不会开发该端口号，因此需要开放linux的80端口供外部访问。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#&#x2F;sbin&#x2F;iptables -I INPUT -p tcp –-dport 80 -j ACCEPT</span><br></pre></td></tr></table></figure></div><h3 id="9-进入-usr-local-nginx-sbin目录，启动nginx。"><a href="#9-进入-usr-local-nginx-sbin目录，启动nginx。" class="headerlink" title="9)进入/usr/local/nginx/sbin目录，启动nginx。"></a>9)进入/usr/local/nginx/sbin目录，启动nginx。</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#cd sbin</span><br><span class="line">#.&#x2F;nginx</span><br></pre></td></tr></table></figure></div><p>没有任何消息，代表启动成功。此时，便可以通过“公网IP+端口”的方式访问 <a href="http://xx.xx.xxx.xxx:80/" target="_blank" rel="noopener external nofollow noreferrer">http://xx.xx.xxx.xxx:80/</a> 进入nginx欢迎页面了。<br>注：可以使用./nginx -s stop命令停止服务,使用的时候要按照9）开启nginx</p><h2 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题"></a>可能遇到的问题</h2><h3 id="1）安装nginx时出现In-function‘ngx-murmur-hash2’-‘ngx-murmurhash-o-failed’等错误，如："><a href="#1）安装nginx时出现In-function‘ngx-murmur-hash2’-‘ngx-murmurhash-o-failed’等错误，如：" class="headerlink" title="1）安装nginx时出现In function‘ngx_murmur_hash2’ ‘ngx_murmurhash.o failed’等错误，如："></a>1）安装nginx时出现In function‘ngx_murmur_hash2’ ‘ngx_murmurhash.o failed’等错误，如：</h3><p><img src="/linux%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85.tar.gz%E5%8C%85/20200321023230767.png" alt=""></p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">URCE&#x3D;2 -I src&#x2F;core -I src&#x2F;event -I src&#x2F;event&#x2F;modules -I src&#x2F;os&#x2F;unix -I &#x2F;home&#x2F;always&#x2F;tools&#x2F;nginx-rtmp-module -I &#x2F;usr&#x2F;include&#x2F;libxml2 -I objs \</span><br><span class="line">        -o objs&#x2F;src&#x2F;core&#x2F;ngx_murmurhash.o \</span><br><span class="line">        src&#x2F;core&#x2F;ngx_murmurhash.c</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c: In function ‘ngx_murmur_hash2’:</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c:37:11: error: this statement may fall through [-Werror&#x3D;implicit-fallthrough&#x3D;]</span><br><span class="line">         h ^&#x3D; data[2] &lt;&lt; 16;</span><br><span class="line">         ~~^~~~~~~~~~~~~~~~</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c:38:5: note: here</span><br><span class="line">     case 2:</span><br><span class="line">     ^~~~</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c:39:11: error: this statement may fall through [-Werror&#x3D;implicit-fallthrough&#x3D;]</span><br><span class="line">         h ^&#x3D; data[1] &lt;&lt; 8;</span><br><span class="line">         ~~^~~~~~~~~~~~~~~</span><br><span class="line">src&#x2F;core&#x2F;ngx_murmurhash.c:40:5: note: here</span><br><span class="line">     case 1:</span><br><span class="line">     ^~~~</span><br><span class="line">cc1: all warnings being treated as errors</span><br><span class="line">objs&#x2F;Makefile:659: recipe for target &#39;objs&#x2F;src&#x2F;core&#x2F;ngx_murmurhash.o&#39; failed</span><br><span class="line">make[1]: *** [objs&#x2F;src&#x2F;core&#x2F;ngx_murmurhash.o] Error 1</span><br><span class="line">make[1]: Leaving directory &#39;&#x2F;home&#x2F;always&#x2F;tools&#x2F;nginx-1.10.3&#39;</span><br><span class="line">Makefile:8: recipe for target &#39;build&#39; failed</span><br><span class="line">make: *** [build] Error 2</span><br></pre></td></tr></table></figure></div><h4 id="原因-是将警告当成了错误处理"><a href="#原因-是将警告当成了错误处理" class="headerlink" title="原因:是将警告当成了错误处理"></a><code>原因:是将警告当成了错误处理</code></h4><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>打开./objs/Makefile，</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#nano .&#x2F;objs&#x2F;Makefile</span><br></pre></td></tr></table></figure></div><p>CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g (去掉-Werror)<br><img src="/linux%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85.tar.gz%E5%8C%85/20200321012500909.png" alt=""><br>ctrl + S保存   Ctrl + X退出nano回到终端<br>再重新make </p><blockquote><p>-Wall 表示打开gcc的所有警告<br>-Werror，它要求gcc将所有的警告当成错误进行处理  </p></blockquote><hr><h3 id="2）安装nginx报错“src-os-unix-ngx-user-c-26-7-error-‘struct-crypt-data’-has-no-member-named-‘current-salt’”"><a href="#2）安装nginx报错“src-os-unix-ngx-user-c-26-7-error-‘struct-crypt-data’-has-no-member-named-‘current-salt’”" class="headerlink" title="2）安装nginx报错“src/os/unix/ngx_user.c:26:7: error: ‘struct crypt_data’ has no member named ‘current_salt’”"></a>2）安装nginx报错“src/os/unix/ngx_user.c:26:7: error: ‘struct crypt_data’ has no member named ‘current_salt’”</h3><p><img src="/linux%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85.tar.gz%E5%8C%85/20200321013011816.png" alt=""></p><h3 id="解决办法-1"><a href="#解决办法-1" class="headerlink" title="解决办法"></a>解决办法</h3><p>打开报错的位置文件，我的位置是/usr/local/nginx-1.16.0/src/os/unix<br><strong>版本号不一样，注意自己的版本和错误位置，正常安装就是我下面的位置</strong></p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#nano &#x2F;usr&#x2F;local&#x2F;nginx-1.16.0&#x2F;src&#x2F;os&#x2F;unix&#x2F;ngx_user.c</span><br></pre></td></tr></table></figure></div><p>直接将current_salt相关的信息给注释掉<br><img src="/linux%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85.tar.gz%E5%8C%85/20200321030017284.png" alt=""><br>ctrl + S保存   Ctrl + X退出nano回到终端<br>注意：要回到正确的位置，以防出错可以直接执行以下命令</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#cd &#x2F;usr&#x2F;local&#x2F;nginx-1.16.0</span><br></pre></td></tr></table></figure></div><p>再重新make   make install</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#make</span><br><span class="line">#make install</span><br></pre></td></tr></table></figure></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> install </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>D 2020-03-17</title>
+      <link href="/posts/5568289d.html"/>
+      <url>/posts/5568289d.html</url>
+      
+        <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="5d2cacc33547e79c9f7f58fabc4f2f4a154c4477eee8645e3e1ef7a6dfc258a1">5bb5e9c6fe11c3d791d602e856e00323a732806ce1dcc4cc480b8575a342b66b8ab2501738f9368a78dfb5c8844a88caeacb27c313480930fb656f11c11d57aee0c13d11ada0837a93ce3187316366091d8c05ee2caff747c0cb726b261fe580798a5c7554db310e37614e5a4e17e5b0f7a5494a374970ee0e7f7dc202fc0edf7d3c1e3352a418555904cbe445b19b01d73312cc1c1f4d622855c6fde1bf296372bcf340fc000da387eda0e98f75efb58ac11daedd5a95cac9636295778dfebc43a32b0d1fe81ecc9002a037fda4a030ad1754008c355e67a26269248f6e8d754e50a5548d6eb7a9a17a86d6d770305b715308020309a0505e1c2470efb2aff82c342e218ec9c7654cced856e8633944b196a9044309817a216500aeca47f78acf4590cf514bc2cc3bc803fac67a7407</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
