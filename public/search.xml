@@ -82,6 +82,7 @@
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
 <p><img src="https://i.loli.net/2020/04/10/ENb5oUCRgcZh78n.png" alt="20200410063040399.png"><br>WinCC用户管理器的主要功能可以给不同的用户设置不同的密码和访问权限，以便对用户的登录和访问进行监控，从而达到拒绝没有授权的访问，保证系统安全。</p>
 </blockquote>
+<a id="more"></a>
 <h3 id="在用户管理器中添加用户名和密码并进行授权"><a href="#在用户管理器中添加用户名和密码并进行授权" class="headerlink" title="在用户管理器中添加用户名和密码并进行授权."></a>在用户管理器中添加用户名和密码并进行授权.</h3><p><img src="https://i.loli.net/2020/04/10/oKFvk2t3U4f7PTZ.png" alt="20200410061723116.png"></p>
 <h3 id="在图形编译器中新建启动登录界面（启动登陆-Pdl）和其他自己所需要的图形界面"><a href="#在图形编译器中新建启动登录界面（启动登陆-Pdl）和其他自己所需要的图形界面" class="headerlink" title="在图形编译器中新建启动登录界面（启动登陆.Pdl）和其他自己所需要的图形界面."></a>在图形编译器中新建启动登录界面（启动登陆.Pdl）和其他自己所需要的图形界面.</h3><p><img src="https://i.loli.net/2020/04/10/I1EY5xXANWv2Di6.png" alt="20200410062313380.png"></p>
 <h3 id="进入启动登陆界面，插入2个输入-输出域，更改名为1-2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。"><a href="#进入启动登陆界面，插入2个输入-输出域，更改名为1-2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。" class="headerlink" title="进入启动登陆界面，插入2个输入/输出域，更改名为1,2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。"></a>进入启动登陆界面，插入2个输入/输出域，更改名为1,2。分别是用于“用户名”输入；“密码”输入；插入2个按钮登录；退出。</h3><p><img src="https://i.loli.net/2020/04/10/W4Pzm9IiCLYerNO.png" alt="20200410063350891.png"></p>
@@ -106,6 +107,7 @@
     <url>/posts/a68fff4f.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="默认授权概述"><a href="#默认授权概述" class="headerlink" title="默认授权概述"></a>默认授权概述</h2><h3 id="1：用户管理"><a href="#1：用户管理" class="headerlink" title="1：用户管理"></a>1：用户管理</h3><p>用户可以访问用户管理并进行更改。</p>
 <h3 id="2：-数值输入"><a href="#2：-数值输入" class="headerlink" title="2： 数值输入"></a>2： 数值输入</h3><p>用户可以手动输入值，例如在 I/O 字段中。</p>
+<a id="more"></a>
 <h3 id="3：-过程控制"><a href="#3：-过程控制" class="headerlink" title="3： 过程控制"></a>3： 过程控制</h3><p>用户可以操作过程。</p>
 <h3 id="4：-画面编辑"><a href="#4：-画面编辑" class="headerlink" title="4： 画面编辑"></a>4： 画面编辑</h3><p>用户可以更改画面和画面元素。</p>
 <h3 id="5：-画面切换"><a href="#5：-画面切换" class="headerlink" title="5： 画面切换"></a>5： 画面切换</h3><p>用户可以触发画面更改，并打开其它组态的画面。</p>
@@ -346,9 +348,15 @@
   <entry>
     <title>D 2020-03-17</title>
     <url>/posts/5568289d.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;还是记录一下自己的日常，记录自己也是监督自己。今年的寒假很是特别，肺炎的缘故让这个假期格外的长，恰逢自己大学毕业以及研究生考试，惊喜的是自己在2020.02.20查成绩时候发现自己考的比自己预想的还要好一点，339分很有可能能进吉林大学车身工程专硕复试，这一段时间在家的复习效率差到无法形容了，而且自己是跨专业考研，有点浮躁抑郁。一直到最近几天，感觉自己也恢复过来了，着手好好准备复试。不能再浑浑噩噩了。以后每天记录一下自己的心情也会对自己有很大的帮助。</p>
-]]></content>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Hey, password is required here.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="53407f4f30ae46760bfffb2c753f9255b0e7e8797529ab874425fad5b24138d9">5bb5e9c6fe11c3d791d602e856e00323a732806ce1dcc4cc480b8575a342b66b8ab2501738f9368a78dfb5c8844a88caeacb27c313480930fb656f11c11d57aee0c13d11ada0837a93ce3187316366091d8c05ee2caff747c0cb726b261fe580798a5c7554db310e37614e5a4e17e5b0488d663cbe60929f623d729e43c6e6356b972b4142c0dedfb3d6e5bf95771c566e33747d984b6b83c906562247011fec36181e687c65b17e12e5e9274ac3c656a7009449f2f190943061ad9a70b50040f96d3fb45d861a7a7b55bae4249a63b2e36ccfc68c3993348a6e244118eab1cd36550a929fe58c1d2466e7cd4425fb83dde358c1c285d707557aa5a4e8a12dc630e77085461354ed8aaede023e43c8bd8d724f8516a1e5bb3a98aa77d80aec037af7f810b48ddbca6c56b7fa93907780fa140dea5f57e41123a13780e7ef09bfd750f3bf705f096a3693259f2fd8ef771f8295279b8ecc704cca11ff79d2238a60465c468930a6b8813c48eef88ca1d3e9059f666f90c8f8becd69bd4a1514cc85d15a7365a3b86a323f9760f9d60ac4ac1da9f9599ee61974f2c53de1c62d24a3521b9c031344143483e445ca65c78ec30d1ea1c5b01bafd103a2e6b53ec996b55967584e13d126c93e813810c6ae43f708030735426bf1ac79f38a99aaa1d39a9ef379934550acfea4344af623a005a7afcfb831512806207f36394702c78c9d7c48a8cea9161722ea4d6b47a1ed6816bea9f415b4a06db4a8495449b58e92fde1f33f02bfe9b4c739d0990e0b6816ceed5a2d4e06b112c155d0099bba62d27c2bb853ed5fee04529b500da6d767734da34b160b9a80b1fe7bc76e66032cbe934c9af6bca9eb51f8f2e16a01dc04d17ea3c68f83ba29ad2021a9ca137c26d706724b956e1eb0b92b9f7e776b9473edd5bab7050e798faed542032586369509d0afdfe6684c2663a4e673317dd6547724e587d3958a3b1603fd752c5f94178bd2d5c55f6b92d912a86462722dc8627c216ed4473ebf1afa88d2983b8ed5326fba867ef17e3f90923c639f4fefe49f3a94155b55be98c328050a23125b95518c1a4a8e735618f535206ba0c4696d02f6259ce38a01da04fcd8d37fd20398c4e662537abdd4453b07068ef4564a68f4df</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>Diary</tag>
       </tags>
