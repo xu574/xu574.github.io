@@ -163,19 +163,6 @@
 
 
 
-
-<!-- 设置文章需要密码访问 -->
-<script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                history.back();
-            }
-        }
-    })();
-</script>
-
   <title>tags | 有五个落单的</title>
 
   
@@ -402,41 +389,132 @@
 
           
                
-               <div class="tags" id="myTags" style="margin-left:300px">
-  <canvas width="350" height="350" id="my3DTags">
-    <p>Anything in here will be replaced on browsers that support the canvas element</p>
-  </canvas>
-</div>
-<div class="tags" id="tags">
-  <ul style="display: none">
-    <a href="/tags/Diary/" style="font-size: 16px; color: #f00">Diary</a> <a href="/tags/aliyun-win10/" style="font-size: 16px; color: #f00">aliyun.win10</a> <a href="/tags/git/" style="font-size: 16px; color: #f00">git</a> <a href="/tags/hexo/" style="font-size: 35px; color: #f00">hexo</a> <a href="/tags/install/" style="font-size: 16px; color: #f00">install</a> <a href="/tags/linux/" style="font-size: 28.67px; color: #f00">linux</a> <a href="/tags/next/" style="font-size: 16px; color: #f00">next</a> <a href="/tags/shell%E5%91%BD%E4%BB%A4/" style="font-size: 16px; color: #f00">shell命令</a> <a href="/tags/wincc/" style="font-size: 22.33px; color: #f00">wincc</a> <a href="/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/" style="font-size: 16px; color: #f00">黑苹果</a>
-  </ul>
-</div>
-<script type="text/javascript" src="/js/tagcanvas.js"></script>
-<script type="text/javascript" >
+               <style>
 
-  var alltags = document.getElementsByClassName('tag-cloud-tags');
-  //隐藏tag-cloud-tags这个div
-  alltags[0].setAttribute("hidden", "hidden");
+  .love {
+      width: 500px;
+      height: 650px;
+      position: relative;
+      margin: 60px auto;
+  }
 
-  window.onload = function() {
-    try {
-      TagCanvas.Start('my3DTags','tags',{
-        textFont: 'Georgia,Optima',
-        textColour: null,
-        outlineColour: 'black',
-        weight: true,
-        reverse: true,
-        depth: 0.8,
-        maxSpeed: 0.05,
-        bgRadius: 1,
-        freezeDecel: true
-      });
-    } catch(e) {
-      // something went wrong, hide the canvas container
-      document.getElementById('myTags').style.display = 'none';
+  .love a {
+      position: absolute;
+      left: 0;
+      //color: goldenrod;
+      //color: #e804048f;
+      font-size: 20px;
+      font-family: sans-serif;
+      text-shadow: 0 0 1em white;
+      animation:
+          x-move 10s ease-in-out infinite alternate,
+          y-move 20s linear infinite;
+      animation-delay: calc(30s / var(--particles) * var(--n) * -1);
+      user-select: auto; // none
+  }
+
+  .love a:first-child {
+      color: orangered;
+      font-size: 3em;
+      text-shadow:
+          0 0 0.1em black,
+          0 0 1em white;
+      z-index: 1;
+  }
+
+  @keyframes x-move {
+      to {
+          left: 450px;
+      }
+  }
+
+  @keyframes y-move {
+      0% { transform: translateY(180px); }
+      10% { transform: translateY(45px); }
+      15% { transform: translateY(5px); }
+      18% { transform: translateY(0); }
+      20% { transform: translateY(5px); }
+      22% { transform: translateY(35px); }
+      24% { transform: translateY(65px); }
+      25% { transform: translateY(110px); }
+      26% { transform: translateY(65px); }
+      28% { transform: translateY(35px); }
+      30% { transform: translateY(5px); }
+      32% { transform: translateY(0); }
+      35% { transform: translateY(5px); }
+      40% { transform: translateY(45px); }
+      50% { transform: translateY(180px); }
+      71% { transform: translateY(430px); }
+      72.5% { transform: translateY(440px); }
+      75% { transform: translateY(450px); }
+      77.5% { transform: translateY(440px); }
+      79% { transform: translateY(430px); }
+      100% { transform: translateY(180px); }
+  }
+
+  /* 移动端样式 */
+  @media (max-width: 767px) {
+    .love{
+        width: 360px;
+        height: 450px;
+        margin: 30px auto;
     }
-  };
+    @keyframes x-move {
+        to {
+            left: 285px;
+        }
+    }
+  }
+
+</style>
+
+<div class="love"></div>
+
+<script type="text/javascript">
+
+     var alltags = document.getElementsByClassName('tag-cloud-tags');
+
+     //隐藏tag-cloud-tags这个div
+     alltags[0].setAttribute("hidden", "hidden");
+
+     var tags = alltags[0].getElementsByTagName('a');
+
+     var words = ['❤️'];
+     for(var i = 0 ; i < tags.length ; i ++){
+       // words.push(tags[i].innerHTML)
+         words.push(tags[i])
+     }
+
+     var dom = {
+         love: document.querySelector('.love')
+     }
+
+     dom.love.style.setProperty('--particles', words.length)
+
+     words.forEach((word, i) => {
+
+         let atag = document.createElement('a');
+         atag.style.setProperty('--n', i + 1);
+
+         atag.style.setProperty('text-decoration', 'none');
+         atag.style.setProperty('border-bottom', 'none');
+
+         var r=Math.floor(Math.random()*75+130);
+         var g=Math.floor(Math.random()*75+100);
+         var b=Math.floor(Math.random()*75+80);
+         atag.style.setProperty("color", "rgb("+r+","+g+","+b+")");
+
+         atag.setAttribute("href", word.href);
+         atag.innerText = word.innerText;
+
+         if(word.href == undefined){
+            atag.setAttribute("href", "#");
+            atag.innerText = word;
+         }
+
+         dom.love.appendChild(atag);
+     })
+
 </script>
 
           

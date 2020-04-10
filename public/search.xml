@@ -348,15 +348,7 @@
   <entry>
     <title>D 2020-03-17</title>
     <url>/posts/5568289d.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Hey, password is required here.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="53407f4f30ae46760bfffb2c753f9255b0e7e8797529ab874425fad5b24138d9">5bb5e9c6fe11c3d791d602e856e00323a732806ce1dcc4cc480b8575a342b66b8ab2501738f9368a78dfb5c8844a88caeacb27c313480930fb656f11c11d57aee0c13d11ada0837a93ce3187316366091d8c05ee2caff747c0cb726b261fe580798a5c7554db310e37614e5a4e17e5b0488d663cbe60929f623d729e43c6e6356b972b4142c0dedfb3d6e5bf95771c566e33747d984b6b83c906562247011fec36181e687c65b17e12e5e9274ac3c656a7009449f2f190943061ad9a70b50040f96d3fb45d861a7a7b55bae4249a63b2e36ccfc68c3993348a6e244118eab1cd36550a929fe58c1d2466e7cd4425fb83dde358c1c285d707557aa5a4e8a12dc630e77085461354ed8aaede023e43c8bd8d724f8516a1e5bb3a98aa77d80aec037af7f810b48ddbca6c56b7fa93907780fa140dea5f57e41123a13780e7ef09bfd750f3bf705f096a3693259f2fd8ef771f8295279b8ecc704cca11ff79d2238a60465c468930a6b8813c48eef88ca1d3e9059f666f90c8f8becd69bd4a1514cc85d15a7365a3b86a323f9760f9d60ac4ac1da9f9599ee61974f2c53de1c62d24a3521b9c031344143483e445ca65c78ec30d1ea1c5b01bafd103a2e6b53ec996b55967584e13d126c93e813810c6ae43f708030735426bf1ac79f38a99aaa1d39a9ef379934550acfea4344af623a005a7afcfb831512806207f36394702c78c9d7c48a8cea9161722ea4d6b47a1ed6816bea9f415b4a06db4a8495449b58e92fde1f33f02bfe9b4c739d0990e0b6816ceed5a2d4e06b112c155d0099bba62d27c2bb853ed5fee04529b500da6d767734da34b160b9a80b1fe7bc76e66032cbe934c9af6bca9eb51f8f2e16a01dc04d17ea3c68f83ba29ad2021a9ca137c26d706724b956e1eb0b92b9f7e776b9473edd5bab7050e798faed542032586369509d0afdfe6684c2663a4e673317dd6547724e587d3958a3b1603fd752c5f94178bd2d5c55f6b92d912a86462722dc8627c216ed4473ebf1afa88d2983b8ed5326fba867ef17e3f90923c639f4fefe49f3a94155b55be98c328050a23125b95518c1a4a8e735618f535206ba0c4696d02f6259ce38a01da04fcd8d37fd20398c4e662537abdd4453b07068ef4564a68f4df</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <div id="security"> <div class="input-container"> <input type="password" class="form-control" id="pass" placeholder=" {{message}} " /> <label for="pass"> {{message}} </label> <div class="bottom-line"></div> </div> </div> <div id="encrypt-blog" style="display:none"> {{content}} </div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>Diary</tag>
       </tags>
