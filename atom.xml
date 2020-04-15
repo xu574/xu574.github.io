@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.codebai.top/"/>
-  <updated>2020-04-15T19:13:41.269Z</updated>
+  <updated>2020-04-15T19:19:38.826Z</updated>
   <id>https://www.codebai.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.codebai.top/posts/a074d128.html"/>
     <id>https://www.codebai.top/posts/a074d128.html</id>
     <published>2020-04-15T18:20:34.000Z</published>
-    <updated>2020-04-15T19:13:41.269Z</updated>
+    <updated>2020-04-15T19:19:38.826Z</updated>
     
     <summary type="html">
     
@@ -48,7 +48,7 @@
     <link href="https://www.codebai.top/posts/183b4f5a.html"/>
     <id>https://www.codebai.top/posts/183b4f5a.html</id>
     <published>2020-04-15T15:15:42.000Z</published>
-    <updated>2020-04-15T19:16:35.652Z</updated>
+    <updated>2020-04-15T19:19:38.824Z</updated>
     
     <summary type="html">
     
@@ -69,7 +69,7 @@
     <link href="https://www.codebai.top/posts/1487dd59.html"/>
     <id>https://www.codebai.top/posts/1487dd59.html</id>
     <published>2020-04-15T14:12:26.000Z</published>
-    <updated>2020-04-15T19:17:10.075Z</updated>
+    <updated>2020-04-15T19:19:38.828Z</updated>
     
     <summary type="html">
     
@@ -90,7 +90,7 @@
     <link href="https://www.codebai.top/posts/bc7cd307.html"/>
     <id>https://www.codebai.top/posts/bc7cd307.html</id>
     <published>2020-04-15T07:30:20.000Z</published>
-    <updated>2020-04-15T08:36:09.188Z</updated>
+    <updated>2020-04-15T19:19:38.829Z</updated>
     
     <summary type="html">
     
@@ -113,28 +113,7 @@
     <link href="https://www.codebai.top/posts/84088e0b.html"/>
     <id>https://www.codebai.top/posts/84088e0b.html</id>
     <published>2020-04-15T07:30:20.000Z</published>
-    <updated>2020-04-15T19:17:58.770Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;变量记录：&quot;&gt;&lt;a href=&quot;#变量记录：&quot; class=&quot;headerlink&quot; title=&quot;变量记录：&quot;&gt;&lt;/a&gt;变量记录：&lt;/h3&gt;&lt;p&gt;归档系统负责运行状态下的过程值归档&lt;br&gt;归档系统首先处理缓存于运行系统数据库中的过程值，然后再将过程值写到归档数据库中。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
-    
-    
-      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>wincc变量记录</title>
-    <link href="https://www.codebai.top/posts/84088e0b.html"/>
-    <id>https://www.codebai.top/posts/84088e0b.html</id>
-    <published>2020-04-15T07:30:20.000Z</published>
-    <updated>2020-04-15T19:19:05.998Z</updated>
+    <updated>2020-04-15T19:19:38.833Z</updated>
     
     <summary type="html">
     
@@ -155,7 +134,7 @@
     <link href="https://www.codebai.top/posts/ab29944c.html"/>
     <id>https://www.codebai.top/posts/ab29944c.html</id>
     <published>2020-04-15T07:07:45.000Z</published>
-    <updated>2020-04-15T19:15:34.352Z</updated>
+    <updated>2020-04-15T19:19:38.831Z</updated>
     
     <summary type="html">
     
@@ -176,7 +155,7 @@
     <link href="https://www.codebai.top/posts/f183518d.html"/>
     <id>https://www.codebai.top/posts/f183518d.html</id>
     <published>2020-04-15T04:35:08.000Z</published>
-    <updated>2020-04-15T07:06:27.489Z</updated>
+    <updated>2020-04-15T19:19:38.837Z</updated>
     
     <summary type="html">
     
@@ -197,7 +176,7 @@
     <link href="https://www.codebai.top/posts/7d11421d.html"/>
     <id>https://www.codebai.top/posts/7d11421d.html</id>
     <published>2020-04-14T09:04:20.000Z</published>
-    <updated>2020-04-15T19:18:31.580Z</updated>
+    <updated>2020-04-15T19:19:38.822Z</updated>
     
     <summary type="html">
     
@@ -460,6 +439,33 @@
       <category term="aliyun.win10" scheme="https://www.codebai.top/tags/aliyun-win10/"/>
     
       <category term="git" scheme="https://www.codebai.top/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tar命令中的-C作用</title>
+    <link href="https://www.codebai.top/posts/f9a72a7f.html"/>
+    <id>https://www.codebai.top/posts/f9a72a7f.html</id>
+    <published>2020-03-20T16:23:00.000Z</published>
+    <updated>2020-03-27T09:56:59.657Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数 
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="https://www.codebai.top/tags/linux/"/>
+    
+      <category term="shell命令" scheme="https://www.codebai.top/tags/shell%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   
