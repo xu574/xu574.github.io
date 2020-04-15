@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.codebai.top/"/>
-  <updated>2020-04-10T13:25:02.645Z</updated>
+  <updated>2020-04-15T19:13:41.269Z</updated>
   <id>https://www.codebai.top/</id>
   
   <author>
@@ -15,6 +15,209 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>wincc数据开放性</title>
+    <link href="https://www.codebai.top/posts/a074d128.html"/>
+    <id>https://www.codebai.top/posts/a074d128.html</id>
+    <published>2020-04-15T18:20:34.000Z</published>
+    <updated>2020-04-15T19:13:41.269Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wincc报表系统</title>
+    <link href="https://www.codebai.top/posts/183b4f5a.html"/>
+    <id>https://www.codebai.top/posts/183b4f5a.html</id>
+    <published>2020-04-15T15:15:42.000Z</published>
+    <updated>2020-04-15T19:16:35.652Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;wincc报表系统主要是用于打印使用，具体内容在布局中&lt;br&gt;1.新建页面布局&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wincc报警记录</title>
+    <link href="https://www.codebai.top/posts/1487dd59.html"/>
+    <id>https://www.codebai.top/posts/1487dd59.html</id>
+    <published>2020-04-15T14:12:26.000Z</published>
+    <updated>2020-04-15T19:17:10.075Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;WinCC-V7-5-模拟量报警组态&quot;&gt;&lt;a href=&quot;#WinCC-V7-5-模拟量报警组态&quot; class=&quot;headerlink&quot; title=&quot;WinCC V7.5 模拟量报警组态&quot;&gt;&lt;/a&gt;WinCC V7.5 模拟量报警组态&lt;/h2&gt;&lt;p&gt;由模拟量触发的超过限制值、值相同以及值不同的报警称为模拟量报警，例如温度低于最小值，转速超过一定值等。&lt;br&gt;具体步骤如下&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wincc画面管理</title>
+    <link href="https://www.codebai.top/posts/bc7cd307.html"/>
+    <id>https://www.codebai.top/posts/bc7cd307.html</id>
+    <published>2020-04-15T07:30:20.000Z</published>
+    <updated>2020-04-15T08:36:09.188Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>wincc变量记录</title>
+    <link href="https://www.codebai.top/posts/84088e0b.html"/>
+    <id>https://www.codebai.top/posts/84088e0b.html</id>
+    <published>2020-04-15T07:30:20.000Z</published>
+    <updated>2020-04-15T19:17:58.770Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;变量记录：&quot;&gt;&lt;a href=&quot;#变量记录：&quot; class=&quot;headerlink&quot; title=&quot;变量记录：&quot;&gt;&lt;/a&gt;变量记录：&lt;/h3&gt;&lt;p&gt;归档系统负责运行状态下的过程值归档&lt;br&gt;归档系统首先处理缓存于运行系统数据库中的过程值，然后再将过程值写到归档数据库中。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wincc变量记录</title>
+    <link href="https://www.codebai.top/posts/84088e0b.html"/>
+    <id>https://www.codebai.top/posts/84088e0b.html</id>
+    <published>2020-04-15T07:30:20.000Z</published>
+    <updated>2020-04-15T19:19:05.998Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;变量记录：&quot;&gt;&lt;a href=&quot;#变量记录：&quot; class=&quot;headerlink&quot; title=&quot;变量记录：&quot;&gt;&lt;/a&gt;变量记录：&lt;/h3&gt;&lt;p&gt;归档系统负责运行状态下的过程值归档&lt;br&gt;归档系统首先处理缓存于运行系统数据库中的过程值，然后再将过程值写到归档数据库中。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SIMATIC S7-1500 PLC硬件组态</title>
+    <link href="https://www.codebai.top/posts/ab29944c.html"/>
+    <id>https://www.codebai.top/posts/ab29944c.html</id>
+    <published>2020-04-15T07:07:45.000Z</published>
+    <updated>2020-04-15T19:15:34.352Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;硬件组态是SIMATIC S7-1500系列PLC编程的第一步。通常情况下，编程调试人员会根据电气图纸及PLC实物，从硬件目录中依次添加CPU及机架上的各个模块。如果机架上的模块比较多，可能会花费比较长的时间。今天这篇文章，我想给大家介绍一个小技巧，可以实现对CPU及机架上的信号模块的快速组态。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wincc与S7-1500/1200连接</title>
+    <link href="https://www.codebai.top/posts/f183518d.html"/>
+    <id>https://www.codebai.top/posts/f183518d.html</id>
+    <published>2020-04-15T04:35:08.000Z</published>
+    <updated>2020-04-15T07:06:27.489Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自 WinCC V7.2版本起，软件新增加了“ SIMATIC S7-1200、S7-1500 Channel”通道，用于WinCC与S7-1200/S7-1500PLC之间的通信此动只支持以太网通讯，使用TCP/IP协议。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wincc项目管理器</title>
+    <link href="https://www.codebai.top/posts/7d11421d.html"/>
+    <id>https://www.codebai.top/posts/7d11421d.html</id>
+    <published>2020-04-14T09:04:20.000Z</published>
+    <updated>2020-04-15T19:18:31.580Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
+    
+  </entry>
   
   <entry>
     <title>wincc自定义登录与退出界面</title>
@@ -257,101 +460,6 @@
       <category term="aliyun.win10" scheme="https://www.codebai.top/tags/aliyun-win10/"/>
     
       <category term="git" scheme="https://www.codebai.top/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>tar命令中的-C作用</title>
-    <link href="https://www.codebai.top/posts/f9a72a7f.html"/>
-    <id>https://www.codebai.top/posts/f9a72a7f.html</id>
-    <published>2020-03-20T16:23:00.000Z</published>
-    <updated>2020-03-27T09:56:59.657Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数 
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="linux" scheme="https://www.codebai.top/tags/linux/"/>
-    
-      <category term="shell命令" scheme="https://www.codebai.top/tags/shell%E5%91%BD%E4%BB%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>需要记住的断点续传命令wget -c 网址</title>
-    <link href="https://www.codebai.top/posts/c9f35c85.html"/>
-    <id>https://www.codebai.top/posts/c9f35c85.html</id>
-    <published>2020-03-20T16:11:41.000Z</published>
-    <updated>2020-03-26T14:51:35.766Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&amp;emsp;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="https://www.codebai.top/categories/Linux/"/>
-    
-    
-      <category term="linux" scheme="https://www.codebai.top/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux 下如何安装nginx</title>
-    <link href="https://www.codebai.top/posts/e465cc7b.html"/>
-    <id>https://www.codebai.top/posts/e465cc7b.html</id>
-    <published>2020-03-20T15:28:16.000Z</published>
-    <updated>2020-03-27T10:08:22.610Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;1-下载nginx安装包&quot;&gt;&lt;a href=&quot;#1-下载nginx安装包&quot; class=&quot;headerlink&quot; title=&quot;1)下载nginx安装包&quot;&gt;&lt;/a&gt;1)下载nginx安装包&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;wget -c https://nginx.org/download/nginx-1.16.0.tar.gz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;2）解压到-usr-local目录&quot;&gt;&lt;a href=&quot;#2）解压到-usr-local目录&quot; class=&quot;headerlink&quot; title=&quot;2）解压到/usr/local目录&quot;&gt;&lt;/a&gt;2）解压到/usr/local目录&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;tar -xvf nginx-1.16.0.tar.gz -C /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="linux" scheme="https://www.codebai.top/tags/linux/"/>
-    
-      <category term="install" scheme="https://www.codebai.top/tags/install/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>D 2020-03-17</title>
-    <link href="https://www.codebai.top/posts/5568289d.html"/>
-    <id>https://www.codebai.top/posts/5568289d.html</id>
-    <published>2020-03-17T12:50:14.000Z</published>
-    <updated>2020-04-10T17:28:07.928Z</updated>
-    
-    <summary type="html">
-    
-      内容已经加密，请输入密码后阅读！&lt;/br&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="Diary" scheme="https://www.codebai.top/tags/Diary/"/>
     
   </entry>
   

@@ -120,22 +120,15 @@
 
 
 
-<meta name="description" content="书山有路勤为径，学海无涯苦做舟         .hexo-douban-tabs {     margin-bottom: 15px;     margin-top: 15px; }  .hexo-douban-tab {     padding: 5px; }  .hexo-douban-active {     background: #657b83">
+<meta name="description" content="各就其位,  自然选择号，前进四！">
 <meta property="og:type" content="website">
-<meta property="og:title" content="读书系列">
-<meta property="og:url" content="https://www.codebai.top/books/index.html">
+<meta property="og:title" content="有五个落单的">
+<meta property="og:url" content="https://www.codebai.top/page/3/index.html">
 <meta property="og:site_name" content="有五个落单的">
-<meta property="og:description" content="书山有路勤为径，学海无涯苦做舟         .hexo-douban-tabs {     margin-bottom: 15px;     margin-top: 15px; }  .hexo-douban-tab {     padding: 5px; }  .hexo-douban-active {     background: #657b83">
-<meta property="og:image" content="https://img1.doubanio.com/view/subject/s/public/s26710519.jpg">
-<meta property="og:image" content="https://img1.doubanio.com/view/subject/s/public/s2768378.jpg">
-<meta property="og:image" content="https://img3.doubanio.com/view/subject/s/public/s27964262.jpg">
-<meta property="og:image" content="https://img1.doubanio.com/view/subject/s/public/s29525209.jpg">
-<meta property="og:image" content="https://img3.doubanio.com/view/subject/s/public/s29053580.jpg">
-<meta property="og:image" content="https://img3.doubanio.com/view/subject/s/public/s23128183.jpg">
+<meta property="og:description" content="各就其位,  自然选择号，前进四！">
 <meta property="article:author" content="574.xu">
 <meta property="article:tag" content="hexo next">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://img1.doubanio.com/view/subject/s/public/s26710519.jpg">
 
 
 
@@ -165,12 +158,12 @@
 
 
 
-  <link rel="canonical" href="https://www.codebai.top/books/"/>
+  <link rel="canonical" href="https://www.codebai.top/page/3/"/>
 
 
 
 
-  <title>读书系列 | 有五个落单的</title>
+  <title>有五个落单的 -  各就其位！！</title>
 
   
 
@@ -203,7 +196,8 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left 
+  page-home">
     <div class="headband"></div>
     
     <!--fork me from github-->
@@ -364,404 +358,1303 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
-    
-    
-    <div class="post-block page">
-      <header class="post-header">
+  <!--轮播图-->
+  
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<h1 class="post-title" itemprop="name headline">读书系列</h1>
+<style type="text/css">
 
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-        
-        
-          <blockquote>
-    <p>书山有路勤为径，学海无涯苦做舟</p>
-</blockquote>
-
-<style>
-    
-.hexo-douban-tabs {
-    margin-bottom: 15px;
-    margin-top: 15px;
+.glyphicon-chevron-left:before{
+	/* content: "《" */
+}
+.glyphicon-chevron-right:before{
+	/* content: "》" */
 }
 
-.hexo-douban-tab {
-    padding: 5px;
+.right-siders{
+   border-radius: 10px;
+   /*margin-top: 5px;*/
+   margin-bottom: 5px;
 }
 
-.hexo-douban-active {
-    background: #657b83;
-    color: #fff;
+.my-carousel:hover{
+  margin-left: 5px;
+  //padding: 5px 1px;
+  border-radius: 5px;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 15px 2px rgba(0,0,0,.12), 0 0 6px 0 rgba(104, 104, 105, 0.1);
 }
 
-.hexo-douban-item {
-    padding-bottom: 10px;
-    position: relative;
-    clear: both;
-    min-height: 170px;
-    padding: 10px 0;
-    border-bottom: 1px #ddd solid;
+@media (max-width: 767px){
+   .rights{
+      display: none;
+   }
+   .carousel{
+      width: 100% !important;
+      height: 100% !important;
+   }
+   .slide{
+      width: 100% !important;
+      height: 100% !important;
+   }
+	
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -10px;
+  }
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+   /* margin-right: -10px; */
+  }
+
 }
 
-@media screen and (max-width: 600px) {
-    .hexo-douban-item {
-        width: 100%;
-    }
+.carousel{
+	width: 65%;
+	height: 100%;
+	position: relative;
 }
 
-.hexo-douban-picture {
-    position: absolute;
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.carousel-inner > .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  line-height: 1;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-inner > .item {
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    -moz-transition: -moz-transform 0.6s ease-in-out;
+    -o-transition: -o-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+  }
+  .carousel-inner > .item.next,
+  .carousel-inner > .item.active.right {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
     left: 0;
-    top: 10px;
-    width: 100px;
+  }
+  .carousel-inner > .item.prev,
+  .carousel-inner > .item.active.left {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    left: 0;
+  }
+  .carousel-inner > .item.next.left,
+  .carousel-inner > .item.prev.right,
+  .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block;
+}
+.carousel-inner > .active {
+  left: 0;
+}
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel-inner > .next {
+  left: 100%;
+}
+.carousel-inner > .prev {
+  left: -100%;
+}
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  left: 0;
+}
+.carousel-inner > .active.left {
+  left: -100%;
+}
+.carousel-inner > .active.right {
+  left: 100%;
+}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  /*width: 5%;*/
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
+}
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#00000000, GradientType=1);
+}
+.carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#80000000, GradientType=1);
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  outline: 0;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  z-index: 5;
+  display: inline-block;
+}
+/*
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  left: 50%;
+  margin-left: -10px;
+}
+*/
+
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  background: url('/images/icon-slides.png');
+  background-position-y: -20px;
+  left: 9px;
 }
 
-.hexo-douban-info {
-    padding-left: 120px;
+/*
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+}
+*/
+
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  background: url('/images/icon-slides.png');
+  background-position-x: -50px;
+  background-position-y: -20px;
+  right: 0px;
 }
 
-.hexo-douban-meta {
-    font-size: 12px;
-    padding-right: 10px;
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+  font-family: serif;
 }
 
-.hexo-douban-comments {
-    font-size: 12px;
+.carousel-control .icon-prev:before {
+  content: 2039;
+}
+.carousel-control .icon-next:before {
+  content: 203a;
 }
 
-.hexo-douban-pagination {
-    margin-top: 15px;
-    text-align: center;
-    margin-bottom: 10px;
+.carousel-indicators {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
 }
-
-.hexo-douban-button {
-    padding: 5px;
+.carousel-indicators li {
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  text-indent: -999px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .24);
 }
-
-.hexo-douban-button:hover {
-    background: #657b83;
-    color: #fff;
+.carousel-indicators .active {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
 }
-
-.hexo-douban-hide {
-    display: none;
+.carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
-
-.hexo-douban-show {
-    display: block;
+.carousel-caption .btn {
+  text-shadow: none;
 }
-
-
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -10px;
+  }
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+   /* margin-right: -10px; */
+  }
+  .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+  .carousel-indicators {
+    bottom: -10px;
+  }
+}
 </style>
 
-<div class="hexo-douban-tabs">
-    <a class="hexo-douban-tab" id="hexo-douban-tab1" href="javascript:;"
-       rel="external">
-        在读
-        (0)</a>
-    <a class="hexo-douban-tab" id="hexo-douban-tab2" href="javascript:;"
-       rel="external">
-        想读
-        (0)</a>
-    <a class="hexo-douban-tab" id="hexo-douban-tab3" href="javascript:;"
-       rel="external">
-        已读
-        (6)</a>
-</div>
-<div>
-    <div id="hexo-douban-item1">
-        
-        <div class="hexo-douban-pagination">
-    <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;" rel="external nofollow noreferrer"> 首页</a>
-    <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;" rel="external nofollow noreferrer">上一页</a>
-    <span class="hexo-douban-pagenum">2 / 3</span>
-    <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;" rel="external nofollow noreferrer">下一页</a>
-    <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;" rel="external nofollow noreferrer">尾页</a>
-</div>
-    </div>
-    <div id="hexo-douban-item2">
-        
-        <div class="hexo-douban-pagination">
-    <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;" rel="external nofollow noreferrer"> 首页</a>
-    <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;" rel="external nofollow noreferrer">上一页</a>
-    <span class="hexo-douban-pagenum">2 / 3</span>
-    <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;" rel="external nofollow noreferrer">下一页</a>
-    <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;" rel="external nofollow noreferrer">尾页</a>
-</div>
+<div width="100%" height="320px" style="border: 0px; overflow: hidden; border-radius: 10px; margin-bottom: 25px;" scrolling="no">
 
-    </div>
-    <div id="hexo-douban-item3">
-        
-        <div class="hexo-douban-item">
-    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img1.doubanio.com/view/subject/s/public/s26710519.jpg" referrerPolicy="no-referrer" /></div>
-    <div class="hexo-douban-info">
-        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/24540864/" rel="external nofollow noreferrer"> 第七天</a></div>
-        <div class="hexo-douban-meta">
-        
-  
-  余华 / 新星出版社 / 2013-6 / 29.50元
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3500" style="float:left">
 
-      </div>
-        <div class="hexo-douban-meta">2020-03-23
-      读过 /  余华 / ★★★★★ 力荐</div>
-        <div class="hexo-douban-comments">
-  </div>
-    </div>
-</div>
-
-        
-        <div class="hexo-douban-item">
-    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img1.doubanio.com/view/subject/s/public/s2768378.jpg" referrerPolicy="no-referrer" /></div>
-    <div class="hexo-douban-info">
-        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/2567698/" rel="external nofollow noreferrer"> 三体</a></div>
-        <div class="hexo-douban-meta">
-        
-  
-  刘慈欣 / 重庆出版社 / 2008-1 / 23.00
-
-      </div>
-        <div class="hexo-douban-meta">2020-03-23
-      读过 /  三体 科幻 / ★★★★★ 力荐</div>
-        <div class="hexo-douban-comments">
-      你的无畏来源于无知
-      
-  
-
-  </div>
-    </div>
-</div>
-
-        
-        <div class="hexo-douban-item">
-    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img3.doubanio.com/view/subject/s/public/s27964262.jpg" referrerPolicy="no-referrer" /></div>
-    <div class="hexo-douban-info">
-        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/24380577/" rel="external nofollow noreferrer"> 平凡的世界</a></div>
-        <div class="hexo-douban-meta">
-        
-  
-  路遥 / 北京十月文艺出版社 / 2013-5 / 99.00元
-
-      </div>
-        <div class="hexo-douban-meta">2020-03-23
-      读过 /  平凡卻偉大的進軍 / ★★★★★ 力荐</div>
-        <div class="hexo-douban-comments">
-  </div>
-    </div>
-</div>
-
-        
-        <div class="hexo-douban-item">
-    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img1.doubanio.com/view/subject/s/public/s29525209.jpg" referrerPolicy="no-referrer" /></div>
-    <div class="hexo-douban-info">
-        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/27122432/" rel="external nofollow noreferrer"> 天才在左疯子在右</a></div>
-        <div class="hexo-douban-meta">
-        
-  
-  祈莫昕 / 江西美术 / 2017-07-01 / 26.8
-
-      </div>
-        <div class="hexo-douban-meta">2020-03-23
-      读过 /  精神病 / ★★★★☆ 推荐</div>
-        <div class="hexo-douban-comments">
-      用牙齿割开表皮的时候，那股原本淡淡的清新味道，冲破一个临界点，开始逐步在嘴里扩散开，味道逐渐变得浓郁，随着慢慢的嚼碎，果汁放肆的在舌尖上绽开，绝对野蛮又疯狂的掠过干枯的味蕾，果肉中的每一个细小颗粒，都在争先恐后的开裂，释放出更多更多苹果的味道，果皮果肉被切成很小的碎片，在牙齿间游移，味道就跟冲击波一样传向嘴中每一个角落，苹果的清香伴随着果汁滑向喉咙深处。天哪，刚刚被冲刷过的味蕾，几乎是虔诚的向大脑传递这种信息，所有感官，经过好几天的被遗忘之后，有精神，感觉统驭着，伴随着一个苹果，卷土重来
-      
-  
-
-  </div>
-    </div>
-</div>
-
-        
-        <div class="hexo-douban-item">
-    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img3.doubanio.com/view/subject/s/public/s29053580.jpg" referrerPolicy="no-referrer" /></div>
-    <div class="hexo-douban-info">
-        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/4913064/" rel="external nofollow noreferrer"> 活着</a></div>
-        <div class="hexo-douban-meta">
-        
-  
-  余华 / 作家出版社 / 2012-8-1 / 20.00元
-
-      </div>
-        <div class="hexo-douban-meta">2020-03-23
-      读过 /  小说 / ★★★★★ 力荐</div>
-        <div class="hexo-douban-comments">
-      自己低估期就看这本书，直击灵魂，福贵的一生就是一个时代，吃人的时代，
-      
-  
-
-  </div>
-    </div>
-</div>
-
-        
-        <div class="hexo-douban-item">
-    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img3.doubanio.com/view/subject/s/public/s23128183.jpg" referrerPolicy="no-referrer" /></div>
-    <div class="hexo-douban-info">
-        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/6781808/" rel="external nofollow noreferrer"> 杀死一只知更鸟</a></div>
-        <div class="hexo-douban-meta">
-        
-  
-  [美] 哈珀·李 / 高红梅 / 译林出版社 / 2012-9 / 32.00元
-
-      </div>
-        <div class="hexo-douban-meta">2020-03-23
-      读过 /  杀死一只知更鸟 / ★★★★★ 力荐</div>
-        <div class="hexo-douban-comments">
-      这部小说反映了大萧条背景下美国民众的普通生活状态，以及种族间的隔阂与歧视。这些偏见让无辜的人遭受莫须有的灾难，书中知更鸟就是最后被定罪的白人眼中讨厌的黑人汤姆，汤姆成为这种偏见的牺牲品。
-      
-  
-
-  </div>
-    </div>
-</div>
-
-        
-        <div class="hexo-douban-pagination">
-    <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;" rel="external nofollow noreferrer"> 首页</a>
-    <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;" rel="external nofollow noreferrer">上一页</a>
-    <span class="hexo-douban-pagenum">2 / 3</span>
-    <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;" rel="external nofollow noreferrer">下一页</a>
-    <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;" rel="external nofollow noreferrer">尾页</a>
-</div>
-    </div>
-
-</div>
-
-<script>
-    /**
- * Created by myths on 18-2-8.
- */
-
-Element.prototype.siblings = function () {
-    var siblingElement = [];
-    var sibs = this.parentNode.children;
-    for (var i = 0; i < sibs.length; i++) {
-        if (sibs[i] !== this) {
-            siblingElement.push(sibs[i]);
-        }
-    }
-    return siblingElement;
-};
-function tabClick() {
-    //修改标签样式
-    this.classList.add('hexo-douban-active');
-    var sibs = this.siblings();
-    for (var j = 0; j < sibs.length; j++) {
-        sibs[j].classList.remove('hexo-douban-active');
-    }
-    //显示对应板块
-    var itemId = this.id.replace('tab', 'item');
-    var target = document.getElementById(itemId);
-    target.classList.remove('hexo-douban-hide');
-    target.classList.add('hexo-douban-show');
-    sibs = document.getElementById(itemId).siblings();
-    for (var k = 0; k < sibs.length; k++) {
-        sibs[k].classList.remove('hexo-douban-show');
-        sibs[k].classList.add('hexo-douban-hide');
-    }
-}
-var tabs = document.getElementsByClassName("hexo-douban-tab");
-for (var i = 0; i < tabs.length; i++) {
-    tabs[i].onclick = tabClick;
-    tabs[i].onclick.apply(tabs[i]);
-}
-tabs[2].click();
-
-    var firstpages = document.getElementsByClassName("hexo-douban-firstpage");
-var previouspages = document.getElementsByClassName("hexo-douban-previouspage");
-var nextpages = document.getElementsByClassName("hexo-douban-nextpage");
-var lastpages = document.getElementsByClassName("hexo-douban-lastpage");
-var pagenums = document.getElementsByClassName("hexo-douban-pagenum");
-
-function makePageNum(num, arr) {
-    return (num + 1) + ' / ' + (Math.ceil(arr.length / 10 === 0 ? 1 : Math.ceil(arr.length / 10)));
-}
-
-function firstBtn() {
-    var sibs = this.parentNode.siblings();
-    displayPage(sibs, 0);
-    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(0, sibs);
-}
-
-function previousBtn() {
-    var sibs = this.parentNode.siblings();
-    var currNum = this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText;
-    currNum = currNum.substr(0, currNum.indexOf('/') - 1);
-    currNum = parseInt(currNum, 10) - 1;
-    if (currNum > 0) {
-        currNum--;
-    }
-    displayPage(sibs, currNum);
-    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(currNum, sibs);
-}
-
-function nextBtn() {
-    var sibs = this.parentNode.siblings();
-    var currNum = this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText;
-    currNum = currNum.substr(0, currNum.indexOf('/') - 1);
-    currNum = parseInt(currNum, 10) - 1;
-    if (currNum < Math.ceil(sibs.length / 10) - 1) {
-        currNum++;
-    }
-    displayPage(sibs, currNum);
-    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(currNum, sibs);
-}
-
-function lastBtn() {
-    var sibs = this.parentNode.siblings();
-    displayPage(sibs, Math.ceil(sibs.length / 10) - 1);
-    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(Math.ceil(sibs.length / 10) - 1 === -1 ? 0 : Math.ceil(sibs.length / 10) - 1, sibs);
-}
-
-function displayPage(arr, num) {
-    for (var i = 0; i < arr.length; i++) {
-        if (Math.floor(i / 10) === num) {
-            arr[i].classList.remove('hexo-douban-hide');
-            var img = arr[i].getElementsByTagName('img')[0];
-            img.src = img.getAttribute('data-src');
-        } else {
-            arr[i].classList.add('hexo-douban-hide');
-        }
-    }
-}
-
-for (var i = 0; i < firstpages.length; i++) {
-
-    //add listener
-    firstpages[i].onclick = firstBtn;
-    previouspages[i].onclick = previousBtn;
-    nextpages[i].onclick = nextBtn;
-    lastpages[i].onclick = lastBtn;
-
-    //set page num
-    var size = pagenums[i].parentNode.siblings().length;
-    pagenums[i].innerText = '1 / ' + (Math.ceil(size / 10) === 0 ? 1 : Math.ceil(size / 10));
-    firstpages[i].click();
-}
-
-</script>
-
-
-        
-      </div>
+      <!-- 轮播（Carousel）指标 -->
+      <ol class="carousel-indicators">
       
       
+        <li data-target="#myCarousel" data-slide-to="0"></li>
+        
       
-    </div>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        
+      
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        
+      
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        
+      
+      </ol>
+
+      <!-- 轮播（Carousel）项目 -->
+      <div class="carousel-inner" style="height: 24%; border-radius: 10px; width: 100%;">
+       
+       
+          
+          <a class="item active" href="https://www.codebai.top/photos" target="_blank" style="height: 100%;">
+            
+            <img src="https://s1.ax1x.com/2020/03/26/GSxBb4.png" class="nofancybox"  style="width: 100%; height: 100%" >
+          </a>
+          
+          
+      
+          
+            <a class="item" href="https://www.codebai.top/about/" target="_blank" style="height: 100%;">
+              <img src="https://i.loli.net/2020/03/27/OwKas5m3NM48vX6.png" class="nofancybox"  style="width: 100%; height: 100%;" >
+            </a>
+        
+      
+          
+            <a class="item" href="https://music.163.com/#/user/home?id=350313889" rel="external nofollow noreferrer" target="_blank" style="height: 100%;">
+              <img src="https://s1.ax1x.com/2020/03/26/Gpzi1x.jpg" class="nofancybox"  style="width: 100%; height: 100%;" >
+            </a>
+        
+      
+          
+            <a class="item" href="https://codebai.top/comment/" rel="external nofollow noreferrer" target="_blank" style="height: 100%;">
+              <img src="https://s1.ax1x.com/2020/03/26/G9pLct.jpg" class="nofancybox"  style="width: 100%; height: 100%;" >
+            </a>
+        
+      
+      </div>
+
+      <!-- 轮播（Carousel）导航 -->
+      <a class="left carousel-control" data-target="#myCarousel" href="javascript:void(0);" rel="external nofollow noreferrer" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="right carousel-control" data-target="#myCarousel" href="javascript:void(0);" rel="external nofollow noreferrer" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      </a>
+
+	  </div>
+
+		<div  class="rights" style="width: 30%; height: 290px; margin-right: 0px;margin-left: 20px;float: left;">
+  	   <!-- 天气插件 -->
+       <iframe width="300px" scrolling="no" height="50px" frameborder="0" allowtransparency="true" src="//tianqi.2345.com/plugin/widget/index.htm?s=2&z=3&t=1&v=2&d=1&bd=0&k=000000&f=&ltf=009944&htf=cc0000&q=1&e=1&a=1&c=54511&w=300&h=55&align=left"></iframe>
+
+  	   <!-- r热门排行 -->
+  	   <div class="my-carousel">
+         <a href="https://codebai.top/top/" rel="external nofollow noreferrer" target="_blank">
+            <img class="right-siders nofancybox" src="/images/hot.png" width="100%"/>
+         </a>
+  	   </div>
+
+  	   <!-- 时光留影 -->
+  	   <div class="my-carousel">
+         <a href="https://codebai.top/photos/" rel="external nofollow noreferrer" target="_blank">
+           <img class="right-siders nofancybox" src="/images/times.png"/>
+         </a>
+  	   </div>
+
+      <!-- 推荐阅读 -->
+      <div class="my-carousel">
+        <a href="https://codebai.top/books/" rel="external nofollow noreferrer" target="_blank">
+          <img class="right-siders nofancybox" src="/images/read.png"/>
+        </a>
+      </div>
+
+      <!-- 关于博主 -->
+      <div class="my-carousel">
+         <a href="https://codebai.top/about" rel="external nofollow noreferrer" target="_blank">
+           <img class="right-siders nofancybox" src="/images/about-me.png"/>
+         </a>
+      </div>
+
+   </div>
+
+</div>
+
+
+
+
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.codebai.top/posts/f9a72a7f.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="574.xu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/cat.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="有五个落单的">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/posts/f9a72a7f.html" itemprop="url">tar命令中的-C作用</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+             
+
+             
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-21T00:23:00+08:00">
+                2020-03-21
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T17:56:59+08:00">
+                2020-03-27
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/f9a72a7f.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/f9a72a7f.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/posts/f9a72a7f.html" class="leancloud_visitors" data-flag-title="tar命令中的-C作用">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">浏览&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          <!--
+          
+          -->
+
+          
+            <span class="post-wordcount">
+              
+                <!--删除原来的not-->
+                  次<span class="post-meta-divider">|</span>
+                
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                
+                  
+                  <span class="post-meta-item-text">字数&#58;</span>
+                
+                <span title="字数">
+                  84
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">时长 &asymp;</span>
+                
+                <span title="时长">
+                  1 分钟
+                </span>
+              
+            </span>
+          
+
+          <!-- 隐藏文章内标题下，内容描述
+          
+          -->
+
+        </div>
+      </header>
+    
+
     
     
     
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一直不知道解压命令如何指定文件夹，今天学到了一个 -C 参数  </p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#tar -xvf nginx-1.16.0.tar.gz -C &#x2F;usr&#x2F;local</span><br></pre></td></tr></table></figure></div>
+<p><strong>注释：</strong>上面的命令将 nginx-1.16.0.tar.gz 这个压缩包解压到/usr/local目录下。</p>
+<h4 id="C-选项的作用是：指定需要解压到的目录。"><a href="#C-选项的作用是：指定需要解压到的目录。" class="headerlink" title="-C 选项的作用是：指定需要解压到的目录。"></a>-C 选项的作用是：指定需要解压到的目录。</h4>
+          
+        
+      
+    </div>
+
+      <!-- 相关文章推荐 -->
+     
+
+    
+    
+    
+
+    <div>
+          
+    </div>
+
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.codebai.top/posts/c9f35c85.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="574.xu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/cat.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="有五个落单的">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/posts/c9f35c85.html" itemprop="url">需要记住的断点续传命令wget -c 网址</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+             
+
+             
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-21T00:11:41+08:00">
+                2020-03-21
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-26T22:51:35+08:00">
+                2020-03-26
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/c9f35c85.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/c9f35c85.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/posts/c9f35c85.html" class="leancloud_visitors" data-flag-title="需要记住的断点续传命令wget -c 网址">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">浏览&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          <!--
+          
+          -->
+
+          
+            <span class="post-wordcount">
+              
+                <!--删除原来的not-->
+                  次<span class="post-meta-divider">|</span>
+                
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                
+                  
+                  <span class="post-meta-item-text">字数&#58;</span>
+                
+                <span title="字数">
+                  100
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">时长 &asymp;</span>
+                
+                <span title="时长">
+                  1 分钟
+                </span>
+              
+            </span>
+          
+
+          <!-- 隐藏文章内标题下，内容描述
+          
+          -->
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>&emsp; 当文件特别大或者网络特别慢的时候，往往一个文件还没有下载完，连接就已经被切断，此时就需要断点续传。<br>特别是使用谷歌浏览器下载东西的时候！<br>wget的断点续传是自动的，只需要使用-c参数，例如：</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#wget -c https:&#x2F;&#x2F;nginx.org&#x2F;download&#x2F;nginx-1.10.1.tar.gz</span><br></pre></td></tr></table></figure></div>
+          
+        
+      
+    </div>
+
+      <!-- 相关文章推荐 -->
+     
+
+    
+    
+    
+
+    <div>
+          
+    </div>
+
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.codebai.top/posts/e465cc7b.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="574.xu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/cat.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="有五个落单的">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/posts/e465cc7b.html" itemprop="url">linux 下如何安装nginx</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+             
+
+             
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-20T23:28:16+08:00">
+                2020-03-20
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-03-27T18:08:22+08:00">
+                2020-03-27
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/e465cc7b.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/e465cc7b.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/posts/e465cc7b.html" class="leancloud_visitors" data-flag-title="linux 下如何安装nginx">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">浏览&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          <!--
+          
+          -->
+
+          
+            <span class="post-wordcount">
+              
+                <!--删除原来的not-->
+                  次<span class="post-meta-divider">|</span>
+                
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                
+                  
+                  <span class="post-meta-item-text">字数&#58;</span>
+                
+                <span title="字数">
+                  802
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">时长 &asymp;</span>
+                
+                <span title="时长">
+                  3 分钟
+                </span>
+              
+            </span>
+          
+
+          <!-- 隐藏文章内标题下，内容描述
+          
+          -->
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h3 id="1-下载nginx安装包"><a href="#1-下载nginx安装包" class="headerlink" title="1)下载nginx安装包"></a>1)下载nginx安装包</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">wget -c https://nginx.org/download/nginx-1.16.0.tar.gz</span></span><br></pre></td></tr></table></figure>
+<h3 id="2）解压到-usr-local目录"><a href="#2）解压到-usr-local目录" class="headerlink" title="2）解压到/usr/local目录"></a>2）解压到/usr/local目录</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">tar -xvf nginx-1.16.0.tar.gz -C /usr/<span class="built_in">local</span></span></span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/e465cc7b.html" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+      <!-- 相关文章推荐 -->
+     
+
+    
+    
+    
+
+    <div>
+          
+    </div>
+
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.codebai.top/posts/5568289d.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="574.xu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/cat.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="有五个落单的">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/posts/5568289d.html" itemprop="url">D 2020-03-17</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+             
+
+             
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-17T20:50:14+08:00">
+                2020-03-17
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-04-11T01:28:07+08:00">
+                2020-04-11
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/5568289d.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/5568289d.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/posts/5568289d.html" class="leancloud_visitors" data-flag-title="D 2020-03-17">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">浏览&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          <!--
+          
+          -->
+
+          
+            <span class="post-wordcount">
+              
+                <!--删除原来的not-->
+                  次<span class="post-meta-divider">|</span>
+                
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                
+                  
+                  <span class="post-meta-item-text">字数&#58;</span>
+                
+                <span title="字数">
+                  2
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">时长 &asymp;</span>
+                
+                <span title="时长">
+                  1 分钟
+                </span>
+              
+            </span>
+          
+
+          <!-- 隐藏文章内标题下，内容描述
+          
+          -->
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          内容已经加密，请输入密码后阅读！</br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/5568289d.html" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+      <!-- 相关文章推荐 -->
+     
+
+    
+    
+    
+
+    <div>
+          
+    </div>
+
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/2/"> 去上一页看看</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
+
+
 
 
           </div>
@@ -1450,10 +2343,6 @@ show_date_time();
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
 
   
 
@@ -1990,12 +2879,12 @@ show_date_time();
       var articles = db.collection('article')
 
       //https://hexo.io/zh-tw/docs/variables.html
-      var isPost = '读书系列'.length > 0
+      var isPost = ''.length > 0
       var isArchive = '' === 'true'
       var isCategory = ''.length > 0
       var isTag = ''.length > 0
 
-      var urlPath = 'books/index.html';
+      var urlPath = 'page/3/index.html';
       var urlFullPath = '';
       var indexPath = 'index.html'; //首页链接
       var isMenu = false;
@@ -2045,7 +2934,7 @@ show_date_time();
 
     //  if (isPost) { //is article page
       if (!isMenu) { // 非菜单页、非主页（即在某篇文章链接里）
-        var title = '读书系列'
+        var title = ''
         var doc = articles.doc(title)
 
       //  getCount(doc, true).then(appendCountTo($('.post-meta')))
@@ -2055,7 +2944,7 @@ show_date_time();
       else if (urlPath == indexPath) { // 主页
         var titles = [] //array to titles
 
-        var postsstr = '' //if you have a better way to get titles of posts, please change it
+        var postsstr = 'titles.push("tar命令中的-C作用");titles.push("需要记住的断点续传命令wget -c 网址");titles.push("linux 下如何安装nginx");titles.push("D 2020-03-17");' //if you have a better way to get titles of posts, please change it
         eval(postsstr)
 
         var promises = titles.map(function (title) {
