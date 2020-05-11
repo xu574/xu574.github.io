@@ -382,26 +382,6 @@ WinCC的主界面下，打开"变量管理"选项，展开新建好的 SIMATIC S
 ]]></content>
   </entry>
   <entry>
-    <title>siderbar进入post-body解决方案</title>
-    <url>/posts/a1cfa130.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>&emsp;今天在更新一篇文章之后发现next主题页面的siderbar侧栏进入post-body栏。<br><img src="https://i.loli.net/2020/03/26/2SGHBQeJvEUbwcM.png" alt="image.png"></p>
-<a id="more"></a>
-<blockquote>
-<p><strong>what?难道还有宽度塌陷（hhh）</strong></p>
-</blockquote>
-<p>肯定是自己手笨在写md代码的时候出问题了，经过查看定位错误位置<br>果然自己在编写md文件的时候，有关表格的代码写的有问题<br>源码如下：</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">| 配件 	  |  名称	  | 	 价格 |</span><br><span class="line">|:-------: |:---------:|:--------:|</span><br><span class="line">|   处理器  |   锐龙3660|     taobao     |</span><br><span class="line">|   散热   |   AMD原装|   taobao   |</span><br><span class="line">|   主板   |微星B450M火箭筒|   taobao   |</span><br><span class="line">|   内存   |   金士顿 掠食者3200 8Gx2      |   taobao   |</span><br><span class="line">|   显卡   |   微星RX5700公版  |  taobao   |</span><br><span class="line">|   电源   |   酷冷至尊 GX500  |   taobao  |</span><br><span class="line">|   固态   |   浦科特M9EG 512G   |  taobao   |</span><br><span class="line">|   机箱   |   酷冷至尊NR400  |  taobao  |</span><br><span class="line">|   合计   |    绝大部分游戏都能玩 |   6199   |</span><br><span class="line"></span><br><span class="line"><span class="code">`+`</span> <span class="code">`---`</span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!--more--&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-<p>解决办法就是在表格结束之后换行添加<code>---</code>分界线就好<br>###关于markdown的表格的另外一种写法参考这篇文章：</p>
-<h3 id="Markdown–表格table处理"><a href="#Markdown–表格table处理" class="headerlink" title="Markdown–表格table处理"></a><a href="https://codebai.top/posts/6b64eeb8.html" target="_blank" rel="noopener external nofollow noreferrer">Markdown–表格table处理</a></h3>]]></content>
-      <categories>
-        <category>hexo报错</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MarkDown添加图片的几种方式</title>
     <url>/posts/bd8ce08f.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在MarkDown文档中插图最基础的格式就是：</p>
@@ -487,11 +467,6 @@ WinCC的主界面下，打开"变量管理"选项，展开新建好的 SIMATIC S
       </tags>
   </entry>
   <entry>
-    <title>使用hexo免费搭建github博客</title>
-    <url>/posts/2dc19a8f.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
     <title>Win10环境下基于Hexo的静态博客环境搭建，及其阿里云部署</title>
     <url>/posts/3c1d3d37.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>
@@ -563,14 +538,6 @@ WinCC的主界面下，打开"变量管理"选项，展开新建好的 SIMATIC S
       <tags>
         <tag>linux</tag>
         <tag>install</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>D 2020-03-17</title>
-    <url>/posts/5568289d.html</url>
-    <content><![CDATA[<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <div id="security"> <div class="input-container"> <input type="password" class="form-control" id="pass" placeholder=" {{message}} " /> <label for="pass"> {{message}} </label> <div class="bottom-line"></div> </div> </div> <div id="encrypt-blog" style="display:none"> {{content}} </div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>Diary</tag>
       </tags>
   </entry>
 </search>
