@@ -127,7 +127,7 @@
 <meta property="og:site_name" content="有五个落单的">
 <meta property="og:description" content="wincc项目管理器是在创建wincc项目时的选项，分为单用户项目，多用户项目和客户机项目 单用户项目单用户项目是计算机及作为服务器又作为客户机 多用户项目多用户结构多用户系统组态步骤">
 <meta property="article:published_time" content="2020-04-14T09:04:20.000Z">
-<meta property="article:modified_time" content="2020-04-24T16:54:53.034Z">
+<meta property="article:modified_time" content="2020-07-15T11:59:36.298Z">
 <meta property="article:author" content="574.xu">
 <meta property="article:tag" content="wincc">
 <meta name="twitter:card" content="summary">
@@ -423,8 +423,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-04-25T00:54:53+08:00">
-                2020-04-25
+              <time title="更新于" itemprop="dateModified" datetime="2020-07-15T19:59:36+08:00">
+                2020-07-15
               </time>
             
           </span>
@@ -506,7 +506,7 @@
                   <span class="post-meta-item-text">字数&#58;</span>
                 
                 <span title="字数">
-                  839
+                  834
                 </span>
               
 
@@ -551,7 +551,7 @@
 <a id="more"></a>
 <h3 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端:"></a>服务器端:</h3><p>1.检查服务器与客户机计算机的网络连接: ip地址在同一网段好处理<br>2.分配 Windows用户权限:三个组<br>3.创建多用户项目并组态:<br>4.在计算机列表中添加客户机并设置其属性:添加客户机的计算机名（只能是wincc客户机类型）<br>5.组态客户机的WinC登陆用户和权限：添加登录用户并授予不同的权限（远程激活和远程组态权限要注意）<br>6.生成服务器数据包:服务器数据&gt;创建（注意检查隐含更新中的自动导入选项）<br>7.项目保持打开激活。  </p>
 <h3 id="客户机端"><a href="#客户机端" class="headerlink" title="客户机端:"></a>客户机端:</h3><p>1.分配windows用户权限:<br>2.网上邻居或Simatic Shell中浏览服务器项目:simatic就在我的电脑目录下，已经自动装载好了，可以进行登录激活）</p>
-<h2 id="分布式结构"><a href="#分布式结构" class="headerlink" title="分布式结构"></a>分布式结构</h2><p><strong>分布式系统组态步骤:</strong></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p><strong>分布式系统组态步骤:</strong></p>
 <h3 id="服务器端（步骤同多用户系统）"><a href="#服务器端（步骤同多用户系统）" class="headerlink" title="服务器端（步骤同多用户系统）:"></a>服务器端（步骤同多用户系统）:</h3><p>1.组态服务器项目；<br>2.创建服务器数据包。<br><em>不需要添加客户机名，因为客户机不需要对服务器进行远程组态或者远程激活</em>  </p>
 <h2 id="客户机端-1"><a href="#客户机端-1" class="headerlink" title="客户机端:"></a>客户机端:</h2><p>1.创建客户机项目：进行界面或则脚本的组态<br>2.导入服务器数据包：&gt;服务器数据&gt;装载（.pck）,导入多个服务器上的数据（画面及变量，消息数据，用户归档数据，变量归档）<br>3.组态客户机项目。</p>
 <blockquote>
@@ -680,7 +680,7 @@
   <p><span>本文标题:</span><a href="/posts/7d11421d.html">Wincc项目管理器</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 574.xu 的个人博客">574.xu</a></p>
   <p><span>发布时间:</span>2020年04月14日 - 17:04:20</p>
-  <p><span>最后更新:</span>2020年04月25日 - 00:54:53</p>
+  <p><span>最后更新:</span>2020年07月15日 - 19:59:36</p>
   <p><span>原始链接:</span><a href="/posts/7d11421d.html" title="Wincc项目管理器">https://www.codebai.top/posts/7d11421d.html</a>
     <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.codebai.top/posts/7d11421d.html"  aria-label="复制成功！"></i></span>
   </p>
@@ -1335,7 +1335,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#单用户项目"><span class="nav-number">1.</span> <span class="nav-text">单用户项目</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#多用户项目"><span class="nav-number">2.</span> <span class="nav-text">多用户项目</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#多用户结构"><span class="nav-number">2.1.</span> <span class="nav-text">多用户结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#服务器端"><span class="nav-number">2.1.1.</span> <span class="nav-text">服务器端:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#客户机端"><span class="nav-number">2.1.2.</span> <span class="nav-text">客户机端:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分布式结构"><span class="nav-number">2.2.</span> <span class="nav-text">分布式结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#服务器端（步骤同多用户系统）"><span class="nav-number">2.2.1.</span> <span class="nav-text">服务器端（步骤同多用户系统）:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#客户机端-1"><span class="nav-number">2.3.</span> <span class="nav-text">客户机端:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#冗余服务器"><span class="nav-number">2.4.</span> <span class="nav-text">冗余服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TIA下的系统组态"><span class="nav-number">2.5.</span> <span class="nav-text">TIA下的系统组态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Wincc软冗余"><span class="nav-number">2.6.</span> <span class="nav-text">Wincc软冗余</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#单用户项目"><span class="nav-number">1.</span> <span class="nav-text">单用户项目</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#多用户项目"><span class="nav-number">2.</span> <span class="nav-text">多用户项目</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#多用户结构"><span class="nav-number">2.1.</span> <span class="nav-text">多用户结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#服务器端"><span class="nav-number">2.1.1.</span> <span class="nav-text">服务器端:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#客户机端"><span class="nav-number">2.1.2.</span> <span class="nav-text">客户机端:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">2.2.</span> <span class="nav-text"></span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#服务器端（步骤同多用户系统）"><span class="nav-number">2.2.1.</span> <span class="nav-text">服务器端（步骤同多用户系统）:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#客户机端-1"><span class="nav-number">2.3.</span> <span class="nav-text">客户机端:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#冗余服务器"><span class="nav-number">2.4.</span> <span class="nav-text">冗余服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TIA下的系统组态"><span class="nav-number">2.5.</span> <span class="nav-text">TIA下的系统组态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Wincc软冗余"><span class="nav-number">2.6.</span> <span class="nav-text">Wincc软冗余</span></a></li></ol></li></ol></div>
             
 
           </div>
