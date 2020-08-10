@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.codebai.top/photos/index.html</loc>
-    
-    <lastmod>2020-08-10T14:50:07.809Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.codebai.top/posts/ecf2ee8a.html</loc>
     
     <lastmod>2020-08-10T14:39:09.513Z</lastmod>
@@ -89,6 +82,13 @@
     <loc>https://www.codebai.top/posts/a68fff4f.html</loc>
     
     <lastmod>2020-04-10T13:24:54.363Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.codebai.top/photos/index.html</loc>
+    
+    <lastmod>2020-04-05T09:16:23.311Z</lastmod>
     
   </url>
   

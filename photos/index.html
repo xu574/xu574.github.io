@@ -120,14 +120,14 @@
 
 
 
-<meta name="description" content="&lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;  &lt;title&gt;3D相册&lt;&#x2F;title&gt;  &lt;style&gt;      html,      body {          margin: 0;          padding: 0;          background-color: #29454d;">
+<meta name="description" content=".header-inner{          display: none;     }     .sidebar{         display: none;     }     .content{         margin-bottom: 50px;     }     .content-wrap{        width: 100%;        &#x2F;&#x2F; box-sizi">
 <meta property="og:type" content="website">
 <meta property="og:title" content="有五个落单的">
 <meta property="og:url" content="https://www.codebai.top/photos/index.html">
 <meta property="og:site_name" content="有五个落单的">
-<meta property="og:description" content="&lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;  &lt;title&gt;3D相册&lt;&#x2F;title&gt;  &lt;style&gt;      html,      body {          margin: 0;          padding: 0;          background-color: #29454d;">
-<meta property="article:published_time" content="2020-08-10T14:50:07.809Z">
-<meta property="article:modified_time" content="2020-08-10T14:50:07.809Z">
+<meta property="og:description" content=".header-inner{          display: none;     }     .sidebar{         display: none;     }     .content{         margin-bottom: 50px;     }     .content-wrap{        width: 100%;        &#x2F;&#x2F; box-sizi">
+<meta property="article:published_time" content="2020-08-10T15:32:34.814Z">
+<meta property="article:modified_time" content="2020-04-05T09:16:23.311Z">
 <meta property="article:author" content="574.xu">
 <meta property="article:tag" content="hexo next">
 <meta name="twitter:card" content="summary">
@@ -187,7 +187,7 @@
 
 
 
-</head>
+<meta name="generator" content="Hexo 4.2.0"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
@@ -378,454 +378,313 @@
       <div class="post-body">
         
         
-          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!DOCTYPE html>
+          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><style type="text/css">
 
-<html>
+    .header-inner{
+         display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .content{
+        margin-bottom: 50px;
+    }
+    .content-wrap{
+       width: 100%;
+       // box-sizing: content-box;
+       padding: initial !important;
+       background:url('https://s2.ax1x.com/2019/09/07/nlL4pR.jpg');
+    }
 
-<head>
-
-<pre><code>&lt;meta charset=&quot;UTF-8&quot;&gt;
-
-&lt;title&gt;3D相册&lt;/title&gt;
-
-&lt;style&gt;
-
-    html,
-
+    .main-inner{
+        width: 100%;
+    }
+    .main {
+        padding-bottom: 80px;
+        margin-top: 0px;
+        background:url('https://s2.ax1x.com/2019/09/07/nlL4pR.jpg');
+    }
+    .main-inner{
+        margin-top: unset;
+    }
+    .page-post-detail .post-meta{
+        display: none;
+    }
     body {
+        background-image: unset;
+        background-attachment: unset;
+        background-size: 100%;
+        /*background-position: top left;*/
+    }
+    .header{
+        background: rgba(28, 25, 25, 0.8);
+        border-bottom: unset;
+    }
+    .menu .menu-item a{
+            font-weight: 300;
+            color: #e6eaed;
+    }
+    .footer-inner {
+         padding-left: 0px;
+    }
 
-        margin: 0;
+    img:hover {
+        //opacity:0.9; /*透明度*/
+        //filter:alpha(opacity=100); /* For IE8 and earlier */
+    }
 
-        padding: 0;
-
-        background-color: #29454d;
-
-        /*禁止文字被选中*/
-
-        -moz-user-select: none;
-
-        /*火狐*/
-
-        -webkit-user-select: none;
-
-        /*webkit浏览器*/
-
-        -ms-user-select: none;
-
-        /*IE10*/
-
-        -khtml-user-select: none;
-
-        /*早期浏览器*/
-
-        user-select: none;
-
+    .imgbox{
+        margin-top: 20px;
+        /*margin-bottom: 100px;*/
+        padding: 1px 7px;
+        width: 100%;
         overflow: hidden;
-
+        height: 630px;
+        /*border-right: 1px solid #fdfcfc;*/
+        background:url('https://s2.ax1x.com/2019/09/07/nlL4pR.jpg');
     }
-
-
-
-    .box {
-
+    .box{
+        visibility: visible;
+        overflow: auto; 
+        zoom: 1;
+    }
+    .box li{
+        float: left;
+        width: 25%;
         position: relative;
-
-        height: 500px;
-
-        width: 500px;
-
-        margin: 100px auto;
-
-        transform-style: preserve-3d;
-
-        perspective: 2000px;
-
-    }
-
-
-
-    .di {
-
-        position: absolute;
-
-        left: 50%;
-
-        top: 50%;
-
-        height: 200px;
-
-        width: 200px;
-
-        transform: translate(-50%, -50%) rotatex(90deg);
-
-        transform-style: preserve-3d;
-
-    }
-
-
-
-    .z {
-
-        position: relative;
-
-        height: 200px;
-
-        width: 200px;
-
-        border-radius: 50%;
-
-        transform-style: preserve-3d;
-
-        /*transform: rotatez(1deg);*/
-
-    }
-
-
-
-    p {
-
-        margin: 0;
-
-        position: absolute;
-
-        top: 0;
-
-        /*为了保证圆心在父盒子中心，父盒子旋转时圆心稳定，所以设置left*/
-
-        left: 25px;
-
-        height: 200px;
-
-        width: 150px;
-
-        border: 2px solid #fd7068;
-
-        box-sizing: border-box;
-
-        background-color: #ffffff;
-
-        background-size: cover;
-
-        background-position: center;
-
-        background-repeat: no-repeat;
-
-        /*opacity: .7;*/
-
-        font-size: 10px;
-
-        line-height: 200px;
-
+        overflow: hidden;
         text-align: center;
+        list-style: none;
+        margin: 0;
+        /*display: inline;*/
+        padding: 0;
+        height: 780px;
+    }
+    .box li span{
+        display: block;
+        padding: 7% 7% 7% 7%;
+        min-height: 80px;
+        //background: #fff;
+        color: #FFFAFA;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
 
-        /*box-shadow: 0 0 100px #16ff8b;*/
-
-        /*倒影，不兼容*/
-
-        -webkit-box-reflect: below 10px -webkit-linear-gradient(top, rgba(250, 250, 250, 0), rgba(250, 250, 250, .0) 30%, rgba(250, 250, 250, 0.5));
-
-        box-reflect: below 10px -webkit-linear-gradient(top, rgba(250, 250, 250, 0), rgba(250, 250, 250, .0) 30%, rgba(250, 250, 250, 0.5));
-
-        /*backface-visibility: hidden;*/
+    img.imgitem{
+        padding: unset;
+        padding: unset;
+        border: unset;
+        position: relative;
+        padding: 0px;
+        height: auto;
+        width: 100%;
 
     }
 
-&lt;/style&gt;</code></pre><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="有五个落单的" type="application/atom+xml">
-</head>
-
-
-
-<body>
-
-<div>
-
-<pre><code>&lt;div&gt;
-
-    &lt;div&gt;
-
-        &lt;p&gt;![](https://i.loli.net/2020/04/05/rShn6wz7NIPMbut.jpg)&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-        &lt;p&gt;可以拖拽图片文件进来&lt;/p&gt;
-
-    &lt;/div&gt;
-
-&lt;/div&gt;</code></pre></div>
-
-<script>
-
-    window.onload = function () {
-
-        setPs();
-
-        move();
-
-        drop();
-
+    div#posts.posts-expand {
+        border: unset;
+        padding: unset;
+        margin-bottom: 10px;
+    }
+    .posts-expand .post-body img{
+        padding: 0px !important;
+    }
+    .box p{
+        margin-top: -25px;
+        display: block;
+        background: #121212;
+        color: #fff;
+        font-size: 14px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
     }
 
-        //给每个p标签设置位置
+    .box span strong{
+        background: rgba(0,0,0,0.4);
+        padding: 20px;
+    }
 
-    function setPs() {
+    .posts-expand .post-title {
+        display: none;
+    }
 
-        var ps = document.getElementsByTagName('p');
+    .title{
+        margin: 100px auto 10px auto;
+        display: inline-block;
+        vertical-align: middle;
+        //background: url(/images/beichen.jpg);
+        font: 85px/250px 'ChaletComprimeMilanSixty';
+        //background-position: left bottom !important;
+        background-position: center center !important;
+        color: #fff;
+        background-size: 100% auto !important; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+        text-align: center;
+        border: unset;
+        height: 560px;
+        cursor: unset !important;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
 
-        for (var i = 0; i < ps.length; i++) {
+    @media (max-width: 767px){
+        .box li {
+            width: 98%;
+        }
+        .title {
+            height: 200px;
+        }
 
-            ps[i].style.transform = 'rotatex(-90deg) rotatey(' + i * 30 + 'deg) translatez(400px)'
+        .box span {
+            min-height: 80px;
+            border-right: unset;
+            font-size: 17px;
+        }
+        .box p{
+            border-right: unset;
+            font-size: 12px;
 
+        }
+        .posts-expand {
+            margin: unset;
         }
 
     }
 
-    //鼠标拖动旋转
-
-    function move() {
-
-        var zBox = document.querySelector('.z');
-
-        var xBox = document.querySelector('.di');
-
-        //声明计算鼠标移动速度用的变量
-
-        var speedTimer = null;
-
-        var speedX = 0;
-
-        var speedY = 0;
-
-        //声明记录旋转角度的两个变量
-
-        var xDegNow = 90;
-
-        var zDegNow = 0;
-
-        //声明变量记录要旋转的角度
-
-        var xDegDistance = 0;
-
-        var zDegDistance = 0;
-
-        //声明变量记录是否发生鼠标移动事件
-
-        var isMove = false;
-
-        window.onmousedown = function (e) {
-
-            //鼠标按下
-
-            //清除过渡属性
-
-            xBox.style.transition = '';
-
-            zBox.style.transition = '';
-
-            //记录按下的坐标以及计算速度的初始坐标
-
-            var xstart = e.clientX;
-
-            var speedX_start = xstart;
-
-            var ystart = e.clientY;
-
-            var speedY_start = ystart;
-
-            //记录用来计算速度的初始时间
-
-            var tstart = new Date().getTime();
-
-            var tnow = tstart;
-
-            //设置计时器更新计算速度的当时时间
-
-            speedTimer = setInterval(function () {
-
-                tnow = new Date().getTime();
-
-            },10)
-
-            window.onmousemove = function (e) {
-
-                //鼠标移动
-
-                isMove = true;
-
-                //记录当时的坐标计算距离
-
-                var xnow = e.clientX;
-
-                var ynow = e.clientY;
-
-                var xDistance = xnow - xstart;
-
-                var yDistance = ynow - ystart;
-
-                //如果计时超过一定时间（10毫秒），计算速度
-
-                if (tnow - tstart >= 10) {
-
-                    //速度=（现在的坐标-初始坐标）/（现在时间-初始时间）
-
-                    speedX = (xnow - speedX_start) / (tnow - tstart);
-
-                    speedY = (ynow - speedY_start) / (tnow - tstart);
-
-                    //让初始时间和坐标等于现在的时间和坐标
-
-                    tstart = tnow;
-
-                    speedX_start = xnow;
-
-                    speedY_start = ynow;
-
-                }
-
-                //把鼠标移动距离计算成角度后设置到页面上
-
-                zDegDistance = zDegNow - (xDistance / 10);
-
-                zBox.style.transform = 'rotatez(' + zDegDistance + 'deg)';
-
-                xDegDistance = xDegNow - (yDistance / 10);
-
-                xDegDistance = xDegDistance > 179 ? 179 : xDegDistance < 1 ? 1 : xDegDistance;
-
-                xBox.style.transform = 'translate(-50%,-50%) rotatex(' + xDegDistance + 'deg)';
-
-            };
-
-        };
-
-        window.onmouseup = function (e) {
-
-            //鼠标松开
-
-            //清除计时器 清除鼠标移动事件
-
-            clearTimeout(speedTimer);
-
-            window.onmousemove = null;
-
-            //判断如果发生移动
-
-            if (isMove) {
-
-                //添加过渡属性
-
-                xBox.style.transition = 'all 0.5s ease-out';
-
-                zBox.style.transition = 'all 0.5s ease-out';
-
-                //根据速度计算目标角度，设置到页面上
-
-                zDegDistance = zDegDistance - (speedX * 10);
-
-                zBox.style.transform = 'rotatez(' + zDegDistance + 'deg)';
-
-                xDegDistance = xDegDistance - (speedY * 10);
-
-                xDegDistance = xDegDistance > 179 ? 179 : xDegDistance < 1 ? 1 : xDegDistance;
-
-                xBox.style.transform = 'translate(-50%,-50%) rotatex(' + xDegDistance + 'deg)';
-
-                //记录当前角度的值更新
-
-                xDegNow = xDegDistance;
-
-                zDegNow = zDegDistance;
-
-                //用到的变量重置
-
-                isMove = false;
-
-                speedX = 0;
-
-                speedY = 0;
-
-                xDegDistance = 0;
-
-                zDegDistance = 0;
-
+    @media (min-width: 1600px){
+
+        .container .main-inner{
+            width: 100%;
+        }
+    }
+
+</style>
+
+<div id="box" class="box"></div>
+
+<script type="text/javascript">
+
+   // 相册json
+   var json = 
+    [
+        [ 
+            {
+                'title': 'no title',
+                'url': 'https://s2.ax1x.com/2019/09/07/nlRzZt.jpg'
+            },
+            {
+                'title': 'no title',
+                'url': 'https://i.loli.net/2020/04/05/dZqiUEyT8rWzCuB.jpg'
+            },
+            {
+                'title': 'no title',
+                'url': 'https://i.loli.net/2020/04/05/CyHl2WhFO7Sf6pb.jpg'
+            },
+            {
+                'title': 'no title',
+                'url': 'https://i.loli.net/2020/04/05/rShn6wz7NIPMbut.jpg'
+            },
+            {
+                'title': 'NBA',
+                'url': 'https://i.loli.net/2020/03/27/iWN2vuGdBVHceaJ.png'
             }
 
-        };
+        ],
 
+        [
+            {
+                'title': 'College',
+                'url': 'https://s2.ax1x.com/2019/09/07/nl5540.md.jpg'
+            },
+            {
 
+                'title': '少儿不宜hh',
+                'url': 'https://i.loli.net/2020/03/27/ckbODg9ChaBtvY7.png'
+            },
+            {
+                'title': '鼬神',
+                'url': 'https://i.loli.net/2020/03/27/gXIxMZrf96yT578.png'
+            },
+            {
+                'title': '诺诺雅索大',
+                'url': 'https://i.loli.net/2020/03/27/IxEuA7igrWOD8Ho.png'
+            },
 
-    }
-
-    //鼠标拖拽文件
-
-    function drop() {
-
-        //取消鼠标拖拽文件进入窗口的默认行为
-
-        window.ondragover = function (e) {
-
-            e.preventDefault();
-
-        }
-
-        window.ondrop = function (e) {
-
-            e.preventDefault();
-
-        }
-
-        //添加拖拽到p标签的事件
-
-        var ps = document.getElementsByTagName('p');
-
-        for (var i = 0; i < ps.length; i++) {
-
-            ps[i].index = i;
-
-            ps[i].ondrop = function (e) {
-
-                var w = new FileReader();
-
-                w.index = this.index;
-
-                w.readAsDataURL(e.dataTransfer.files[0]);
-
-                w.onload = function () {
-
-                    ps[this.index].style.backgroundImage = 'url(' + w.result + ')';
-
-                    ps[this.index].innerHTML = '';
-
-                }
-
+            {
+                'title': '狸猫-小零食',
+                'url': 'https://i.loli.net/2020/03/27/iONrKnvfo8ld2ej.png'
             }
 
-        }
+        ],
+        [
+            {
+                'title': 'SMIPLICITY',
+                'url': 'https://i.loli.net/2020/03/27/J2zy9MLAOWVx6sU.jpg'
+            },
+            {
+                'title': '宿舍橘猫1',
+                'url': 'https://i.loli.net/2020/03/27/X1W4rqnKoOicfNM.png'
+            },
+            {
+                'title': '宿舍橘猫2',
+                'url': 'https://i.loli.net/2020/03/27/94sFmWAUieTRgod.png'
+            },
+            {
+                'title': '起名为塑料花',
+                'url': 'https://i.loli.net/2020/03/27/PyfIbNFZ7AwBvSr.png'
+            }
 
+        ]
+    ]
+
+    var content = json2Array(json);
+
+    var wid = 250;
+    if ((window.innerWidth) > 1200) {
+        wid = (window.innerWidth*3)/18;
+    }
+    var box = document.getElementById('box');
+
+    var i=0;
+    for (var i = 0; i < content.length; i++) {
+        var conBox = document.createElement("div");
+        conBox.id = 'conBox'+i;
+        box.appendChild(conBox);
+        var item = document.createElement("div");
+        var title = content[i][0].title;
+        var url = content[i][0].url;
+        item.innerHTML = "<button class = 'title' style = 'background: url(" + url + ");'><span style = 'display: inline;'><strong style = 'color:#f0f3f6;' >" + title + "</strong></span></button>";
+        conBox.appendChild(item);
+
+        for (var j = 1; j < content[i].length ; j++) {
+            var _title = content[i][j].title;
+            var _url = content[i][j].url;
+            var item = document.createElement("li");
+            item.innerHTML="<div class = 'imgbox' id = 'imgbox' style = 'height = 630px;'><img class = 'imgitem' src='" + _url + "' alt='" + _url + "'></div><span>" + _title +"</span>";
+            conBox.appendChild(item);
+        }
+    }
+
+    //json转二维数组
+    function json2Array(arr) {
+        for (var i=0; i<arr.length; i++) {
+            var tmpArr = []
+            for (var attr in arr[i]) {
+                tmpArr.push(arr[i][attr])
+            }
+            arr[i] = tmpArr
+        }
+        return arr
     }
 
 </script>
-
-</body>
-
-</html>
         
       </div>
       
