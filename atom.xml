@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.codebai.top/"/>
-  <updated>2020-04-15T19:19:38.826Z</updated>
+  <updated>2020-08-10T14:38:36.403Z</updated>
   <id>https://www.codebai.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>wincc数据开放性</title>
-    <link href="https://www.codebai.top/posts/a074d128.html"/>
-    <id>https://www.codebai.top/posts/a074d128.html</id>
-    <published>2020-04-15T18:20:34.000Z</published>
-    <updated>2020-04-15T19:19:38.826Z</updated>
+    <title>控制器实习</title>
+    <link href="https://www.codebai.top/posts/ecf2ee8a.html"/>
+    <id>https://www.codebai.top/posts/ecf2ee8a.html</id>
+    <published>2020-08-10T14:32:12.000Z</published>
+    <updated>2020-08-10T14:38:36.403Z</updated>
     
     <summary type="html">
     
@@ -29,17 +29,15 @@
       
         
         
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;预装班组&quot;&gt;&lt;a href=&quot;#预装班组&quot;
         
       
     
     </summary>
     
     
-      <category term="毕业设计" scheme="https://www.codebai.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+      <category term="格力实习" scheme="https://www.codebai.top/categories/%E6%A0%BC%E5%8A%9B%E5%AE%9E%E4%B9%A0/"/>
     
-    
-      <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
     
   </entry>
   
@@ -103,29 +101,6 @@
     
     
       <category term="wincc" scheme="https://www.codebai.top/tags/wincc/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>wincc画面管理</title>
-    <link href="https://www.codebai.top/posts/bc7cd307.html"/>
-    <id>https://www.codebai.top/posts/bc7cd307.html</id>
-    <published>2020-04-15T07:30:20.000Z</published>
-    <updated>2020-04-15T19:19:38.829Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
-        
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
@@ -305,7 +280,7 @@
     <link href="https://www.codebai.top/posts/95ddd57d.html"/>
     <id>https://www.codebai.top/posts/95ddd57d.html</id>
     <published>2020-03-23T01:32:59.000Z</published>
-    <updated>2020-03-27T09:53:50.480Z</updated>
+    <updated>2020-08-10T14:29:59.948Z</updated>
     
     <summary type="html">
     
